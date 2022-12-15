@@ -1,0 +1,102 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600);
+
+$lightgray:#f3f3f3;
+$descgray: #7e7e7e;
+$gray: #242223;
+$darkteal: #454545;
+$blue: #00adef;
+$bluegray: #046680;
+$red: #c90000;
+$green: #08C834;
+
+//cores originais
+//$teal: #2A2A2A;
+//$lightteal: #00030a;
+
+//cores geia
+$teal: #456689;
+$lightteal: #51769d;
+
+
+
+body {
+    background-color: $lightgray;
+    font-family: 'Raleway';
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Raleway';
+    font-weight:300;
+}
+
+.img-center{
+    display:block;
+    margin: 0 auto;
+}
+
+.btn{
+    color: white;
+    text-transform: uppercase;
+    background-color:$teal;
+    float: right;
+    border: 0px;
+    font-family: 'Raleway';
+    font-size: 12px;
+    padding: 9px;
+    text-align: left;
+    outline: none;
+    cursor:pointer;
+    position:relative;
+    background-image: url("/Content/img/btn-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    &:hover{
+        color:white !important;
+    }
+
+    i{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+    &.btn-icon{
+        margin-left:10px;
+        i{ margin: 3px 5px 0px 5px; } 
+    }
+}
+
+.btn-default{
+    background-color: #3f6083;
+   
+}
+
+.btn-green{
+    background-color:$green;
+}
+
+.btn-red{
+    background-color:$red;
+}
+
+.btn-gray{
+    background-color:gray !important;
+}
+
+.pull-left{ float:left; }
+
+.pull-none{ float:none; }
+
+table{
+    background: transparent;
+    border: 0px;
+    border-spacing: 0px;
+    width:100%;
+
+    tr th{
+        background-color: #24c3ff;
+        color: white ;
+        font-size: 12px ;
+        text-align: center ;
+    }
+}

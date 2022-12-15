@@ -1,0 +1,234 @@
+
+.nav-tabs > li > a,
+.nav > li > a{
+	    margin-right: 0px !important;
+	    padding: 10px 13px !important;
+	    font-size: 11.3px;
+}
+#div_Produto .navbar-nav {
+
+	margin-left: 20px;
+}
+.field-validation-valid {
+    display: none !important;
+}
+#passo6 img,
+#passo5 img,
+#passo4 img,
+#passo3 img,
+#passo2 img,
+#passo1 img { position: relative; left: -65px;}
+
+#div_Produto .nav-tabs {  } 
+div.crud #editInitial { width: 100%; }
+
+small, .small {
+    font-size: 110%;
+}
+.thumbnail {
+  text-align:left;
+  margin-top:-40px;
+  margin-left:auto;
+  padding:0px;
+  word-spacing:0px;
+  margin-bottom:0px;
+  /* background-color:#f7f5f5; */
+  height: 100px;
+  border:0px;
+}
+.cadcliente .nav-tabs {
+	margin-top: ;
+	
+}
+.clientecreate  { padding-left: 40px;  }
+#header-bg{
+  /*  background-color:#f7f5f5;*/
+  height: 150px;
+  background: url(../../img/bg-header.png);
+  background-size: cover;
+  padding: 2%;
+}
+#header-bg .logo {
+  /*  background-color:#f7f5f5;*/
+}
+
+.page-header{
+  /*  background-color:#f7f5f5;*/
+  height: 150px;
+  background-image: url(..\img\bg-header.png);
+  margin-top: 0;
+}
+.caption{
+  /*	 background-color:#f7f5f5;*/
+	 padding: 9px 5px;
+	 height:auto;
+}
+
+.caption p {
+  margin-bottom: 5px;
+}
+
+.menu{
+	width:150px;
+	height:auto;
+	background: #2A3F54;
+
+	}
+
+.breadcrumb{
+	font-size:9px;
+	background-color:#fff;
+	height:auto;
+  	/*margin-top:-10px; */
+	}
+.wrapp-breadcrumb{
+	width: 100%; padding: inherit 10% !important;
+	position: relative;
+}
+.wrapp-breadcrumb .breadcrumb{
+	width: 95%;
+	margin: auto;
+	position: relative; top: -14px;
+	
+}
+
+
+
+.cabecalho{
+	/* height:200px; */
+  font-size:12px;
+
+}
+.breadcrumb > .active {
+  color: #fff;
+}
+.breadcrumb {
+
+    margin-bottom: 7px;
+    background-color: #3f6083;
+    color: #fff;
+
+}
+body {
+  color: #73879C;
+  /*background: #2A3F54;*/
+  /*#ECF0F1; #FCFCFC*/
+  font-size: 13px;
+  font-weight: 400;
+}
+
+@media screen and (max-height: 300px) {
+  .sidenav {padding-top: 5px;}
+  .sidenav a {font-size: 18px;}
+
+}
+
+.nav-tabs {
+    font-size:11px;
+    text-decoration: none;
+    color: #818181;
+    text-decoration-color:#fff;
+    /* background-color: #eaeaea; */	
+}
+
+
+.menu-home {
+    width:15%;
+	height:370px;
+	background: #2A3F54;
+    float: left;
+}
+
+.carousel {
+  display: inline-block;
+  padding:1px 1px 1px 1px;
+  height:200px;
+  width: 500px;
+}
+
+/*Crud*/
+.conteudoformcenter {
+    text-align:center;
+}
+
+.conteudoform {
+    margin-left:50px;
+    margin-right:1px;
+}
+.cadcliente .conteudoform {
+    margin-left:10px;
+}
+.cadcliente .col-lg-2,
+.cadcliente .col-md-2,
+.cadcliente .col-sm-2 {
+	
+	width: 14% !important;
+
+}
+
+.cadcliente .form-group { margin-bottom: 25px !important; }
+.labelwidth{
+	width: 110px !important;
+	
+}
+
+.menulateral {
+	float: left;
+	width: 11%;
+    background-color: #2A3F54;
+}
+
+.crud {
+  display: inline-block;
+  width: 87%;
+  height: auto;
+  padding:15px 15px 15px 15px;
+ }
+
+.top {
+    padding:0px 0px 0px 0px;
+
+}
+.row {
+      position: relative;
+  }
+
+/*Menu Lateral*/
+.nav-default > li > a {
+  color:#fff;
+  font-size:11px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #1887f1;
+  color:#fff;
+}
+
+/*Fieldset*/
+.panel-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #818181;
+}
+
+.perfil{
+    text-align:center;
+    font-size:12px;
+ }
+
+.img-circle {
+    width:150px;
+}
+
+.foto-perfil {
+    width:150px;
+}
+
+.nome-perfil {
+    text-align:center;
+    font-weight: bold;
+    font-size:16px;
+    color:#fff;
+}

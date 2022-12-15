@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="285px" height="9px">
+<filter id="filter0" x="0.00%" y="0.00%" width="100.00%" height="100.00%" filterUnits="objectBoundingBox">
+<feFlood result="coFloodOut1" flood-color="rgb(41,41,41)"/>
+<feComposite in="coFloodOut1" in2="SourceAlpha" result="coOverlay1" operator="atop"/>
+<feComponentTransfer in="coOverlay1" result="colorOverlay1">
+<feFuncA type="linear" slope="1.00"/>
+</feComponentTransfer>
+<feMerge>
+<feMergeNode in="colorOverlay1"/>
+</feMerge>
+</filter>
+<mask id="mask0">
+<image x="0.00" y="0.00" width="285.00" height="9.00" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR0AAAAJCAAAAAAqMaeeAAAABGdBTUEAALGPC/xhBQAAAAJiS0dE
+AP+Hj8y/AAAAKElEQVRIx+3QgQAAAAjAsPyli6ATbAibHX52ip1ip9gpdoqdYqcsvwOY3CPrl0uc
+cwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNS0wNC0yOVQwMzoyMDoxOSswMDowMG1Lq7YAAAAldEVY
+dGRhdGU6bW9kaWZ5ADIwMTUtMDQtMjlUMDM6MjA6MTkrMDA6MDAcFhMKAAAAAElFTkSuQmCC"/>
+</mask>
+<defs>
+<image id="symbol0" x="0.00" y="0.00" width="285.00" height="9.00" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR0AAAAJCAQAAAClUzDJAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAA8SURB
+VFjD7dKxDcAgEATBw6L/lp8afAlCmqlgg10zWYHfvtsBvMo6lKxDyTqUrEPJOpSsQ2knmdsRvOgA
+E24DEvFvc94AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTUtMDQtMjlUMDM6MjA6MTkrMDA6MDBtS6u2
+AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE1LTA0LTI5VDAzOjIwOjE5KzAwOjAwHBYTCgAAAABJRU5E
+rkJggg=="/>
+</defs>
+<g>
+<use xlink:href="#symbol0"/>
+<g mask="url(#mask0)"/>
+<use xlink:href="#symbol0" filter="url(#filter0)"/>
+</g>
+</svg>

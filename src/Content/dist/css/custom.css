@@ -1,0 +1,443 @@
+body {
+/*    background: #E5E5E3;*/
+    color: #46484f;
+    text-align: justify !important; 
+     font-size: 12px !important;
+    
+}
+
+.label {
+    background-color: transparent;
+    color: #46484f;
+
+}
+.spaceLine {
+   height: 5px;
+
+}
+.label-adesao {
+    padding: 1px !important;
+
+}
+.uniodontopaulista .list-group-item {
+    text-align: left; 
+        padding: 7px 7px;
+}
+.rownobootstrap div.wide {
+    /*background-color:#d9d9da;*/
+    border-bottom: 1px dashed #ccc;
+   
+}
+.rownobootstrap {
+    padding-top: 6px;
+    /*border-top: 1px solid red;*/
+}
+.lable-title {
+    position: relative; left: -15px;
+
+}
+.rownobootstrap div.wide span {
+    background-color:#cccccc;
+    color: #46484f;
+    padding: 3px 3px;
+    border-left: 5px solid #dbdbdb;
+    font-weight: bold;
+    /*margin-left: 14px;*/
+    /*border-top-left-radius: 4px;
+    border-top-right-radius: 4px;*/
+}
+
+
+.rownobootstrap span.label {
+    font-size: 12px !important;
+    font-weight: normal;
+}
+
+.bgcinza{
+    background-color: #d5d5d5;
+}
+.bgcinzaEscuro{
+    background-color: #484848;
+    color: #fff;
+    height: 100% !important;
+}
+.cem {
+    
+    height: 400px;
+}
+
+.bgcinzaMedio{
+    background-color: #bdbdbd;
+    color: #000;
+    height: 100% !important; 
+}
+h4 { background-color: #ccc; font-size: 14px;  padding-top: 4px; padding-bottom: 4px; padding-left: 4px; }
+h4.subheader { background-color: transparent;}
+li,
+strong,
+h5{ text-align: justify !important;  }
+.header { text-align: center !important;  }  
+.upperCase{
+     text-transform: uppercase;
+}
+.posformulario,
+.posformulario h5{
+    font-size: 12px; font-weight: 700;
+}
+h4{ font-weight: 700; }
+.topgeneral h4 { font-size: 17px; text-decoration: underline;  }
+.topgeneral{
+    background: #ccc !important;
+    text-align: center;
+}
+.assinatura2,
+.assinatura2 strong{
+    padding-top: 10px;
+    
+}
+.top{   
+     margin-bottom: 15px;
+     font-weight: 700;
+     color:  #46484f;  
+}
+.top > div {
+     height: 100%;
+}
+.top > div:nth-child(1) div{  
+/*     border: 2px solid #46484f; */
+ /*    -webkit-border-radius: 5px;
+     border-radius: 5px;*/
+     padding: 5px; 
+     background-color:  #6a6d78;
+     color: #fff;
+}
+.top > div:nth-child(2) div{  
+/*     border: 2px solid #46484f; */
+/*     -webkit-border-radius: 5px;
+     border-radius: 5px;*/
+     padding: 5px;
+     background-color:  #6a6d78;
+}
+.top > div:nth-child(3) div{  
+     border: 2px solid #46484f; 
+     background-color: #46484f;
+/*     -webkit-border-radius: 5px;
+     border-radius: 5px;*/
+     color: #fff;
+}
+.top .numeroproposta{
+     font-size: 22px;
+     height: 100%;
+}
+
+.top .paddingNumProposta{ 
+    margin-top: 15px;
+    position: relative;
+    left: -5lessUniodonto 0px;
+}
+.first{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.atencao > div{
+     padding-top: 15px;
+     padding-bottom: 15px;
+}
+.atencao > div:nth-child(1){
+     border-right: 10px solid #E5E5E3;
+}
+.uniodontopaulista div{
+/*
+     padding-top: 10px;
+     padding-bottom: 10px; 
+*/
+}
+.uniodontopaulista p{
+    margin: 0 0 2px;
+
+}
+.tipocontratacao {
+     padding-bottom: 15px;
+     padding-top: 15px;
+}
+
+.contratante{
+ margin-left: 20px;
+}
+.uniodontopaulista .groupe,
+.txtrecibo .groupe,
+.vencimentos .groupe,
+.representante .groupe,
+.endereco .groupe,
+.qualificacao .groupe{
+   /*  border: 1px solid #ccc;*/
+     margin: 1px;
+     padding-top: 30px;
+     padding-bottom: 15px;
+  /*   -webkit-border-radius: 5px;
+     border-radius: 5px;*/
+     background-color: #e9e9ea;  
+}
+.titulos{ position: relative;}
+h4.title{
+     color: #fff;
+     font-weight: bold;
+     margin-left: 15px;
+     font-size: 14px;
+     position: absolute;
+     top: -3px;
+     left: 367px;
+     padding: 5px;
+     background: #3f6083;
+/*     -webkit-border-radius: 5px;
+     border-radius: 5px;*/
+}
+.semtoppadding{
+    padding-top: 3px !important;
+}
+h4.title2{
+     left: 360px;
+     top: -4px;
+}
+h4.title3{
+     left: 345px;
+}
+h4.title4{
+     left: 440px;
+     top: -4px;
+}
+h4.quali{
+    top: -8px;
+    
+}
+.uniodontopaulista, 
+.txtrecibo,
+.vencimentos,
+.representante,
+.endereco,
+.qualificacao{
+     background-color:  #cccccc;
+}
+.nproposta{
+     color: #fff !important;
+}
+.uniodontopaulista,
+.vencimentos,
+.representante,
+.endereco{
+     margin-top: 5px;
+}
+p{
+     font-size: 12px; 
+}
+ul li{
+     font-size: 12px; 
+     line-height: 170%;
+}
+hr{
+     margin-bottom: 7.5px;
+     margin-top : 7.5px;
+     border: none;
+}
+hr.blank{
+     height: 1px;
+}
+.lessUniodonto {
+     width: 46%;
+     margin-top: 15px;
+     position: relative;
+    left: 15px;
+}
+.lessLogoGeia {
+     width: 40%;
+     margin-top: 6px;
+    position: relative;
+    right: -10px;
+}
+.ui {
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 1rem;
+}
+.listText {
+    font-size: 0.85rem;
+}
+.wrapper  {
+background-color: #fff;
+    position: relative;
+}
+
+.wrapper date{
+    background-color: #E5E5E3;
+}
+.wrapper footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.wrapper .main {
+    background: #fff;
+}
+.wrapper header{
+    background-color: #ffffff;
+/*    border-radius: 5px;
+    -webkit-border-radius: 5px;*/
+}
+.wrapper header img{
+    margin-bottom: 15px;
+}
+header .ans{
+     background-color: #000;
+     color: #fff;
+     font-weight: bold;
+     padding: 2px;
+     margin-left: 70px;
+}
+header .ans div{
+    border: 2px solid #fff;
+    margin: 2px;
+    background: #000;
+    padding: 0.2px 3px;
+}
+.txtNumProposta{
+    color: #000;
+    font-weight: 700;
+}
+header .propAdesao{
+    
+}
+
+header .numeroProposta{
+    
+}
+.assinatura-pag .row{
+    padding: 10.5px;
+}
+.assinatura-pag span{
+    font-size: 11px;
+}
+.data{
+    border-bottom: 1px solid #46484f;
+  
+}
+.data div{
+/*    border-right: 1px solid #46484f;*/
+    background-image: url(../../content/dist/images/date.jpg);
+}
+.data div:nth-child(2){
+/*    border-right: 1px solid #46484f;*/
+}
+.container{
+    width: 100%;
+}
+
+.numroproposta {
+ 
+ position: relative;
+ top: 63px;
+ right: 40px;
+
+}
+.numroproposta .widetxtNumProposta {
+    background: #cccccc;
+    padding: 5px;
+    font-weight: bold !important;
+    color: #46484f;
+}
+.numroproposta .widetxtNumProposta > div {
+   border: 3px solid #46484f;
+   
+}
+.container section:nth-child(2){
+    /*margin-top: 15px;*/
+}
+.wrapper {
+    width: 1024px !important;
+    height: 1449px;
+    position: relative;
+/*    border-bottom: 4px solid red;*/
+}
+.commonTraits {
+  padding: 10px;
+}
+header .logouniodonto {
+  width: 75%;
+  margin-top: 45px;
+}
+header .logogeia {
+  width: 60%;
+  margin-top: 25px;
+}
+header {
+  color: #274D87;
+  padding: 10px;
+}
+article,
+section {
+  background: #fff;
+}
+section {
+/*  -webkit-border-radius: 5px;
+  border-radius: 5px;*/
+}
+section .endereco{
+  margin-top: 15px;
+  
+}
+h1{
+  font-size: 22px;
+}
+
+.wrapper footer {
+  background: .063;
+  bottom: 0px;
+}
+.wrapper footer span{
+    background: #cccccc;
+    /*  -webkit-border-radius: 5px;
+      border-radius: 5px;*/
+    font: 9px solid red;
+    padding: 5px;
+    font-family: "Verdana", "Arial", sans-serif;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.strong{
+    font-weight: 700;
+}
+
+.posformulario .cols {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.posformulario .cols2{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.posformulario .cols2 .row:nth-child(-n+9){
+    border-bottom: 1px solid #ccc;
+}
+.posformulario .cols div:nth-child(1){
+    border-right: 1px solid #ccc;
+    
+}
+.posformulario .cols3{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.tabProcedimentos > div {
+    border: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+ 
+}
+.tabProcedimentos .row > div:nth-child(n-2){
+    border-left: 1px solid #ccc;
+}
+.tabProcedimentos > div:nth-child(n-2) {
+    border-bottom: 1px solid #ccc;   
+}
+.tabProcedimentos > div:nth-child(1) {
+    border-top: 1px solid #ccc;   
+}

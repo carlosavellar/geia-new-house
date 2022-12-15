@@ -1,0 +1,664 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600);
+/* line 22, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+body {
+    background-color: #f3f3f3;
+    font-family: 'Raleway';
+}
+
+/* line 27, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+
+/* line 32, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+/* line 37, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+.btn {
+    color: white;
+    text-transform: uppercase;
+    background-color: #456689;
+    float: right;
+    border: 0px;
+    font-family: 'Raleway';
+    font-size: 12px;
+    padding: 9px;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    background-image: url("/Content/img/btn-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+    /* line 54, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+    .btn:hover {
+        color: white !important;
+    }
+    /* line 58, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+    .btn i {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    /* line 63, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+    .btn.btn-icon {
+        margin-left: 10px;
+    }
+        /* line 65, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+        .btn.btn-icon i {
+            margin: 3px 5px 0px 5px;
+        }
+
+/* line 69, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+.btn-default {
+    background-color: #3f6083;
+}
+
+/* line 74, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+.btn-green {
+    background-color: #08C834;
+}
+
+/* line 78, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+.btn-red {
+    background-color: #c90000;
+}
+
+/* line 82, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+.btn-gray {
+    background-color: gray !important;
+}
+
+/* line 86, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+.pull-left {
+    float: left;
+}
+
+/* line 88, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+.pull-none {
+    float: none;
+}
+
+/* line 90, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+table {
+    background: transparent;
+    border: 0px;
+    border-spacing: 0px;
+    width: 100%;
+}
+    /* line 96, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/common */
+    table tr th {
+        background-color: #24c3ff;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+
+/* line 3, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+.pag-subtitle, .content > h4, #informacoes h4, #pagamento h4 {
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 21px;
+    font-style: italic;
+    color: #757575;
+}
+
+/* line 11, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#slider .slider {
+    height: 186px;
+    background-position-y: 0px !important;
+}
+    /* line 15, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #slider .slider h3.title {
+        margin-top: 60px;
+    }
+
+/* line 20, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+.large-2-5 {
+    width: 20%;
+}
+
+/* line 24, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#solucoes .img-round {
+    height: 194px;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.95;
+    transition: all 0.3s ease-out;
+}
+    /* line 30, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #solucoes .img-round.active {
+        transform: scale(1);
+        opacity: 1;
+    }
+    /* line 35, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #solucoes .img-round .title {
+        height: 100%;
+        background-color: white;
+        color: #337384;
+        padding-top: 60px;
+        font-size: 50px;
+    }
+        /* line 42, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #solucoes .img-round .title span {
+            font-size: 15px;
+            display: block;
+            margin: 30px auto;
+        }
+
+/* line 52, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+.content > h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* line 62, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+.img-table, #entidade .body img, #planos img, #descPlano img, #pagamento img {
+    width: 100%;
+    border: 2px solid #6b6b6b;
+    margin-top: 10px;
+}
+
+/* line 68, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#entidade {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+    /* line 72, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #entidade .header {
+        border-bottom: 2px solid #757575;
+        color: #456689;
+        font-size: 16px;
+        overflow: hidden;
+        clear: both;
+    }
+        /* line 79, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #entidade .header .large-6 {
+            padding: 10px;
+        }
+    /* line 84, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #entidade .body {
+        padding-bottom: 15px;
+        border-bottom: 2px solid #6b6b6b;
+        overflow: hidden;
+    }
+        /* line 89, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #entidade .body p {
+            margin: 0px;
+        }
+        /* line 93, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #entidade .body .column {
+            padding: 10px;
+        }
+        /* line 97, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #entidade .body .title {
+            font-size: 16px;
+            color: #6b6b6b;
+            font-weight: 500;
+        }
+        /* line 103, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #entidade .body .desc, #entidade .body .reveal-modal .text, .reveal-modal #entidade .body .text {
+            font-size: 13px;
+            color: #6b6b6b;
+        }
+        /* line 108, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #entidade .body img {
+            max-height: 45px;
+        }
+        /* line 113, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #entidade .body .btn {
+            font-size: 11px;
+        }
+
+    /* line 120, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #entidade .btn, #planos .btn, #informacoes .btn, #declaracao .btn, #pagamento .btn {
+        border-radius: 5px;
+        color: white;
+        font-size: 13px;
+        background-color: #00adef;
+        text-align: center;
+        line-height: 13px;
+        text-transform: none;
+        margin-top: 20px;
+    }
+
+/* line 133, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#planos .column.large-12, #descPlano .column.large-12, #pagamento .column.large-12 {
+    margin-bottom: 20px;
+}
+/* line 137, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#planos .column.large-3, #descPlano .column.large-3, #pagamento .column.large-3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* line 143, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#planos .title, #descPlano .title, #pagamento .title {
+    color: #046680;
+    font-size: 21px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin-bottom: 2px;
+}
+/* line 151, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#planos .desc, #planos .reveal-modal .text, .reveal-modal #planos .text, #descPlano .desc, #descPlano .reveal-modal .text, .reveal-modal #descPlano .text, #pagamento .desc, #pagamento .reveal-modal .text, .reveal-modal #pagamento .text {
+    color: #7e7e7e;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+#planos p.desc{
+    color: #222222;
+}
+    /* line 159, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #planos .desc:nth-child(4), #planos .reveal-modal .text:nth-child(4), .reveal-modal #planos .text:nth-child(4), #descPlano .desc:nth-child(4), #descPlano .reveal-modal .text:nth-child(4), .reveal-modal #descPlano .text:nth-child(4), #pagamento .desc:nth-child(4), #pagamento .reveal-modal .text:nth-child(4), .reveal-modal #pagamento .text:nth-child(4) {
+        margin-bottom: 15px;
+    }
+/* line 164, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#planos img, #descPlano img, #pagamento img {
+    max-height: 100px;
+}
+
+/* line 171, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+.reveal-modal {
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+}
+    /* line 176, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    .reveal-modal img {
+        border: none;
+        max-width: 70%;
+        margin-bottom: 20px;
+    }
+    /* line 182, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    .reveal-modal .title {
+        font-style: italic;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    /* line 188, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    .reveal-modal .text {
+        font-size: 14px;
+    }
+
+/* line 200, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+.input, form input[type=text], #declaracao input {
+    color: #7e7e7e;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    background-image: url('/Content/img/input-bg-tsp.png');
+    background-repeat: no-repeat;
+    background-position-y: 27px;
+    padding-left: 18px;
+}
+    /* line 210, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    .input:focus, form input[type=text]:focus, #declaracao input:focus {
+        box-shadow: none;
+        background-color: transparent;
+        background-image: url('/Content/img/input-bg-tsp.png');
+        background-repeat: no-repeat;
+        background-position-y: 27px;
+        padding-left: 18px;
+    }
+
+/* line 221, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+form .column {
+    min-height: 76px;
+}
+/* line 225, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+form .form-text, form input[type=text], form label {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 300;
+}
+/* line 236, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+form label {
+    color: #046680;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* line 250, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+#pagamento {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+    /* line 254, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #pagamento img {
+        border: none;
+    }
+    /* line 261, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #pagamento form {
+        margin-bottom: 30px;
+    }
+        /* line 263, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+        #pagamento form .column {
+            padding: 0px;
+        }
+    /* line 268, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #pagamento #bancosRadio {
+        padding: 5px;
+        font-size: 14px;
+        color: #4C4C4C;
+    }
+    /* line 274, C:/Users/Henrique/Dropbox/Projects/Geia - Proposta Online/Content/sass/captacao.scss */
+    #pagamento .column.large-3 {
+        text-align: left;
+    }
+
+
+/*
+#planos .tabs .tab-title{
+    border: 1px solid #e7e7e7;
+    border-bottom: 0px;
+}
+#planos .tabs .tab-title, #planos .tabs .tab-title > a{
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+#planos .tabs .tab-title img{
+    margin-top: 0px;
+    z-index: 10;
+    position: relative;
+}
+#planos .tabs-content .content{
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    border-top: 0px;
+    padding: 15px;
+}
+
+#planos .tabs .tab-title.active::after{
+    background-color: #fff;
+}
+#planos .tabs .tab-title::after{
+    content: " ";
+    background-color: #EFEFEF;
+    z-index: 1;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: -40px;
+    bottom: 0;
+}
+
+#planos .tabs .tab-title > a::after{
+    content: " ";
+    position: absolute;
+    z-index: 2;
+    right: -100px;
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: transparent;
+    background-color: #EFEFEF;
+     border-radius: 45px;
+}
+#planos .tabs .tab-title.active{
+    z-index: 3;
+}
+
+#planos .tabs .tab-title:not(.active):last-child::after{
+    background-color: #EFEFEF;
+}
+#planos .tabs .tab-title:last-child > a::after{
+    background-color: #F3F3F3;
+}
+
+
+#planos .tabs .tab-title:not(.active):hover::after{
+    background-color: #EFEFEF;
+}
+
+#planos .tabs .tab-title:not(.active):hover > a::after{
+    background-color: #f3f3f3;
+}
+
+#planos .tabs .tab-title:not(.active) > a:hover{
+    background-color: #EFEFEF;
+}
+
+#planos .tabs .tab-title.active > a:hover{
+    background-color: #fff;
+}
+
+
+#planos .tabs .tab-title.active::before{
+    background-color: #fff;
+}
+#planos .tabs .tab-title::before{
+    content: " ";
+    background-color: #EFEFEF;
+    z-index: 1;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -40px;
+    bottom: 0;
+}
+
+#planos .tabs .tab-title > a::before{
+    content: " ";
+    position: absolute;
+    z-index: 2;
+    left: -100px;
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: transparent;
+    background-color: #EFEFEF;
+    border-radius: 45px;
+}
+#planos .tabs .tab-title.active{
+    z-index: 3;
+}
+
+#planos .tabs .tab-title:not(.active):last-child::before{
+    background-color: #EFEFEF;
+}
+#planos .tabs .tab-title:last-child > a::before{
+    background-color: #EFEFEF;
+}
+
+
+#planos .tabs .tab-title:not(.active):hover::before{
+    background-color: #EFEFEF;
+}
+
+#planos .tabs .tab-title:not(.active):hover > a::before{
+    background-color: #f3f3f3;
+}
+
+#planos .tabs .tab-title:first-child::before{
+    background-color: transparent;
+}
+#planos .tabs .tab-title:first-child > a::before{
+    background-color: transparent;
+}
+
+#planos .tabs .tab-title:first-child:hover::before{
+    background-color: transparent;
+}
+#planos .tabs .tab-title:first-child:hover > a::before{
+    background-color: transparent;
+}*/
+
+/*hovers*/
+#planos .tabs .tab-title:not(.active):hover > a{
+    /*background-color: #e1e1e1;*/
+}
+/*#planos .tabs .tab-title:not(.active):hover > a{
+    background-color: #e1e1e1;
+}
+#planos .tabs .tab-title:not(:first-child):hover > a::before{
+    background-color: #e1e1e1;
+}
+#planos .tabs .tab-title:not(:last-child):hover > a::after{
+    background-color: #e1e1e1;
+}
+#planos .tabs .tab-title:not(:last-child):hover > a::after{
+    background-color: #e1e1e1;
+}
+#planos .tabs .tab-title.active:first-child:hover::after{
+    background-color: white;
+}
+#planos .tabs .tab-title.active:first-child:hover > a::after{
+    background-color: #EFEFEF;
+}
+*/
+
+#solucoes{
+    
+}
+
+.tabela-planos tr td:not(.plano-header-td){
+    min-width: 250px;
+    padding: 2px;
+    padding-bottom: 20px;
+}
+
+.table-responsive{
+    overflow-x: hidden;
+}
+
+.curtain{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1000;
+    display: none;
+    left: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+#descPlano .img-detalhes{
+    width: 100%;
+    height: auto;
+    max-height: initial;
+    max-width: 100%;
+}
+
+.btnContrate:hover{
+    background-color: #3F6083 !important;
+}
+
+.tab-title a img{
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    opacity: .6;
+}
+.tab-title.active a img{
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+    -webkit-filter: grayscale(0%);
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    opacity: 1;
+}
+
+#planos img:hover, .tab-title.active a img{
+    transition: all .6s ease;
+    -webkit-transition: all .3s ease;
+    -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.tabs dd a, .tabs .tab-title a{
+    background: transparent !important;
+}
+
+#planos .body{
+    text-align: center;
+}
+
+.tabs dd, .tabs .tab-title{
+    float: none;
+    display: inline-block;
+}
+
+#planos img{
+    max-width: 250px;
+    height: auto;
+    border: none;
+}
+
+#planos .tabs-content .content{
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    padding: 15px;
+}
+.separator-tabela{
+    border-top: 1px solid #e7e7e7;
+    display: block;
+    width: 100%;
+}
+.tabela-descricao{
+    width: 100% !important;
+}
+.lista-dependentes, .lista-congeneres, .lista-bancos{
+    margin: 0 !important;
+}
+.lista-dependentes li{
+    display: inline-block;
+    width: 33%;
+    font-size: 14px;
+    color: black;
+}
+.lista-congeneres li{
+    display: inline-block;
+    width: 12.5%;
+    font-size: 13px;
+    padding-top: 10px;
+    color: black;
+}
+.lista-bancos li{
+    display: inline-block;
+    width: 20%;
+    font-size: 14px;
+    padding-top: 10px;
+    color: black;
+}
+.informacoes-plano{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#planos p.titulo-informacoes{
+    color: #0D85B3;
+    /*text-transform: uppercase;*/
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.link-rede-credenciada{
+    color: #0D85B3;
+    font-weight: bold;
+}
+
+#planos .btnQueroContratar{
+    margin-top: 0;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-bold{
+    font-weight: bold;
+}

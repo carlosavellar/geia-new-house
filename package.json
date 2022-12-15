@@ -1,0 +1,34 @@
+{
+  "name": "geia-new-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": "git+https://github.com/carlosavellar/notes-app.git",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosavellar/notes-app/issues"
+  },
+  "homepage": "https://github.com/carlosavellar/notes-app#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "babel-polyfill": "^6.26.0",
+    "moment": "^2.23.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "moment-locales-webpack-plugin": "^1.0.7",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

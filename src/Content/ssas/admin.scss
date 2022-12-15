@@ -1,0 +1,163 @@
+﻿@import 'common';
+.display {
+        background-color: rgb(126, 207, 234);
+        padding: 10px;
+        margin: 5px;
+        color: white;
+    }
+nav {
+    background-color: $teal;
+    background-image: url('/Content/img/menu-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    height: 100%;
+    padding: 0px !important;
+    margin-top: -3px;
+
+    .profile {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding: 15px;
+
+        .profile-img {
+            border-radius: 50%;
+            margin-right: 10px;
+            background-image: url("/Content/img/logo_geia_adm.png" );
+            background-color: white;
+            width: 45px;
+            height: 45px;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+            float: left;
+        }
+
+        .profile-name {
+            color: white;
+            font-size: 14px;
+            padding-top: 11px;
+        }
+    }
+
+    .search {
+        clear: both;
+        position: relative;
+
+        input {
+            background-color: $darkteal;
+            box-shadow: 0 0 0;
+            border: 0px;
+            color: white;
+            font-size: 12px;
+
+            &:focus {
+                background-color: $darkteal;
+            }
+        }
+
+        .fa {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+        }
+    }
+
+    ul.menu {
+        list-style-type: none;
+        margin: 0;
+        margin-top: -15px;
+
+        li {
+            background-color: $lightteal;
+            padding: 7px 15px;
+            cursor: pointer;
+
+            a {
+                color: white;
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+
+            ul {
+                list-style-type: none;
+                margin-left: 10px;
+                li {
+                    padding-left:5px;
+                    &:hover {
+                        color: white;
+                        background-color: $teal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#nav-blue {
+    height: 65px;
+    top: 0px;
+    right: 0px;
+    padding: 13px;
+    text-transform: uppercase;
+    color: gray;
+    z-index: 1000;
+
+    .nav-login {
+        color: gray;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: 5px;
+
+        a {
+            color: white;
+        }
+    }
+
+    .title {
+        margin-top: 5px;
+        margin-left: -30px;
+        font-size: 23px;
+        text-transform: uppercase;
+    }
+
+    .search-manage {
+        padding-top: 6px;
+        position: relative;
+
+        input {
+            background-color: transparent;
+            border: 0px;
+            border-bottom: 1px solid white;
+            outline: none;
+            box-shadow: 0 0 0;
+        }
+
+        i {
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    .menu-manage {
+        padding-top: 6px;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                float: left;
+
+                a {
+                    color: gray !important;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.pull-right {
+    float: right;
+}

@@ -1,0 +1,1355 @@
+/*
+ * SASS Operators example
+   ESTE ARQUIVO SASS GERA O CSS NO PASTA: CONTENT/CSS/DEFAULT.MIN.CSS
+*/
+/* line 205, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+h4.title, h1.title {
+  color: #008ae2;
+  font-size: 23px;
+  font-weight: 700 !important; }
+
+/* line 207, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.animate-position {
+  position: relative;
+  top: -10px; }
+
+/* line 208, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-funcionarios h4.title, .page-funcionarios h1.title {
+  color: #008ae2;
+  font-size: 23px;
+  font-weight: 700 !important;
+  letter-spacing: -1px;
+  clear: both !important; }
+
+/* line 214, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#razao {
+  padding: 20px auto !important; }
+
+@avatar-border {
+  -webkit-border-top-radius-: 40px !important;
+  -moz-border-top-radius: 6px !important;
+  border-top-radius: 6px !important;
+  font-weight: 100 !important; }
+
+/* line 235, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.col-sm-8 {
+  height: 30px; }
+
+/* line 236, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.nav-tabs li {
+  font-weight: 700 !important; }
+
+/* line 237, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.crud-aba {
+  background: #ffffff !important;
+  -webkit-border-radius: 4px;
+  -moz-borderpx-radius: 4px;
+  border-radius: 4px;
+  padding: 40px !important; }
+
+/* line 241, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.crud-aba h4.title {
+  margin-top: 20px !important; }
+
+/* line 242, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: #ffffff; }
+
+/* line 246, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#div_aba3 .voltar,
+#div_aba2 .voltar,
+#div_aba1 .voltar {
+  margin-top: 15px !important; }
+
+/* line 247, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.voltar {
+  float: left; }
+
+/* line 248, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+h4.title, h1.title {
+  float: left; }
+
+/* line 249, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-funcionarios h4.title, .page-funcionarios h1.title {
+  color: #008ae2;
+  font-size: 23px;
+  font-weight: 700 !important;
+  letter-spacing: -1px;
+  clear: both !important; }
+
+/* line 254, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .new {
+  float: right !important; }
+
+/* line 257, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+label {
+  color: #2e2e35; }
+
+/* line 259, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* line 266, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.space {
+  height: 15px;
+  height: 15px; }
+
+/* line 267, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.navbar-nav, .navbar-toggle {
+  z-index: 1000; }
+
+/* line 268, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.navbar {
+  border: 0px !important; }
+
+/* line 269, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+ul.toplogin li a {
+  color: #fff; }
+
+/* line 270, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+body {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+/* line 274, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+p {
+  color: #444444;
+  line-height: 180% !important; }
+
+/* line 275, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+ul li {
+  margin: 5px auto; }
+
+/* line 276, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans"; }
+
+/* line 280, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#toplogin {
+  z-index: 10000 !important;
+  border: 20px solid red; }
+
+/* line 282, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+ul.topresponsive li,
+ul.topresponsive li a {
+  color: #656872 !important; }
+
+/* line 284, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.form-group:after
+ul.topresponsive:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 293, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+ul.topresponsive {
+  margin-right: 15px;
+  margin-bottom: 36px;
+  font-size: 12px; }
+  /* line 297, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  ul.topresponsive li {
+    float: right;
+    list-style-type: none;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #edece8; }
+  /* line 305, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  ul.topresponsive a {
+    color: #edece8;
+    border: 0 !important; }
+
+/* line 312, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#top {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28b0b2+0,2899bd+50,2985ce+100 */
+  background: #28b0b2;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #28b0b2 0%, #2899bd 50%, #2985ce 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #28b0b2 0%, #2899bd 50%, #2985ce 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #28b0b2 0%, #2899bd 50%, #2985ce 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b0b2', endColorstr='#2985ce',GradientType=1 );
+  /* IE6-9 */ }
+  /* line 314, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top ul.toplogin li {
+    float: right;
+    list-style-type: none;
+    padding: 20px 10px;
+    color: #edece8; }
+  /* line 320, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top a.toplinks {
+    color: #edece8; }
+
+/* line 325, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+ul.toplogin li:nth-child(1) span {
+  background: url(../img/portal/ico-chat.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px; }
+
+/* line 327, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+ul.toplogin li:nth-child(2) span {
+  background: url(../img/portal/ico-user.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px; }
+
+/* line 329, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+ul.toplogin li:nth-child(3) span {
+  background: url(../img/portal/ico-sair.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px; }
+
+/* line 330, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+ul.toplogin .search {
+  width: 100;
+  background-color: #656872;
+  color: #ffffff; }
+
+/* line 338, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.form-group {
+  margin-bottom: 0 !important; }
+
+/* line 339, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.lg {
+  margin-right: 20px;
+  float: left;
+  margin-top: 16px !important; }
+
+/* line 344, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .form-control {
+  width: 86% !important;
+  height: 32px !important; }
+
+/* line 345, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.wrap-search {
+  float: right;
+  width: 75% !important; }
+  /* line 348, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search .wrap-search .form-group {
+    float: right; }
+  /* line 353, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search .breadcrumb {
+    float: right; }
+  /* line 358, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search .btn-default {
+    background: #008ae2 url(../img/Portal/ico-search.png) no-repeat center center;
+    background-size: 60% !important;
+    padding: 15px;
+    float: left; }
+  /* line 365, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search input.form-control {
+    background-color: #656872;
+    float: left;
+    color: #ffffff;
+    font-size: 11px !important;
+    font-style: italic !important; }
+  /* line 372, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search input.btn-default[placeholder] {
+    color: #656872;
+    font-size: 11px !important;
+    font-style: italic !important; }
+
+/* line 381, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.wrap-search2 {
+  float: left;
+  width: 93% !important; }
+  /* line 384, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search2 .wrap-search .form-group {
+    float: right; }
+  /* line 389, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search2 .breadcrumb {
+    float: right; }
+  /* line 394, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search2 .btn-default {
+    background: #008ae2 url(../img/Portal/ico-search.png) no-repeat center center;
+    background-size: 60% !important;
+    padding: 15px !important; }
+  /* line 401, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search2 input.form-control {
+    background-color: #656872;
+    float: left;
+    color: #ffffff;
+    font-size: 11px !important;
+    font-style: italic !important; }
+  /* line 408, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search2 input.btn-default[placeholder] {
+    color: #656872;
+    font-size: 11px !important;
+    font-style: italic !important; }
+
+/* line 416, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.wrap-search:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 425, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.navbar-brand {
+  width: 200px;
+  background-image: url(../img/portal/geia-logo.png);
+  background-size: contain !important; }
+
+/* line 430, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.navbar-nav {
+  float: right; }
+
+/* line 431, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+section#main {
+  background: #e5e5e3;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  width: 100%;
+  margin-top: 0 !important; }
+  /* line 432, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#main #top {
+    background-color: #ffffff !important; }
+  /* line 437, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#main #seach-nav {
+    align-content: center; }
+
+/* line 444, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.navbar div.container-fluid {
+  vertical-align: middle;
+  vertical-align: center; }
+
+/* line 447, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+header {
+  z-index: 9999 !important;
+  position: relative; }
+  /* line 450, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  header .container {
+    position: relative; }
+  /* line 453, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  header nav.navbar-default {
+    width: 100%;
+    -moz-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    -webkit-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#444444');
+    -webkit-border-radius: 8px;
+    -moz-borderpx-radius: 8px;
+    border-radius: 8px; }
+    /* line 459, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    header nav.navbar-default .navbar-collapse {
+      margin: 10px 0; }
+    /* line 462, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    header nav.navbar-default .navbar-brand {
+      position: absolute;
+      top: 17px;
+      left: 40px; }
+  /* line 464, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  header .nav {
+    z-index: 9999 !important; }
+  /* line 465, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  header .navbar {
+    margin: 25px auto 25px; }
+  /* line 466, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  header ul li a {
+    transition-duration: 0.5s; }
+    /* line 469, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    header ul li a:hover {
+      ---background: url(../img/Portal/menuHover.gif) repeat-x center center; }
+
+/* line 476, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+section #slider {
+  z-index: -1000 !important; }
+
+/* line 481, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+figure {
+  overflow: hidden !important; }
+
+/* line 482, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.boxservicos {
+  top: 0;
+  transition: top 0 0.2s linear;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  -webkit-border-radius: 8px;
+  -moz-borderpx-radius: 8px;
+  border-radius: 8px;
+  -moz-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  -webkit-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#444444');
+  margin: 15px 15px;
+  padding: 0;
+  -moz-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  -webkit-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#444444'); }
+  /* line 485, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos:hover {
+    position: relative;
+    top: -10px; }
+  /* line 491, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos img {
+    paddin: 25px auto;
+    margin: auto;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center; }
+  /* line 498, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos figure {
+    overflow: hidden !important;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 60px auto !important; }
+  /* line 506, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos div {
+    margin: 40px auto 40px 20px !important; }
+  /* line 507, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos div.innerfigure {
+    display: block;
+    overflow: hidden !important; }
+  /* line 512, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos .lightonbox {
+    background-image: url(../img/portal/lightBox.png);
+    background-size: contain;
+    position: absolute;
+    top: -80px;
+    left: -40px;
+    width: 500px;
+    height: 500px;
+    z-index: -20px !important; }
+  /* line 522, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos a:hover {
+    text-decoration: none; }
+
+/* line 533, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+article.bservicos figure {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2989d8+50,1e5799+50,2076bc+50,2076bc+100 */
+  background: #2989d8;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #2989d8 50%, #1e5799 50%, #2076bc 50%, #2076bc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #2989d8 50%, #1e5799 50%, #2076bc 50%, #2076bc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #2989d8 50%, #1e5799 50%, #2076bc 50%, #2076bc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#2076bc',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  display: block;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden !important; }
+
+/* line 543, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+article.bservicos h4 {
+  color: #2380CC; }
+
+/* line 546, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+article.crmfuncionario figure {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#009fa3+49,009396+50,009396+51,009396+51,009396+61 */
+  background: #009fa3;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #009fa3 49%, #009396 50%, #009396 51%, #009396 51%, #009396 61%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #009fa3 49%, #009396 50%, #009396 51%, #009396 51%, #009396 61%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #009fa3 49%, #009396 50%, #009396 51%, #009396 51%, #009396 61%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009fa3', endColorstr='#009396',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  display: block;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden !important; }
+
+/* line 554, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+article.crmfuncionario h4 {
+  color: #009FA3; }
+
+/* line 556, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+article.contratornotafiscal figure {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#21a8cc+48,21a8cc+48,21a8cc+49,1e9bbc+49,1e9bbc+49,21a8cc+49,1e9bbc+50 */
+  background: #21a8cc;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #21a8cc 48%, #21a8cc 48%, #21a8cc 49%, #1e9bbc 49%, #1e9bbc 49%, #21a8cc 49%, #1e9bbc 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #21a8cc 48%, #21a8cc 48%, #21a8cc 49%, #1e9bbc 49%, #1e9bbc 49%, #21a8cc 49%, #1e9bbc 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #21a8cc 48%, #21a8cc 48%, #21a8cc 49%, #1e9bbc 49%, #1e9bbc 49%, #21a8cc 49%, #1e9bbc 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21a8cc', endColorstr='#1e9bbc',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  display: block;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden !important; }
+
+/* line 564, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+article.contratornotafiscal h4 {
+  color: #21A8CC; }
+
+/* line 568, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+article.relatoriodeenvio figure {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00aa75+49,00aa75+50,009d6c+51,009d6c+51,009d6c+52,009d6c+100 */
+  background: #00aa75;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #00aa75 49%, #00aa75 50%, #009d6c 51%, #009d6c 51%, #009d6c 52%, #009d6c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #00aa75 49%, #00aa75 50%, #009d6c 51%, #009d6c 51%, #009d6c 52%, #009d6c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #00aa75 49%, #00aa75 50%, #009d6c 51%, #009d6c 51%, #009d6c 52%, #009d6c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aa75', endColorstr='#009d6c',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  display: block;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden !important; }
+
+/* line 577, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+article.relatoriodeenvio h4 {
+  color: #00AA75; }
+
+/* line 580, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+section#sobreaempresa {
+  width: 100%;
+  background: #ffffff;
+  padding-top: 30px; }
+  /* line 583, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa article {
+    float: left; }
+  /* line 584, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa h3 {
+    font-weight: bold;
+    color: #444444;
+    padding-bottom: 30px;
+    background: url(../img/portal/det_title.png) left 37px no-repeat; }
+  /* line 585, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa h3.h3geia {
+    font-weight: bold;
+    color: #444444;
+    padding-bottom: 30px;
+    background: url(../img/portal/det_title.png) left 67px no-repeat; }
+  /* line 586, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa .grupo-geia {
+    color: #008ae2; }
+  /* line 587, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa .bgbege {
+    background: #edece8; }
+  /* line 588, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa .operadoras ul li {
+    list-style-type: none;
+    list-style: none; }
+  /* line 589, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa .operadoras {
+    margin-bot: 30px; }
+  /* line 590, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa .lisBeneficios li {
+    list-style-type: upper-alpha;
+    list-style-image: url(../img/portal/arrowBeneficios.png); }
+
+/* line 598, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+footer div#navrodape {
+  padding: 10px;
+  background-color: #5ba8a4;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff; }
+
+/* line 606, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+footer div#bottom {
+  height: 100px;
+  background-color: #2e2e35; }
+
+/* line 607, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+footer .container {
+  width: 100% !important; }
+
+/* line 611, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.navbar-brand-mobile {
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-size: auto !important;
+  padding: 10px auto; }
+
+/* line 616, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.overthetop .container {
+  text-align: center;
+  padding: 10px; }
+
+/* line 617, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages-fluxo .fluxo-img {
+  margin-bottom: 10px; }
+
+/* line 619, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .col-sm-1, .pages .col-sm-10, .pages .col-sm-11, .pages .col-sm-12, .pages .col-sm-2, .pages .col-sm-3, .pages .col-sm-4, .pages .col-sm-5, .pages .col-sm-6, .pages .col-sm-7, .pages .col-sm-8, .pages .col-sm-9,
+.pages .col-sm-1, .pages .col-sm-10, .pages .col-sm-11, .pages .col-sm-12, .pages .col-sm-2, .pages .col-sm-3, .pages .col-sm-4, .pages .col-sm-5, .pages .col-sm-6, .pages .col-sm-7, .pages .col-sm-8, .pages .col-sm-9 {
+  clear-: both !important; }
+
+/* line 624, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#seach-nav .pages {
+  padding-left: 29px !important; }
+
+/* line 627, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.input-group .form-control {
+  float: right !important;
+  height: 34px !important; }
+
+/* line 633, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages textarea,
+.pages select {
+  border: 1px solid #008AE2;
+  background-color: #ffffff; }
+
+/* line 635, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-delete .btn-danger {
+  padding: 6px 12px !important;
+  font-size: 14px !important; }
+
+/* line 637, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .row {
+  margin-left: 0  !important; }
+
+/* line 638, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .col-sm-10 {
+  width: auto !important; }
+
+/* line 639, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages select {
+  background-color: #ffffff;
+  border: 1px solid #008AE2; }
+
+/* line 643, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .pages textarea,
+.pages .pages input,
+.pages .pages select {
+  background-color: #656872;
+  border: 1px solid #008AE2; }
+
+/* line 649, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages b,
+.pages .panel-heading strong,
+.pages .panel-heading,
+.pages .panel-warning > .panel-heading,
+.pages .panel-info > .panel-heading,
+.pages .panel-danger > .panel-heading {
+  background-color: #656872;
+  color: #EDECE8;
+  font-weight: normal;
+  -webkit-border-top-radius-: 6px !important;
+  -moz-border-top-radius: 6px !important;
+  border-top-radius: 6px !important;
+  font-weight: 100 !important; }
+
+/* line 656, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .buscaempresa {
+  background-color: none !important;
+  font-weight: 700;
+  color: #2e2e35; }
+
+/* line 659, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .panel-warning,
+.pages .panel-info,
+.pages .panel-danger {
+  border: 1px solid #C9C9C9 !important; }
+
+/* line 663, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .new {
+  background: #337ab7 url(../img/portal/ico-alteracao-new.png) 5px 4px no-repeat;
+  background-size: 27%;
+  padding-left: 32px;
+  float: right; }
+  /* line 665, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .pages .new:hover {
+    background-color: #286090; }
+
+/* line 667, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.pages .tipo-de-arquivo {
+  border: 1px solid #008ae2;
+  -webkit-border-radius: 4px;
+  -moz-borderpx-radius: 4px;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 7px 10px; }
+
+/* line 672, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+input#file-input, input.enviar {
+  float: left;
+  font-size: 12px;
+  -webkit-border-radius: 6px;
+  -moz-borderpx-radius: 6px;
+  border-radius: 6px;
+  padding: 7.5px; }
+
+/* line 674, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+input#file-input {
+  margin-right: 7.5px !important;
+  background: #656872;
+  border: 1px #5D5D5D dashed;
+  -webkit-border-radius: 6px;
+  -moz-borderpx-radius: 6px;
+  border-radius: 6px; }
+
+/* line 676, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.panel-footer input {
+  background: #0DB292;
+  color: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-borderpx-radius: 4px;
+  border-radius: 4px;
+  font-size: 12px !important;
+  padding: 7.5px; }
+
+/* line 677, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+input.enviar {
+  background: #0DB292;
+  color: #ffffff; }
+
+/* line 678, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#frm:after {
+  clear: both; }
+
+/* line 682, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#frm:before,
+#frm:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden; }
+
+/* line 688, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#frm:after {
+  clear: both; }
+
+/* line 691, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#frm {
+  zoom: 1;
+  /* IE < 8 */ }
+
+/* line 694, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.clear {
+  clear: both; }
+
+/* line 695, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+li.transmissao {
+  background: url(../img/portal/ico-transmissao.svg) 4px 13px no-repeat !important;
+  padding-left: 20px;
+  font-size: 22px;
+  letter-spacing: -1.5px; }
+
+/* line 696, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+li.transmissao a {
+  font-weight: 700; }
+
+/* line 697, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.abovemenu {
+  background: #656872; }
+
+/* line 703, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.envolver-crm:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 710, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.crm {
+  margin: 15px 0;
+  border: 3px solid #008ae2;
+  transition-duration: 0.05s; }
+  /* line 713, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .crm:hover {
+    border: 3px solid #008ae2;
+    background-color: #008ae2;
+    color: #ffffff; }
+
+/* line 721, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.crm2 {
+  margin: 15px 0;
+  border: 3px solid #008ae2;
+  transition-duration: 0.05s; }
+  /* line 724, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .crm2:hover {
+    border: 3px solid #008ae2;
+    background-color: #008ae2;
+    color: #ffffff; }
+
+/* line 736, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.conteudoform {
+  margin-left: 0 !important; }
+
+/* line 737, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.space {
+  height: 20px; }
+
+/* line 739, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+body > #top {
+  -moz-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  -webkit-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#444444'); }
+
+/* line 742, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.panel-warning {
+  border: 1px solid #C9C9C9; }
+
+/* line 743, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.panel-danger {
+  border: 1px solid #C9C9C9; }
+
+/* line 745, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.navbar-toggle {
+  margin-left: 10px !important; }
+
+/* line 748, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.crud {
+  width: 100%;
+  padding: 0 !important; }
+
+/* line 749, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.conteudoform {
+  padding-left: 0 !important; }
+
+/* line 752, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.transmissao-heading {
+  background-color: #CCBE79; }
+
+/* line 753, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.verificacao-heading {
+  background-color: #4977AD; }
+
+/* line 755, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.status-heading {
+  background-color: #CC3333; }
+
+/* line 757, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#seach-nav {
+  padding-left: 29px !important; }
+
+/* line 758, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.voltar {
+  float: right !important;
+  color: #edece8 !important; }
+
+/* line 762, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.voltar span {
+  float: left !important; }
+
+/* line 766, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.ico-voltar {
+  background: url(../img/portal/ico-voltar.png) no-repeat !important;
+  height: auto !important;
+  float: left !important;
+  margin-right: 7.5px; }
+
+/* line 767, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#list {
+  -webkit-border-radius: 6px;
+  -moz-borderpx-radius: 6px;
+  border-radius: 6px; }
+
+/* line 768, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.spaceverfuncionario {
+  margin: 30px auto; }
+
+/* line 770, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.avatar {
+  background: #f1f1ef;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  -webkit-border-radius: 8px;
+  -moz-borderpx-radius: 8px;
+  border-radius: 8px; }
+
+/* line 772, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.razaosocial {
+  background: #D8D8D6; }
+
+/* line 774, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-empresa,
+.page-funcionarios {
+  font-weight: 900 !important;
+  color: #656872 !important; }
+
+/* line 776, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-empresa label,
+.page-funcionarios label {
+  color: #337ab7;
+  font-weight: 400 !important; }
+
+/* line 786, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#contato,
+#dadoscasatrais,
+#tabempresa,
+#dpessoais1,
+#tabempresam,
+#tab4,
+#dplano2,
+#dpessoais1 {
+  padding-top: 30px;
+  background-color: #ffffff;
+  border-left: 1px solid #e5e5e3; }
+
+/* line 794, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#contato:after,
+#dadoscasatrais:after,
+#tabempresa:after,
+#dpessoais1:after,
+#tabempresam:after,
+#tab4:after,
+#dplano2:after,
+#dpessoais1:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 804, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-empresa .nav-tabs > li > a,
+.page-funcionarios .nav-tabs > li > a {
+  background-color: #dededc; }
+
+/* line 806, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-empresa a,
+.page-funcionarios a {
+  color: #7aa5c9; }
+
+/* line 812, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-empresa .nav-tabs > li.active > a,
+.page-empresa .nav-tabs > li.active > a:focus,
+.page-empresa .nav-tabs > li.active > a:hover
+.page-funcionarios .nav-tabs > li.active > a,
+.page-funcionarios .nav-tabs > li.active > a:focus,
+.page-funcionarios .nav-tabs > li.active > a:hover {
+  color: #337ab7 !important; }
+
+/* line 815, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.beneficiario::first-letter {
+  text-transform: uppercase !important; }
+
+/* line 819, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.form-date {
+  font-weight: lighter;
+  margin-left: 15px;
+  font-style: italic; }
+
+/* line 823, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-crm .formwidth {
+  width: 100% !important; }
+
+/* line 824, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-crm .avatar-border {
+  width: 100% !important; }
+
+/* line 826, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-crm .form-control {
+  margin: 5px auto; }
+
+/* line 827, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-crm textarea {
+  width: 100%;
+  margin: 5px auto;
+  border-radius: 4px;
+  height: 120px; }
+
+/* line 828, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.page-crm .inputwidth {
+  border: 1px solid #008AE2;
+  background-color: #ffffff;
+  width: 100%; }
+
+/* line 829, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+#form-date {
+  border-botton: 1px solid blue; }
+
+/* line 831, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+.search,
+.beneficiario {
+  border: 1px solid #008AE2;
+  background-color: #ffffff;
+  width: 100%; }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* line 846, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .crm {
+    float: left; }
+  /* line 852, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  article.boxservicos:nth-child(1),
+  article.boxservicos:nth-child(5),
+  article.boxservicos:nth-child(9) {
+    margin-left: 0 !important;
+    padding-left: 0 !important; }
+  /* line 854, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  article.boxservicos:nth-child(4),
+  article.boxservicos:nth-child(8) {
+    margin-right: 0 !important;
+    padding-right: 0 !important; }
+  /* line 857, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .dropdown-menu > li > a:link {
+    color: #656872 !important; }
+  /* line 858, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #2e2e35 !important; }
+  /* line 863, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos {
+    width: 22%; }
+  /* line 867, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #searchLogin {
+    width: 35%; }
+    /* line 869, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    #searchLogin .crm {
+      float: left; }
+  /* line 874, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top {
+    background: #656872; }
+    /* line 876, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    #top ul.toplogin {
+      float: right !important;
+      border: 1px solid red; } }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* line 890, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  article.boxservicos:nth-child(1),
+  article.boxservicos:nth-child(5),
+  article.boxservicos:nth-child(9) {
+    margin-left: 0 !important;
+    padding-left: 0 !important; }
+  /* line 892, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  article.boxservicos:nth-child(4),
+  article.boxservicos:nth-child(8) {
+    margin-right: 0 !important;
+    padding-right: 0 !important; }
+  /* line 894, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .dropdown-menu > li > a:link {
+    color: #656872 !important; }
+  /* line 895, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #2e2e35 !important; }
+  /* line 900, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .col-md-4 {
+    width: 29% !important; }
+  /* line 901, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top .container {
+    max-width: 1170; }
+  /* line 904, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  header .container {
+    max-width: 1170; }
+  /* line 907, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  nav {
+    width: 1100px; }
+  /* line 911, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  input.form-control {
+    max-width: 90% !important; }
+  /* line 917, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos {
+    width: 22%; }
+  /* line 920, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top {
+    background: #0DB292; }
+    /* line 922, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    #top ul.toplogin {
+      float: right; } }
+
+@media (min-width: 992px) {
+  /* line 929, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  nav li.open a:link {
+    color: #777 !important; }
+  /* line 930, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .col-md-4 {
+    width: 29% !important; }
+  /* line 936, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:link {
+    color: #777 !important; } }
+
+@media (max-width: 992px) {
+  /* line 939, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .crm {
+    margin: 5px 0 !important; }
+  /* line 942, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar {
+    margin-bottom: 0 !important; }
+  /* line 944, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-header,
+  #top .container {
+    background-color: #656872 !important;
+    border: none !important; }
+  /* line 971, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .abovemenu {
+    padding: 0 0; } }
+
+@media (min-width: 1200px) {
+  /* line 980, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos,
+  #todos-boxes-servicos .boxservicos {
+    width: 23% !important; }
+  /* line 983, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28b0b2+0,2899bd+50,2985ce+100 */
+    background: #28b0b2;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #28b0b2 0%, #2899bd 50%, #2985ce 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #28b0b2 0%, #2899bd 50%, #2985ce 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #28b0b2 0%, #2899bd 50%, #2985ce 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b0b2', endColorstr='#2985ce',GradientType=1 );
+    /* IE6-9 */ }
+    /* line 985, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    #top ul.toplogin {
+      float: right; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 991, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .crm {
+    margin: 5px 0 !important;
+    border: 1px solid red; }
+  /* line 994, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .form-group {
+    float: right !important; }
+  /* line 996, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #todos-boxes-servicos .col-lg-3 {
+    width: 28%; }
+  /* line 1000, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top {
+    border: 10px solid red; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 1005, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #todos-boxes-servicos .col-md-4,
+  #todos-boxes-servicos .col-lg-3 {
+    width: 22%; }
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 1015, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top ul.toplogin {
+    clear: both !important;
+    margin-left: 50%;
+    margin-right: 50%; }
+  /* line 1017, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top .nome-logo {
+    display: none; }
+  /* line 1019, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-brand {
+    border: 2px solid red; } }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 1023, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .boxservicos {
+    width: 50%; }
+  /* Styles */ }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* line 1028, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#main {
+    padding-top: 10px !important; }
+  /* line 1029, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar {
+    margin-bottom: 0 !important; }
+  /* line 1030, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-toggle, .navbar-nav {
+    float: left !important; }
+  /* line 1033, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, row {
+    padding-right: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important; }
+  /* line 1037, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa h3 {
+    font-size: 18px; }
+  /* line 1038, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa h3 {
+    background: url(../img/portal/det_title.png) left 28px no-repeat; }
+  /* line 1041, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top > ul.toplogin li {
+    clear: both !important;
+    padding: 1px 3px !important; }
+  /* line 1042, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top > ul.toplogin {
+    float: left; }
+  /* line 1043, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .breadcrumb {
+    font-size: 10px; }
+  /* line 1044, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#main #seach-nav {
+    padding-left: 0 !important; }
+  /* line 1045, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .container {
+    margin: 0 auto;
+    padding: 0 !important; }
+  /* line 1047, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .col-lg-1 .container, .col-lg-10 .container, .col-lg-11 .container, .col-lg-12 .container, .col-lg-2 .container, .col-lg-3 .container, .col-lg-4 .container, .col-lg-5 .container, .col-lg-6 .container, .col-lg-7 .container, .col-lg-8 .container, .col-lg-9 .container, .col-md-1 .container, .col-md-10 .container, .col-md-11 .container, .col-md-12 .container, .col-md-2 .container, .col-md-3 .container, .col-md-4 .container, .col-md-5 .container, .col-md-6 .container, .col-md-7 .container, .col-md-8 .container, .col-md-9 .container, .col-sm-1 .container, .col-sm-10 .container, .col-sm-11 .container, .col-sm-12 .container, .col-sm-2 .container, .col-sm-3 .container, .col-sm-4 .container, .col-sm-5 .container, .col-sm-6 .container, .col-sm-7 .container, .col-sm-8 .container, .col-sm-9 .container, .col-xs-1 .container, .col-xs-10 .container, .col-xs-11 .container, .col-xs-12 .container, .col-xs-2 .container, .col-xs-3 .container, .col-xs-4 .container, .col-xs-5 .container, .col-xs-6 .container, .col-xs-7 .container, .col-xs-8 .container, .col-xs-9 .container {
+    margin: 0 auto;
+    padding: 0 !important; }
+  /* line 1049, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  section#sobreaempresa {
+    padding-top: 0; }
+  /* line 1052, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent !important; }
+  /* line 1056, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .ouvidoria {
+    position: absolute;
+    top: 106px; }
+  /* line 1058, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top ul.toplogin li {
+    padding: 1px 3px !important; }
+  /* line 1059, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-default .navbar-toggle {
+    margin-left: 15px; }
+  /* line 1060, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .form-control {
+    width: 79% !important; }
+  /* line 1061, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .semborde {
+    border: 1px solid #656872; }
+  /* line 1062, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  nav a {
+    color: #edece8 !important; }
+  /* line 1063, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  nav.navbar-default {
+    /*position: absolute;*/
+    top--: 30px;
+    left--: 28px !important;
+    width: 90%;
+    -moz-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    -webkit-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#444444'); }
+  /* line 1069, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #edece8 !important; }
+  /* line 1072, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .form-control {
+    width: 85% !important;
+    clear: both !important; }
+  /* line 1075, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .crm {
+    clear: both !important;
+    margin: 5px 0; }
+  /* line 1076, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search2 input.form-control {
+    clear: both !important; }
+  /* Styles */
+  /* line 1078, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .wrap-search2 .btn-default {
+    background: #008ae2 url(../img/Portal/ico-search.png) no-repeat center center !important;
+    background-size: 54% !important; }
+  /* line 1079, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .envolver-crm {
+    clear: both;
+    text-align: center;
+    padding: auto !important;
+    margin: auto;
+    width: 50%; }
+  /* Styles */ }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 1000px) {
+  /* line 1092, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-collapse,
+  .navbar-nav {
+    float: right !important; }
+  /* line 1096, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top container {
+    position: absolute;
+    top: 200px;
+    border: 10px solid green; }
+  /* line 1097, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar {
+    width: 92%; }
+  /* line 1098, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  nav.navbar-default {
+    width: 100%;
+    -moz-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    -webkit-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#444444');
+    -webkit-border-radius: 8px;
+    -moz-borderpx-radius: 8px;
+    border-radius: 8px; }
+    /* line 1104, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    nav.navbar-default .navbar-collapse {
+      margin: 20px 0; }
+    /* line 1107, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+    nav.navbar-default .navbar-brand {
+      position: absolute;
+      top: 17px;
+      left: 40px; }
+  /* Styles */ }
+
+@media only screen and (min-width: 321px) {
+  /* line 1114, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-toggle, .navbar-nav {
+    float: left !important; }
+  /* line 1116, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top container {
+    position: absolute;
+    top: 200px;
+    border: 10px solid green; }
+  /* line 1117, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar {
+    width: 100%; }
+  /* line 1118, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .envolver-crm {
+    clear: both;
+    text-align: center;
+    padding: auto !important;
+    margin: auto; }
+  /* Styles */ }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 1128, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .semborde {
+    border: 1px solid #656872; }
+  /* line 1129, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  #top .container {
+    height: 30px; }
+  /* line 1130, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #edece8 !important; }
+  /* Styles */
+  /* line 1134, C:/Users/josecs/Desktop/ERPGEIA-azure/ERPGEIA-azure/ERPGEIA/Content/ssas/default.scss */
+  .envolver-crm {
+    clear: both;
+    text-align: center;
+    padding: auto !important;
+    margin: auto;
+    width: 50%; }
+  /* Styles */ }
+
+/*# sourceMappingURL=default.css.map */

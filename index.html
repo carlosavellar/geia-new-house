@@ -1,0 +1,2854 @@
+﻿<script type="text/javascript">
+    //Azure
+    // window.location = "http://www.grupogeia.com.br";
+</script>
+<html lang="pt_BR">
+<head>
+    <link rel="stylesheet" src="src/Content/fonts/font-awesome.css">
+
+    <link rel="stylesheet" href="src/Content/css/PropostaOnline/index.css">
+    <link src="src/Content/images/fonts/foundation-icons/foundation-icons.css" rel="stylesheet" />
+    <script src="Scripts/lib/jQuery/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/Home/Ouvidoria/jsbn.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/prng4.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/rng.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/rsa.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/jsbn2.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/rsa2.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/Base64ToHex.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/RsaEncryption.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/webtoolkit.md5.js" type="text/javascript"></script>
+    <script src="Scripts/Home/Ouvidoria/jquery-setup.js" type="text/javascript"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="Scripts/lib/Foundation/foundation.js"></script>
+    <link rel="stylesheet" href="src/Content/fonts/glyphicons/css/wfmi-style.css">
+
+
+    <link rel="stylesheet" href="src/Content/Foundation/foundation.css" />
+    <script src="Scripts/lib/Foundation/vendor/modernizr.js"></script>
+
+    <script src="Scripts/lib/jQuery/chosen.jquery.js" type="text/javascript"></script>
+
+    <script src="Scripts/lib/jQuery/jquery.maskedinput.min.js"></script>
+    <script src="Scripts/lib/jQuery/jquery.inputmask.bundle.js"></script>
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+    <script src="Scripts/Home/Homesite.js"></script>
+    <!-- @*<script src="Scripts/Home/Mask/Jquery.maskedinput.js"></script>
+    <script src="Scripts/Home/Validation/jquery.validate.js"></script>*@ -->
+    <script src="Scripts/Home/Util.js"></script>
+    <link href="src/Content/css/CAD_PRODUTO/chosen.css" rel="stylesheet" />
+    <link href="src/Content/fonts/font-awesome.min.css")" rel="stylesheet" type="text/css">
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+        function initialize() {
+            var map_canvas = document.getElementById('map_canvas');
+            var map_options = {
+                center: new google.maps.LatLng(-23.5335551, -46.6625869),
+                zoom: 17,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(map_canvas, map_options)
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+    <title>Géia</title>
+</head>
+<body data-controller="corporativo">
+
+    <div id="phone-social" class="large-expand">
+        <div class="row">
+            <div class="small-4 large-4 columns right">
+                <ul class="inline-list right">
+
+                    <li class="ico-facebook"><a href="http://www.facebook.com/grupogeia" target="_blank"><img src="src/Content/images/ico-facebook.png" /></a></li>
+                    <li><a href="http://saudegeia.com.br/" target="_blank"><img src="src/Content/images/ico-rss.png" /></a></li>
+                    <li class="login has-dropdown logig">
+                        <a><img src="src/Content/images/ico-cadeado.png" /> Espaço do cliente</a>
+                        <div class="dropdownlogin">
+                            <iframe scrolling="no" frameborder="0" class="iframe" src="http://www.grupogeia.com.br/site/top_login_sitegeia.asp" height="200"></iframe>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!---div class="small-2 large-2 columns text-right">
+                <i class="fi-telephone"></i>11 3660.2000
+            </div -->
+        </div>
+    </div>
+    <nav id="navbar">
+
+        <div class="row">
+            <div class="column large-12">
+                <div class="row">
+                    <div class="column small-8 large-3" style="padding: 0;">
+                        <a href="#slider">
+                            <img onclick="" src="src/Content/images/logo.png" alt="" class="logo">
+                        </a>
+                    </div>
+                    <div class="column small-9 large-9 show-for-medium-up right">
+                        <div class="row">
+                            <div class="column wide clearfix">
+                                <ul class="wide ">
+
+                                    <li class="telefonep"><img src="src/Content/images/ico-telefone.png" class="telefoneg" />11 3660.2000</li>
+                                    <!-- @*<li class="login has-dropdown">
+            <a><i class="fi-lock"></i> Login</a>*@
+                                    @*<div class="dropdownlogin">
+                <iframe scrolling="no" frameborder="0" class="iframe" src="http://www.grupogeia.com.br/site/top_login_sitegeia.asp" height="200"></iframe>
+            </div>*@
+                                    @*</li>*@ -->
+                                    <li class="vertical-line-menu hidedropdown nav-bar-top">
+                                        <a href="#localizacao" class="contato2">Contato</a>
+                                    </li>
+                                    <li class="divli">|</li>
+                                    <li class="vertical-line-menu hidedropdown">
+                                        <a href="#titspacosaude" class="espaco-saude">Espaço Saúde</a>
+                                    </li>
+                                    <li class="divli">|</li>
+                                    <li class="hidedropdown">
+                                        <a href="#simule-seu-plano-de-saude" class="aba-produto">Produtos</a>
+                                    </li>
+                                    <li class="divli">|</li>
+                                    <li class="hidedropdown">
+                                        <a href="#grupo" class="aba-grupo" data-menuanchor="o-grupo">O Grupo</a>
+                                    </li>
+                                    <li>
+                                        <!---a href="#solucoes">Soluções  --->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="column small-3 large-3 show-for-small-only"><a href="#">Menu</a></div>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <nav id="navbar-fixed">
+        <div class="row">
+            <div class="column large-12">
+                <div class="column small-8 large-3" style="padding: 0;">
+                    <a href="#slider">
+                        <img src="src/Content/images/logo.png" alt="" class="logo">
+                    </a>
+                </div>
+                <div class="column large-7  show-for-medium-up right">
+                    <ul>
+                        <li class="login">
+                            <a href="http://www.grupogeia.com.br/site/"> Login</a>
+                        </li>
+                        <li class="vertical-line-menu">
+                            <a href="#contato">Contato</a>
+                        </li>
+                        <li>
+                            <a href="#simule-seu-plano-de-saude">Cotação</a>
+                        </li>
+                        <li>
+                            <a href="#grupo" class="aba-grupo">Grupo</a>
+                        </li>
+                        <li>
+                            <!--a href="#solucoes">Soluções</a -->
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="column small-2 show-for-small-only"><a href="#">Menu</a></div>
+                <!-- div class="column large-3 menu-social">
+                <a href="http://www.facebook.com/grupogeia" target="_blank"><div class="social facebook"></div></a>
+                <a href="#" style="background-position: 55px 0;"><div class="social feed"></div></a>
+                <a href="#" style="background-position: 110px 0;"><div class="social twitter"></div></a>
+                </div -->
+            </div>
+        </div>
+    </nav>
+    <div class="fix-nav"></div>
+    <div id="slider" style="position:relative;">
+        <div class="slider" style="background-image:url('src/Content/images/slider-1.jpg');background-position: center;">
+            <div class="row">
+
+                <div class="column large-5 home-slider active" id="hs1">
+
+
+                </div>
+                <div class="column large-5 home-slider" id="hs2">
+                    <a class="rn-link" href="http://www.geia.com.br/norma-rn/"><img style="width: 350px; position: absolute; left: 385px; top: 170px;" src="src/Content/images/bnt-res.naorm.png" /></a>
+                </div>
+                <div class="column large-5 home-slider" id="hs3">
+
+                    <h3 id="teste1" class="title-para-voce">Para você</h3>
+                    <p id="teste2">
+                        Nosso objetivo é contribuir para que você tenha uma vida ainda melhor, mais segura e tranquila. Por isso buscamos as melhores opções de benefícios para você e sua família.
+                    </p>
+                    <a class="btn orange" href="#para-voce" id="bntparavoce">SAIBA MAIS</a>
+
+
+                </div>
+                <!-- @*<div class="column large-5 home-slider" id="hs4">
+                    <h3 class="title">Sua empresa</h3>
+                    <p class="desc">
+                        Pequena, média ou grande, sua empresa pode contar com as melhores opções em benefícios, dentre eles, planos de saúde, odontológico, seguro de vida em grupo, seguro para frota, empresarial.
+                    </p>
+                    <a href="#planos-para-sua-empresa" class="btn  orange" id="bntempresa">SAIBA MAIS</a>
+                    <p></p>
+                </div>
+                <div class="column large-5 home-slider" id="hs5">
+                    <h3 class="title">Entidades de classe</h3>
+
+
+                    <p class="desc">
+                        Proporcione aos seus associados a possibilidade de ter um plano de saúde, odontológico e/ou vida em grupo, excelentes condições de preço com custo de até 40% menor que o mercado, podendo ainda contar com suporte de atendimento aos gestores e associados, além da gestão do risco e dos programas de atenção à saúde.
+                    </p>
+                    <a href="#entidade-de-classe" class="btn orange" id="bntentidade">SAIBA MAIS</a>
+                </div>
+                <div class="column large-5 home-slider" id="hs6">
+                    <h3 class="title">Gestão de saúde</h3>
+                    <p class="desc">
+                        Nosso cliente pode contar com a prestação de serviços realizados pela nossa empresa em parceria com a Operadora para melhor gestão do benefício, sem custos adicionais.
+                    </p>
+                    <a href="#gestao-de-saude" class="btn orange" id="bntgestaosaude">SAIBA MAIS</a>
+                </div>*@ -->
+
+            </div>
+        </div>
+        <div id="dots" class="dots column large-2 large-centered" style="margin-left: 0 !important;">
+            <div class="dot active" action="hs1"></div>
+            <div class="dot" action="hs2"></div>
+            <!-- @*<div class="dot" action="hs3"></div>
+            <div class="dot" action="hs4"></div>
+            <div class="dot" action="hs5"></div>
+            <div class="dot" action="hs6"></div>*@ -->
+        </div>
+    </div>
+    <style>
+        .home-slider {
+            display: none;
+            position: absolute;
+        }
+
+            .home-slider.active {
+                display: block;
+            }
+
+        #contrate .formulario-border {
+            height: 310px;
+            top: -60px;
+        }
+
+        label {
+            cursor: default;
+        }
+    </style>
+
+    <div id="solucoes">
+        <div class="solucoes-wrapper">
+            <div class="row">
+                <div class="column large-12">
+                    <div class="inicio tabs">
+
+                        <div class="column large-3 link-vc wide" id="sol-vc">
+                            <div class="img-round wide">
+                                <a href="#para-voce">
+                                    <img src="src/Content/images/PARA_VOCE_FOTO_CIRCULO.png" alt="">
+                                    <div id="solucoestitile" class="title" onclick="trocaAba($(this), 'mais-pvc', 'sol-cnt', 'aaaa')">Para você</div>
+                                </a>
+                            </div>
+
+                            <div class="submenu">
+                                <ul>
+
+                                    <!-- @*<li><a href="#solucoes" onclick="">Saiba Mais</a></li>
+                                        <li><a href="#contrate" style="padding-bottom:0px;">cotar aqui</a></li>
+                                        <li>
+                                            <a class="link-imposto-renda" href="" data-reveal-id="myModal">Imposto de renda</a>
+                                        </li>
+                                        <li>
+                                            <a class="link-imposto-renda" data-reveal-id="myModal" onclick="openCPF()">Recibo</a>
+                                        </li>*@ -->
+                                    <li>
+                                        <a class="link-imposto-renda" data-reveal-id="myModal">Espaço do Cliente</a>
+                                    </li>
+                                    <li>
+                                        <a class="link-imposto-renda" data-reveal-id="myModal">Cancelamento</a>
+                                    </li>
+                                </ul>
+                                <a href="#localizacao">SOLICITE UM REPRESENTANTE</a>
+                            </div>
+                        </div>
+                        <div class="column large-3 empresap" id="sol-empresa">
+                            <div class="img-round">
+                                <a href="#planos-para-sua-empresa">
+                                    <img src="src/Content/images/SUA_EMPRESA_FOTO_CIRCULO.png" alt="">
+
+                                    <div class="title">Sua Empresa</div>
+                                </a>
+
+                            </div>
+                            <div class="submenu">
+                                <ul>
+                                    <!-- @*<li><a href="javascript:void(0);" onclick="trocaAba($(this), 'mais-empresa', 'sol-cnt', 'aaaa')">Saiba Mais</a></li>
+                                        <li><a href="#contrate" style="padding-bottom:0px;">cotar aqui</a></li>*@ -->
+                                    <li><a href="http://www.geia.com.br/empresa/empresa.html#paraempresa" style="padding-bottom:0px;">2º DE FATURA</a></li>
+                                </ul>
+                                <a href="#localizacao">SOLICITE UM REPRESENTANTE</a>
+                            </div>
+                        </div>
+                        <div class="column large-3" id="sol-entidade">
+                            <div class="img-round">
+                                <a href="#entidade-de-classe">
+                                    <img src="src/Content/images/ENTIDADE_FOTO_CIRCULO.png" alt="">
+                                    <div class="title">Entidade de Classe</div>
+                                </a>
+                            </div>
+                            <div class="submenu sub-entidade">
+                                <ul>
+                                    <!-- @*<li><a href="javascript:void(0);" onclick="trocaAba($(this), 'entclasse', 'sol-cnt', 'aaaa')">Saiba Mais</a></li>*@ -->
+                                </ul>
+                                <a href="#localizacao">SOLICITE UM REPRESENTANTE</a>
+                            </div>
+                        </div>
+                        <div class="column large-3" id="sol-gestao-saude">
+                            <div class="img-round">
+                                <a href="#gestao-de-saude">
+                                    <img src="src/Content/images/PROGRAMA_FOTO_CIRCULO.png" alt="">
+                                    <div class="title">Gestâo de Saúde</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content sol-cnt" id="para-voce" data-anchor="para-voce">
+                        <div class="row wide">
+                            <div class="column small-6 large-6 text">
+                                <hr class="title" />
+                                <h3 class="title-para-voce">Para você</h3>
+                            </div>
+                            <div class="column small-6 large-6 text">
+
+                            </div>
+                        </div>
+                        <div class="row wide">
+                            <div class="column small-6 large-6 text paraparavc">
+
+                                <p>
+                                    Nosso objetivo é contribuir para que você tenha uma vida ainda melhor, mais segura e tranquila. Por isso buscamos as melhores opções de benefícios para você e sua família. Temos como prática ir além da comercialização, buscamos a excelência nos serviços prestados, oferecemos aos nossos clientes atendimento pós venda através do relacionamento com o cliente, que está sempre atenta a oferecer orientações e soluções na utilização do benefício contratado.
+                                </p>
+                                <p>
+                                    Através de nossa empresa você pode contratar as melhores opções:
+                                </p>
+                                <ul class="inline-list para-vc-list">
+                                    <li>
+                                        <a class="button round ico-plano-saude verdegeia button-fullwidth-paravoce">
+                                            <span><div><i class="fa fa-heartbeat" aria-hidden="true"></i>PLANO DE SAÚDE</div></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a  class="button round verdegeia button-fullwidth-paravoce">
+                                            <span><div><i class="fa fa-lock" aria-hidden="true"></i>SEGURO DE VIDA</div></span>
+                                        </a>
+                                    <li>
+                                        <a  class="button round verdegeia button-fullwidth-paravoce">
+                                            <span><div><i class="fa fa-car" aria-hidden="true"></i>SEGURO AUTOMÓVEL</div></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a  class="button round verdegeia button-fullwidth-paravoce">
+                                            <span><div><span class="icon-i-dental" aria-hidden="true"></span> PLANO ODONTOLÓGICO</div></span>
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                        <a  class="button round verdegeia button-fullwidth-paravoce">
+                                            <span><div><i class="fa fa-home" aria-hidden="true"></i>SEGURO RESIDÊNCIA</div></span>
+                                        </a>
+
+
+                                    </li>
+                                    <li>
+                                        <a  class="button round verdegeia button-fullwidth-paravoce">
+                                            <span><div><i class="fa fa-plane" aria-hidden="true"></i>SEGURO VIAGEM</div></span>
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <div class="column small-6 large-6 text">
+                                <p>
+                                    <img class="img-paravc" src="src/Content/images/bg_para_voce.png" />
+                                </p>
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+            <div class="text-center">
+                <a href="#simule-seu-plano-de-saude" class="aba-produto button round text-center">Solicitar orçamento</a>
+            </div>
+        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="suaempresaFullwidth">
+        <div class="row wide">
+            <div class="column small-6 large-6">
+
+            </div>
+            <div class="column small-6 large-6">
+                <hr />
+                <h3>Sua empresa</h3>
+            </div>
+        </div>
+
+        <div class="row wide">
+
+            <div class="column small-6 large-6">
+                <p>
+                    <img class="img-sua-empresa" src="src/Content/images/bg_empresa.png" />
+                </p>
+            </div>
+            <div class="column small-6 large-6">
+                <div class="content" id="planos-para-sua-empresa">
+
+                    <div class="row wide">
+                        <div class="column small-12 large-12 text">
+                            <p>A área de saúde está em constante mudança e é sempre um desafio, superado somente se houver atualização de ferramentas tecnológicas, equipe treinada e preparada para utilizá-las. </p>
+
+                            <p>Por isso, a gestão gerencial deste benefício exige medidas efetivas e inovadoras. Nossa proposta é identificar alternativas para entrega de resultados que agreguem valor e promova o diferencial para nossos clientes. </p>
+
+                            <p>Para nós, o compromisso com a saúde é primordial. Contamos com especialistas que desenvolvem propostas de trabalho personalizada, gerando uma carteira saudável e sem comprometer o orçamento do seu negócio.</p>
+                            <p>Consulte-nos sobre:</p>
+                            <ul>
+                                <li>Consultoria em planos de saúde.</li>
+                                <li>Gestão de saúde e desenvolvimento de programas personalizados.</li>
+                                <li>Assessoria em benefícios.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#localizacao" class="small-9 large-9 button round verdegeia button-fullwidth-empresa-contato">
+                    <span><div>Entre em contato e agende uma visita!</div></span>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="entidade-de-classe" class="entclasseFullwidth">
+        <div class="">
+            <div class="row wide">
+                <div class="column small-6 large-6 text">
+                    <hr />
+                    <h3>Entidade de Classe</h3>
+                </div>
+                <div class="column small-6 large-6 text">
+
+                </div>
+            </div>
+            <div class="row wide">
+
+                <div class="column small-6 large-6">
+                    <div class="content sol-cnt">
+                        <div class="row">
+                            <div class="column text">
+                                <p>Proporcione aos seus associados a possibilidade de ter um plano de saúde, odontológico e/ou vida em grupo, excelentes condições de preço com custo de até 40% menor que o mercado, podendo ainda contar com suporte de atendimento aos gestores e associados, além da gestão do risco e dos programas de atenção à saúde. A entidade conveniada não assume qualquer risco administrativo ou financeiro. Todos esses benefícios solidificam ainda mais a entidade de classe trazendo de uma forma natural maior número de associados.</p>
+                                <a href="#localizacao" class="small-8 large-8 button round verdegeia button-fullwidth-empresa-contato">
+                                    <span><div>Entre em contato e agende uma visita!</div></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column small-6 large-6">
+                    <p>
+                        <img class="img-entidadedeclasse" src="src/Content/images/bg_entidade_classe.png" />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="solucoes-fullwidth" class=" progsaudefullWidth">
+        <div class="row wide">
+            <div class="column small-6 large-6 text">
+
+            </div>
+            <div class="column small-6 large-6 text">
+                <hr />
+                <h3>Gestão de Saúde</h3>
+            </div>
+        </div>
+        <div class="row wide">
+            <div class="column small-6 large-6">
+                <p>
+                    <img src="src/Content/images/br_saude_geia.png" />
+                </p>
+            </div>
+            <div class="column small-6 large-6">
+                <div class="content sol-cnt" id="gestao-de-saude">
+
+                    <div class="row">
+                        <div class="column small-12 large-12 text">
+                            <p>
+                                Nosso cliente pode contar com a prestação de serviços realizados através de nossa empresa, para melhor gestão do benefício, sem custos adicionais, como:
+                            </p>
+                            <div class="row wide vito">
+                              <p class="column small-6 large-6 text">
+                                Levantamento do perfil epidemiológico dos beneficiários e implantação de programas de qualidade de vida ou de intervenções;
+
+                              </p>
+                              <p class="column small-6 large-6 text">
+                                A atuação no grupo de risco, age diretamente na contenção dos custos da carteira, enquanto que os programas de prevenção, propiciam a diminuição de novos grupos de risco, devido a melhoria na qualidade de vida dos colaboradores.
+
+                              </p>
+                            </div>
+                            <p>
+                            A atuação no grupo de risco, age diretamente na contenção dos custos da carteira, enquanto que os programas de prevenção, propiciam a diminuição de novos grupos de risco, devido a melhoria na qualidade de vida dos colaboradores.
+                          </p>
+<!--
+                            <ul>
+                                <li>
+                                    Orientações sobre grupo de risco, utilizando as modernas práticas de Gestão de Saúde existentes no mercado.
+                                </li>
+                            </ul> -->
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="column large-5 home-slider " id="hs5">
+                        <h3 class="title">Programas de saúde</h3>
+                        <p class="desc">
+                            Nosso cliente pode contar com a prestação de serviços realizados pela nossa empresa em parceria com a Operadora para melhor gestão do benefício, sem custos adicionais.
+                        </p>
+                        <a href="#solucoes" onclick="trocaAba($(this), 'progsaude', 'sol-cnt', 'aaaa')" class="btn orange">SAIBA MAIS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column small-6 large-6">
+
+            </div>
+        </div>
+        <div class="row wide">
+            <div class="column small-12 large-12">
+                <p>
+                    Clientes que não possuem benefícios contratados através de nossa Consultoria, também podem ter acesso a programas de atenção à saúde, análise de contas médicas, gerenciamento de pacientes crônicos, dentre outros, para tanto, consulte-nos ou solicite a visita de um de nossos consultores.
+                </p>
+            </div>
+        </div>
+        <div class="row wide">
+            <div class="column small-6 large-6">
+
+                <img class="middleimgesaude" src="src/Content/images/img_saude_geia_01.png" />
+                <hr>
+                <h4>Programa de gerenciamento de saúde</h4>
+                <p>
+                    Os programas de saúde, são fundamentais para a saúde dos colaboradores e do contrato porque também tem como objetivo manter o custo sob equilíbrio, o resultado obtido pela empresa, são benefícios com custos equilibrados e maior produtividade. O programa é personalizado porque é estruturado com base nas informações levantadas pela equipe de Saúde do Grupo Géia, para os colaboradores e seus dependentes, utilizando modernas práticas de gestão.
+                </p>
+                <p>
+                    Entre as ferramentas disponíveis, podemos destacar:
+                </p>
+                <ul>
+                    <li>
+                       Gerenciamento de pacientes crônicos
+
+                    </li>
+                    <li>
+                      Assistência domiciliar
+                    </li>
+                    <li>
+                        Saúde da mulherr
+                    </li>
+                    <li>
+                        Programa de qualidade de vidar
+                    </li>
+                    <li>
+                        Introdução e acompanhamento de atividades físicas
+                    </li>
+                    <!-- <li>
+                       SEGURO VIAGEM
+                    </li> -->
+                </ul>
+            </div>
+            <div class="column small-6 large-6">
+                <img class="middleimgesaude" src="src/Content/images/img_saude_geia_02.png" />
+                <hr />
+                <h4>Gerenciamento de riscos</h4>
+                <p>
+                    Os valores dos custos médicos mais elevados e impactantes no resultado do contrato, são os dispêndios relacionados ao tratamento dos casos crônicos, é necessária uma gestão eficiente e eficaz sobre o mesmo.
+                </p>
+                <p>
+                    Em paralelo, se faz necessário, promover ações para minimizar índices de internações hospitalares e atendimentos ambulatoriais, proporcionando uma melhoria na qualidade de vida dos beneficiários e nos resultados do contrato.
+                </p>
+                <p>
+                    Campanhas de imunização, controles de obesidade, programas de prevenção à saúde, prevenção de acidentes de trabalho, saúde ocupacional e gerenciamento de casos crônicos, estão entre as ações previstas.
+                </p>
+                <p>
+                    O cliente é posicionado dos resultados do contrato, através dos relatórios de gerenciamento de risco, disponibilizado mensalmente, o acompanhamento dos resultados e das ações da consultoria oferecem segurança e transparência na gestão do contrato.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="contrate clearfix" >
+
+        <div class="tabs" id="grupo" data-anchor="grupo">
+            <div class="row">
+                <div class="column large-12">
+                    <ul>
+                        <li class="column small-4 large-4 text-center">
+
+                            <a href="javascript:void(0);" id="grupo-link" class="button round verdegeia contrate-link removBg  active" onclick="trocaAba($(this), 'grupo-geia', 'contrate-aba', 'contrate-link')" href="http://saudegeia.com.br#post-8742" />
+                            <span><div>o grupo géia</div></span>
+                            </a>
+
+                            <!-- @*<a  id="grupo-link">Grupo Géia---</a>*@ -->
+
+                        </li>
+                        <li class="column small-4 large-4 text-center">
+                            <a href="javascript:void(0);" class="button round removBg contrate-link removBg" onclick="trocaAba($(this), 'unigeia', 'contrate-aba', 'contrate-link')" id="unigeia-link">
+
+                                <span><div>unigéia</div></span>
+                            </a>
+                        </li>
+                        <!-- <li><a href="javascript:void(0);" class="contrate-link" onclick="trocaAba($(this), 'sustentabilidade', 'contrate-aba', 'contrate-link')" id="susten-link">Sustentabilidade</a></li> -->
+                        <!-- @*<li><a href="javascript:void(0);" class="contrate-link" onclick="trocaAba($(this), 'saudegeia', 'contrate-aba', 'contrate-link')" id="saudeg-link">Saúde Géia</a></li>*@ -->
+                        <li class="column small-4 large-4 text-center">
+                            <a href="javascript:void(0);" class="button round removBg contrate-link removBg" onclick="trocaAba($(this), 'socioambiental', 'contrate-aba', 'contrate-link')" id="socio-link">
+                                <span><div>socioambiental</div></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="textos" class="clearfix institucional">
+            <div class="row">
+                <div class="column large-12">
+
+                    <div class="content contrate-aba content-marg-top-two active" id="grupo-geia">
+                        <div class="row wide spaceVerical"></div>
+
+                        <div class="text">
+                            <div class="column small-7 large-7">
+                                <hr>
+                                <h3>O Grupo</h3>
+                                <p>
+                                    Atuamos no segmento de benefícios para empresas e entidades de classe. É composto por: Géia Consultoria e Corretora de Seguros e Géia Administradora de Benefícios Ltda. Oferecemos consultoria especializada, gestão de risco, corretagem de seguros, planos de saúde e soluções na análise da contratação e gestão dos benefícios.
+                                </p>
+                                <p id="linkogrupo">
+                                    Sempre atentos as últimas novidades sobre programas, práticas e tendências de mercado, garantindo a eficiência no processo de operacionalização. Contamos com profissionais especializados, dedicados a oferecer as melhores opções nos diversos segmentos que atuamos, sempre com uma solução adequada à necessidade do cliente, seja pessoa física, jurídica ou entidade de classe.
+                                </p>
+                                <p>
+                                    Na implantação dos benefícios, utilizamos modernas ferramentas desenvolvidas por nossa empresa, que garantem a consistência dos parâmetros negociados nos contratos.
+                                </p>
+
+                            </div>
+                            <div class="column small-5 large-5">
+                                <p>
+
+                                    <img class="img-institucional" src="src/Content/images/img_institucional.png" />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="content contrate-aba" id="unigeia">
+                        <!-- @*<img src="src/Content/images/unigeia.png" style="" alt="">*@ -->
+                        <hr>
+                        <h3>Unigéia</h3>
+                        <div class="text">
+                            <p class="text-justify">
+                                A Unigéia – Universidade Grupo Géia, foi criada em 2009. Visa a formação e desenvolvimento dos profissionais diretos e indiretos que prestam serviços ao Grupo Géia.
+                                É um espaço de informação, formação e eventos institucionais, agregando ainda, a atuação na área socioambiental.
+                            </p>
+                            <p style=""></p>
+                            <div class="row" style="padding-left: 15px; padding-right: 15px;">
+                                <div class="large-12">
+                                    <p><b class="subheader-text">CURSOS E TREINAMENTOS</b></p>
+
+                                    <ul class="">
+                                        <li>Atendimento ao cliente.</li>
+                                        <li>Formação de líderes.</li>
+                                        <li>Planejamento de orçamento pessoal.</li>
+                                        <li>Comunicação.</li>
+                                        <li>Estratégias de venda.</li>
+                                        <li>Leis e RN, em conformidade com a ANS.</li>
+                                        <li>Mercado de saúde.</li>
+                                        <li>Gerenciamento de casos crônicos.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content contrate-aba" id="saudegeia">
+                        <img src="src/Content/images/saude-geia.png" style="" alt=""><h3>Saúde Géia</h3>
+                        <div class="text">
+                            <div class="large-10">
+                                <p>A saúde do beneficiário é foco da atenção do GRUPO GÉIA, o qual realiza acompanhamento, atividades e programas de saúde, em parceria com as operadoras de saúde.</p>
+                                <!-- <p><b>PROGRAMA DE GERENCIAMENTO DE SAÚDE:</b></p> -->
+
+                                <p><b class="subheader-text">PROGRAMA DE GERENCIAMENTO DE SAÚDE</b></p>
+                                <p>Elaboramos análise personalizada para os colaboradores e seus dependentes, utilizando modernas práticas de gestão, existentes no mercado.</p>
+                                <p class=""><b class="subheader-text">Entre as ferramentas disponíveis, podemos destacar:</b></p>
+                                <div class="row" style="padding-left: 15px; padding-right: 15px;">
+                                    <!-- <div class="columm large-4" style="float: left;"><p>•</p></div> -->
+
+
+                                    <ul class="">
+                                        <li>Gerenciamento de pacientes crônicos;</li>
+                                        <li>Assistência domiciliar;</li>
+                                        <li>Programa de imunização;</li>
+                                        <li>Saúde da mulher;</li>
+                                        <li>Programa de qualidade de vida;</li>
+                                        <li>Estação saúde;</li>
+                                        <li>Introdução e acompanhamento de atividades físicas.</li>
+                                    </ul>
+
+                                </div>
+                                <!-- <p><b>GERENCIAMENTO DE RISCOS.</b></p> -->
+                                <p class="text-center"><b class="subheader-text">GERENCIAMENTO DE RISCOS</b></p>
+                                <p class="text-center">Gerencia a relação custo – benefício inicialmente contratada.</p>
+                                <p class="text-justify panel clearfix">
+                                    Alia-se à prevenção de doenças, promoção da saúde e a qualidade de vida dos funcionários ou associados e seus dependentes.
+                                    Analisamos a utilização do plano de saúde em detalhes, tomando ações proativas para minimizar índices de internações hospitalares e atendimentos ambulatoriais, proporcionando uma melhoria na qualidade de vida dos beneficiários e nos resultados do contrato.
+                                    Campanhas de imunização, controles de obesidade, programas de prevenção à saúde, prevenção de acidentes de trabalho, saúde ocupacional e gerenciamento de casos crônicos, estão entre as ações previstas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="content contrate-aba" id="sustentabilidade">
+                        <img src="src/Content/images/sustentabilidade.png" style="  float: left;height: 180px;margin-top: -10px;margin-right: 10px; border-radius: 50%; width: auto; /*border: 4px solid #3E6880;*/" alt=""><h3>Sustentabilidade</h3>
+                        <div class="text">
+                            <p>Nossa equipe contribui para a melhoria do meio ambiente através de práticas diárias de sustentação, como:</p>
+                            <p>Substituição de copos descartáveis por canecas do grupo desde 2009; separação do lixo para reciclagem, desde 2014, bem como ações de reutilização da água de chuva, dentre outras práticas sustentáveis.</p>
+                        </div>
+                    </div> -->
+
+                    <div class="content content-padding-top-two contrate-aba" id="socioambiental">
+                        <!-- @*<img src="src/Content/images/socioambiental.png" style="" alt="">*@ -->
+
+                        <hr>
+                        <h3>O Grupo</h3>
+                        <div class="text">
+                            <div class="large-12">
+                                <!-- <p><b>SOCIAL:</b></p> -->
+                                <p><b class="subheader-text">SOCIAL</b></p>
+                                <p>
+                                    O cuidado com a preservação do meio ambiente e a melhoria na qualidade de vida das pessoas é objeto de atenção do Grupo Géia e de seus colaboradores.
+                                    Com um olhar, que vai além das responsabilidades com a gestão dos contratos de nossos clientes, estendemos nossa atenção às necessidades da comunidade.
+                                    Em julho de 2008 iniciamos o projeto de “Olho no Futuro”, com a proposta de proporcionar a inclusão digital para melhoria da qualidade de vida das crianças e adolescentes carentes, assistidos pela paróquia de Santa Cecília.
+                                    Nosso projeto, além de permitir o acesso à tecnologia, entende que a inclusão digital significa, antes de tudo, melhorar as condições de vida de uma comunidade, através desta tecnologia.
+                                </p>
+                                <p>
+                                    O Grupo Géia acredita que para isso não basta colocar o computador disponível, é preciso ensiná-las a utilizá-lo em benefício próprio e coletivo, buscar a profissionalização e espaço no mercado de trabalho, conscientizá-la a respeito do uso adequado, introduzindo a inclusão social, a partir da digital.
+                                    Nossa empresa mantém uma sala de informática na Casa de São José, mantida pela paróquia de Santa Cecília, sendo responsável pela instalação e manutenção das máquinas e de profissional, que além de oferecer acesso à internet para viabilizar pesquisas escolares, orienta a forma segura e adequada para o uso da ferramenta, proporcionando diversos cursos que os guiem de forma interativa e criativa, afim de buscar soluções práticas.
+                                    Atendemos cerca de 240 crianças entre 6 e 15 anos, sendo que todos os participantes com frequência mínima de 75% das aulas e com notas acima de 7 pontos recebem certificado de conclusão, na formatura, que ocorre ao final de cada ano.
+                                </p>
+                                <p><br /><b class="subheader-text">AMBIENTAL / SUSTENTABILIDADE</b></p>
+                                <p>Nossa equipe contribui para a melhoria do meio ambiente, através de práticas diárias de sustentação, como:</p>
+                                <ul>
+                                    <li>Substituição de copos descartáveis por canecas do grupo desde 2009.</li>
+                                    <li>Separação do lixo para reciclagem, desde 2012.</li>
+                                    <li> Ações de reutilização da água de chuva, dentre outras práticas sustentáveis.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <style>
+                            .sust p {
+                                margin-bottom: 5px;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contrate">
+            <div id="simule-seu-plano-de-saude">
+                <div class="row">
+                    <div class="column large-11 large-centered">
+                        <div class="chamada">
+                            <div class="text">
+                                Simule seu<strong><br />plano de saúde</strong>
+                            </div>
+                            <p>Preencha os dados para cotar. É rápido, simples e seguro!</p>
+                        </div>
+                        <form id="formulario-border" class="formulario-border">
+                            <div class="formulario column large-12 formDados">
+                                <div class="row chamada">
+                                    <div class="small-12 large-12 text">
+                                        <a class="closeCotacao" aria-label="Close">×</a>Simule seu <strong>plano de saúde</strong> <span>Preencha os dados para solicitar. É rápido, simples e seguro!</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="passo1" class="columns wide">
+                                        <div class="row">
+                                            <div class="alteracoluna columns wide">
+                                                <label for="">Nome Completo</label>
+                                                <input type="text" name="txtNome" id="txtNome" onfocus="clearField(this);" required pattern="[a-zA-Z]+">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="alteracoluna colDtNascimento small-6 large-6 column">
+                                                <label id="txtNumberOnly" for="">Data de Nascimento</label>
+                                                <input type="text" name="txtNascimentoLead" id="txtNascimentoLead" value="" maxlength="10" size="10" placeholder="" autocomplete="off">
+                                            </div>
+                                            <div class="alteracoluna colDtProfissao small-6 large-6 column">
+                                                <div class="bottom">
+
+                                                    <label for="" style="">Profissão</label>
+                                                    <div>
+                                                      <input type="text" name="txtNascimentoLead" id="txtNascimentoLead" value="" maxlength="10" size="10" placeholder="" autocomplete="off">
+
+                                                        <!-- @Html.DropDownList("ddlProfissao", (IEnumerable<SelectListItem>)ViewBag.Profissao, "", new { @class = "form-control" }) -->
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="alteracoluna" id="simuleproduto">
+                                            <label for="">E-mail</label>
+                                            <input type="email" name="txtEmail" id="txtEmail" onfocus="clearField(this);" required>
+                                        </div>
+                                        <div class="alteracoluna passo2 row">
+                                            <div class="alteracoluna small-5 large-5 column">
+                                                <label for="txtTelefone">Telefone</label>
+                                                <input type="text" name="txtTelefone" id="txtTelefone" onfocus="clearField(this);" class="" required>
+                                            </div>
+                                            <div class="alteracoluna small-7 large-7 column">
+                                                <div class="column small-4 large-4">
+                                                    <label for="Estado">UF</label>
+                                                    <div>
+
+                                                        <!-- @Html.DropDownList("Estado", (IEnumerable<SelectListItem>)ViewBag.Estado, "", new { @class = "form-control" }) -->
+
+                                                    </div>
+                                                </div>
+                                                <div class="column small-8 large-8">
+                                                    <label for="Município">
+                                                        Município
+                                                    </label>
+                                                    <select name="Municipio" id="Municipio" placeholder="Município" class="form-control" disabled></select>
+                                                </div>
+                                            </div>
+                                            <div class="alteracoluna passo2 row">
+                                                <div class=" small-12 large-12 column">
+                                                    <span id="lblError3" style="color: #E24F2D; display: none">Email inválido.</span>
+                                                    <span id="lblError1" style="color: #E24F2D; bottom: 8px; display: none">Todos os campos devem <br />ser preenchidos corretamente.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Fim coluna 1 formlário -->
+                                    <!-- Inicio coluna 2 formlário Dependente -->
+
+                                    <div id="passo2" class="small-6 large-6 columns">
+                                        <div id="osDepentes" class="osDepentes column small-12 large-12">
+                                            <div class="row">
+                                                <div class="column small-12 large-12">
+                                                    <h4 class="title-chamada">Possui dependentes?</h4>
+                                                    <p>Caso possua, preencha a data de nascimento abaixo</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="small-1 large-1 column depententeLabel">
+                                                    <label for="Dependente"></label>
+                                                </div>
+                                                <div class="small-11 large-11 column depententeLabel">
+                                                    <label for="Dependente">Dependente</label>
+                                                </div>
+                                            </div>
+
+                                            <div id="depAdicionados" class="row">
+                                                <div class="row dataDependente dep0">
+                                                    <div class="column small-1 large-1 torso">
+                                                        <i class="fi-torso"></i>
+                                                    </div>
+                                                    <div class="column small-10 large-10">
+                                                        <div style="max-width:200px;">
+                                                            <input type="text" class="span2" id="depId0" name="dtNascDep[]">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column small-5 large-5 left ">
+
+                                                    </div>
+
+                                                </div>
+                                                <div id="d1" class="row dataDependente dep1">
+                                                    <div class="column small-1 large-1 torso">
+                                                        <i class="fi-torso"></i>
+                                                    </div>
+                                                    <div class="column small-10 large-10">
+                                                        <div style="max-width:200px;">
+                                                            <input type="text" class="span2" id="depId1" name="dtNascDep[]">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column small-5 large-5 left ">
+
+                                                    </div>
+
+                                                </div>
+                                                <div id="d2" class="row dataDependente dep2">
+                                                    <div class="column small-1 large-1 torso">
+                                                        <i class="fi-torso"></i>
+                                                    </div>
+                                                    <div class="column small-10 large-10">
+                                                        <div style="max-width:200px;">
+                                                            <input type="text" class="span2" id="depId2" name="dtNascDep[]">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column small-5 large-5 left ">
+
+                                                    </div>
+                                                </div>
+                                                <div id="d3" class="row dataDependente dep3">
+                                                    <div class="column small-1 large-1 torso">
+                                                        <i class="fi-torso"></i>
+                                                    </div>
+                                                    <div class="column small-10 large-10">
+                                                        <div style="max-width:200px;">
+                                                            <input type="text" class="span2" id="depId3" name="dtNascDep[]">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column small-5 large-5 left ">
+
+                                                    </div>
+                                                </div>
+                                                <div id="d4" class="row dataDependente dep4">
+                                                    <div class="column small-1 large-1 torso">
+                                                        <i class="fi-torso"></i>
+                                                    </div>
+                                                    <div class="column small-10 large-10">
+                                                        <div style="max-width:200px;">
+                                                            <input type="text" class="span2" id="depId4" name="dtNascDep[]">
+                                                        </div>
+                                                    </div>
+                                                    <div class="column small-5 large-5 left ">
+
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="column column small-7 large-7">
+                                                    <div class="collapse date adDepDiv" id="dpMonths" data-date-format="mm/yyyy" data-start-view="year" data-min-view="year">
+                                                        <a id="adDep" class="button radius left adDep">Adicionar dependente <i class="fi-plus"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="column column small-2 large-2">
+                                                    <div class="collapse date adDepDiv" id="dpMonths" data-date-format="mm/yyyy" data-start-view="year" data-min-view="year">
+                                                        <a id="removeDep" class="button radius left adDep"><i class="fi-minus"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="column column small-3 large-3">
+
+                                                    <a href="javascript:void(0);" class="solicitar button round" onclick="CadastroPotencialLead();" style="margin-bottom: 15px;">Solicitar</a>
+
+                                                </div>
+
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                    <!--                                 Fim coluna 2 formlário Dependente -->
+                                    <!--LODAING-->
+
+                                    <div class="windows8">
+                                        <div class="wBall" id="wBall_1">
+                                            <div class="wInnerBall"></div>
+                                        </div>
+                                        <div class="wBall" id="wBall_2">
+                                            <div class="wInnerBall"></div>
+                                        </div>
+                                        <div class="wBall" id="wBall_3">
+                                            <div class="wInnerBall"></div>
+                                        </div>
+                                        <div class="wBall" id="wBall_4">
+                                            <div class="wInnerBall"></div>
+                                        </div>
+                                        <div class="wBall" id="wBall_5">
+                                            <div class="wInnerBall"></div>
+                                        </div>
+                                    </div>
+
+                                    <!--LODAING-->
+                                </div>
+                                <div class="row">
+                                    <!-- <div class="small-9 large-9 column">
+                                        <p id="erroPasso1" class="left"></p>
+                                    </div> -->
+                                    <a href="javascript:void(0);"  class="avancar button round verdegeia button-fullwidth-avancar">
+                                        <span><div>Avançar</div></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="blog" class="clearfix">
+            <div class="row text-left">
+                <hr>
+                <h3 id="titspacosaude">espaço saúde</h3>
+                <p class="subtitle">Aqui mantemos você atualizado com notícias e dicas de saúde!</p>
+            </div>
+            <div id="postfigure" class="row">
+                <div class="small-4 large-4 columns postimage">
+                    <a href="http://saudegeia.com.br#post-8831">
+                        <figure>
+                            <img src="src/Content/images/dia-mundial-rim.jpg" />
+                            <h5 class="h4title text-center">
+                                <div class="datePost">09 de março</div>
+                                <div>Dia Mundial do Rim</div>
+                            </h5>
+                        </figure>
+                    </a>
+                    <p>
+                        Neste dia são realizadas ações em todo o mundo com objetivo de divulgar
+                        as informações relacionadas à prevenção das doenças renais.
+                    </p>
+                    <a href="http://saudegeia.com.br#post-8742" class="button round button-fullwidth-espaco-geia">
+                        <span><div>Leia mais +</div></span>
+                    </a>
+                </div>
+                <div class="small-4 large-4 columns postimage">
+                    <a href="http://saudegeia.com.br#post-8742">
+                        <figure>
+
+                            <img src="src/Content/images/mulher.jpg" />
+                            <h5 class="h4title text-center">
+                                <div class="datePost">08 de março</div>
+                                <div>dia Internacional da Mulher</div>
+                            </h5>
+                        </figure>
+                    </a>
+                    <p>
+                        Empoderamento feminino é o ato de conceder o poder de participação social às mulheres,
+                        garantindo que seus sonhos se concretizem ...
+                    </p>
+
+                    <a href="http://saudegeia.com.br#post-8742" class="button round verdegeia button-fullwidth">
+                        <span><div>Leia mais +</div></span>
+                    </a>
+                </div>
+                <div class="small-4 large-4 columns postimage">
+                    <a href="http://saudegeia.com.br#post-8701">
+                        <figure class="">
+
+                            <img src="src/Content/images/water.jpg" />
+                            <h5 class="h4title text-center">
+                                <div class="datePost">22 de março</div>
+                                <div>Dia Mundial da Água</div>
+                            </h5>
+                        </figure>
+                    </a>
+                    <p>
+                        Esta data foi criada com o objetivo de alertar a população
+                        internacional sobre a importância da preservação da água para
+                        ...
+                    </p>
+
+                    <a href="http://saudegeia.com.br#post-8742" class="button round verdegeia button-fullwidth">
+                        <span><div>Leia mais +</div></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+            <div id="localizacao">
+
+                <div id="map_canvas"></div>
+                <div id="bg_contato"></div>
+                <div class="localizacao-content">
+                    <div class="row wide">
+                        <div class="column small-6 large-6 text">
+                            <hr />
+                            <h3>Contato</h3>
+                        </div>
+                        <div class="column small-6 large-6 text">
+
+                        </div>
+                    </div>
+                    <div class="row" id="contato">
+                        <div class="column  small-6 large-6  contato">
+
+
+                            <p class="endereco"><img src="src/Content/images/ICON_MAPS.png" alt="" class="ico"> Rua Traipú, 125 <span class="menuBotDiv">|</span> Pacaembu  <span class="menuBotDiv">|</span> São Paulo - SP <span class="menuBotDiv">|</span> CEP: 01235-000</p>
+                            <p class="telColor"><a class="email" href="mailto:contato@geia.com.br?subject=Contato"> <i class="fi-mail"></i> <span>contato@geia.com.br<span class="space25"></span></span></a>  <i class="fi-telephone left"></i>11 3660.2000  </p>
+                            <div class="column small-11 large-11  column-name">
+                                <div class="row wide">
+                                    <div class="column small-2 large-2 text removPaddingDir">
+                                        <label id="lc1">NOME</label>
+                                    </div>
+                                    <div class="column small-10 large-10 text removPaddingEsq">
+                                        <input type="text" name="cntNome" class="wide" id="cntNome" onfocus="clearField(this);" placeholder=" ">
+                                    </div>
+                                </div>
+                                <div class="row wide">
+                                    <div class="column small-3 large-3 text removPaddingDir">
+                                        <label id="lc2">E-MAIL</label>
+                                    </div>
+                                    <div class="column small-9 large-9 text removPaddingEsq">
+                                        <input type="text" name="cntEmail" id="cntEmail" onfocus="clearField(this);" placeholder=" ">
+                                    </div>
+                                </div>
+                                <div class="row wide">
+                                    <div class="column small-3 large-3 text removPaddingDir">
+                                        <label id="lc2">TELEFONE</label>
+                                    </div>
+                                    <div class="column small-9 large-9 text removPaddingEsq">
+                                        <input type="text" name="cntFone" id="cntFone" placeholder="" class="foneMask">
+                                    </div>
+                                </div>
+                                <div class="row wide">
+                                    <div class="column small-4 large-4 text removPaddingDir">
+                                        <label id="lc2">MENSAGEM</label>
+                                    </div>
+                                    <div class="column small-8 large-8 text removPaddingEsq">
+                                        <textarea name="cntMensagem" id="cntMensagem" onfocus="clearField(this);" cols="30" rows="5"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row wide">
+                                    <div class="column small-4 large-4 text removPaddingDir">
+
+                                    </div>
+                                    <div class="column small-8 large-8 text removPaddingEsq">
+                                        <a id="EnviarMenssagemPortal" class="btn blue-new right small-9 large-9 text-center button-fullwidth-contato" onclick="EnviarMenssagemPortal()">
+                                            <span>
+                                                <div>Enviar </div>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row wide">
+                                <div class="column small-1 large-1 text removPaddingDir">
+
+                                </div>
+                                <div class="column small-8 large-8 text removPaddingEsq">
+
+                                </div>
+                            </div>
+                            <div class="column large-12">
+                                <!--#########-->
+                                <!-- @*<a id="EnviarMenssagemPortal" class="btn grey right" style="padding: 1px 30px; " onclick="EnviarMenssagemPortal()"> -->
+
+                            <!-- <div class="small-8">
+                                Enviar
+                            </div> -->
+                        </a>
+                                <div class="sk-circle small-4">
+                                    <div class="sk-circle1 sk-child"></div>
+                                    <div class="sk-circle2 sk-child"></div>
+                                    <div class="sk-circle3 sk-child"></div>
+                                    <div class="sk-circle4 sk-child"></div>
+                                    <div class="sk-circle5 sk-child"></div>
+                                    <div class="sk-circle6 sk-child"></div>
+                                    <div class="sk-circle7 sk-child"></div>
+                                    <div class="sk-circle8 sk-child"></div>
+                                    <div class="sk-circle9 sk-child"></div>
+                                    <div class="sk-circle10 sk-child"></div>
+                                    <div class="sk-circle11 sk-child"></div>
+                                    <div class="sk-circle12 sk-child"></div>
+                                </div>
+                                <div id="contatoErro" style="color:red;display:none">Todos os campos devem ser preenchidos.</div>
+                            </div>
+
+                        </div>
+                        <div class="column small-6 large-6">
+
+                            <img src="src/Content/images/img_contato.png">
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div id="footer" class="row">
+                  <div class="row wide">
+                      <div class="column small-12 large-12 small-centered large-centered">
+                             <div class="row wide center">
+                                  <div class="column small-7 large-7 small-centered large-centered text-center">
+                                         <div class="column small-2 large-2"><img src="src/Content/images/logo-cinza.png" style="margin-bottom:15px;" alt="" /></div>
+                                         <div class="column small-10 large-10">
+                                           <div class="column small-12 large-12 navbar-footer">
+                                               <a href="#linkogrupo" id="bntempresa" class="aba-grupo">O Grupo Géia</a>  <span>|</span>
+                                               <a href="#simuleproduto" class="aba-produto">Produtos</a>  <span>|</span>
+                                               <a href="#blog" class="espaco-saude">Espaço Saúde</a> <span>|</span>
+                                               <a href="#localizacao" class="espaco-saude">Contato</a>  <span>|</span>
+                                               <a class="bot-ouvidoria" href="#footer">Ouvidoria</a>
+                                           </div>
+
+                                           <div class='bgtransp'></div>
+                                           <div class='bgtranspCotacao'></div>
+
+                                           <div id="ouvidoria">
+                                               <img class="close" src="src/Content/images/close.png">
+                                               <table>
+                                                   <tr>
+
+                                                       <td width="63" height="95" align="right" valign="middle" bgcolor="#3f6083"><img src="src/Content/images/icone_ouvidoria.png" width="44" height="57" /></td>
+
+                                                       <td width="276" align="left" valign="middle" bgcolor="#3f6083">
+
+                                                           <!--<form action="http://novowebplangeia.facilinformatica.com.br/GuiasTISS/Logon" target="_blank" method="post" name="validacao" class="style_form">-->
+                                                           <!--<form action="http://novowebplangeia.facilinformatica.com.br" target="_blank" method="post" name="form" class="style_form">-->
+                                                           &nbsp;&nbsp; <a href="#scliente" onclick="$('#divMostraCampo').show();"><strong>Sou Cliente</strong></a>
+
+                                                           <a name="scliente"></a>
+                                                           <div id="divMostraCampo" style="display: none; margin-top: 10px;margin-right:15px; color:#fff;">
+                                                               &nbsp;&nbsp;Insira seu CPF:
+                                                               <br />
+                                                               &nbsp;&nbsp;<input type="text" id="username" /><input type="button" value="Acessar" onclick="doLogon();" />
+                                                           </div>
+                                                           <div>
+                                                               <form>
+                                                                   &nbsp;&nbsp;<input type="hidden" name="inputData" />
+                                                               </form>
+                                                           </div>
+
+                                                           &nbsp;&nbsp;<a href="http://novowebplangeia.facilinformatica.com.br/Ouvidoria/Viewregistronaoautenticado" class="" target="_blank"> Não sou cliente</a><br />
+                                                           &nbsp;&nbsp;<a href="http://novowebplangeia.facilinformatica.com.br/Ouvidoria/Viewconsultanaoautenticada" class="text-color:white;a.hover:white" target="_blank"> Consulta de Protocolo</a><br />
+
+
+
+                                                       </td>
+                                                   </tr>
+                                               </table>
+                                           </div>
+                                       </div>
+                                  </div>
+                             </div> <!-- end menu footer -->
+                             <div class="row wide">
+
+                               <div class="column large-4 small-4">
+
+                               </div>
+                               <div class="column large-12 small-12" style="border-top:1px solid #c4c4c4">
+                                  <div class="row wide">
+                                    <div class="column large-2 small-2">
+                                      <a href="http://ans.gov.br/">
+                                          <div style="float: left; padding-top: 10px;">
+                                              <div class="ans-img" style="margin-top:10px; width: 140px; height: 46px"></div>
+                                          </div>
+                                      </a>
+                                    </div>
+                                    <div class="column large-10 small-10">
+                                         <img src="src/Content/images/footer2.jpg" style="margin-top:10px;" alt="">
+                                    </div>
+
+                                  </div>
+
+
+
+                               </div>
+
+                             </div>
+                      </div>
+
+                  </div>
+
+
+                </div>
+            </footer>
+            <div id="mdlCPF" class="reveal-modal contrate column large-6 open" data-reveal="" aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="visibility:visible;top: 100px;border-radius:10px;" data-options="closeOnBackgroundClick:false">
+                <a href="javascript:void(0);" style="display:block;height:15px;"><i class="fa fa-times" style="float: right;cursor:pointer" onclick="$('.reveal-modal-bg').fadeOut(); $('#mdlCPF').fadeOut();"></i></a>
+                <h2 style="position: relative;float: none;  padding: 0px; margin: 0px;  color: #3f6083;font: italic 26.85px/22.469px 'Open Sans';">Segunda via de boletos</h2>
+                <br>
+                <p>Preencha seu <b id="cpfVar">CPF</b> abaixo para gerar o boleto de seu plano de saúde e acessar seu informe de imposto de renda.</p>
+                <input type="text" class="" name="txtCPFBoleto" placeholder="CPF" value="" style="border-bottom: 1px solid black !important;border-left: 1px solid black !important;">
+                <a href="javacript:void(0);" class="btn dark" style="width: 100px; float: right;margin-right: -5px;">Entrar</a>
+            </div>
+
+            <div id="mdlPessoaFisica" class="reveal-modal contrate column large-6 open" style="max-height: 510px; visibility:visible; overflow: auto; position:fixed; top: 100px;width:600px" data-reveal="" aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                <h3 class="pfisica-title">Olá </h3>
+                <p class="lead">Por favor, complete as informações para que possamos oferecer a você um excelente plano de saúde.</p>
+                <div class="bottom">
+                    <label for="">Data de Nascimento</label>
+                    <input type="text" class="large-3 fdatepicker" name="Nascimento" id="dtNascimento" value="" placeholder="" autocomplete="off">
+                    <input type="text" class="large-8" name="Profissao" id="dtProfissao" value="" placeholder="Profissão">
+                    <label for="" style="">Profissão</label>
+                    <select class="large-8" name="Profissao" id="dtProfissao"></select>
+
+                </div>
+                <div id="lblError2" style="color:red;display:none">Todos os campos devem ser preenchidos.</div>
+                <div id="lblErrorDataNasc" style="color:red;display:none">A data de nascimento está inválida.</div>
+                <div class="dependente">
+                    <p class="lead">Caso possua dependente, por favor, insira a data de nascimento</p>
+                    <div class="campos">
+                        <label for="">Data de Nascimento</label>
+                        <input type="hidden" name="idadeDep" id="idadeDep" value="" />
+                        <input type="text" class="nDep dtNasc" name="Nascimento_1" id="dtNascimento_1" value="" placeholder="" autocomplete="off">
+                    </div>
+                    <a href="javascript:void(0);" onclick="addDependente();" style="margin: 15px 0px;display: block;"><i class="fa fa-plus-circle"></i> adicionar mais um dependente</a>
+                </div>
+                <a id="closeModal" class="close-reveal-modal closeCotacao" aria-label="Close">×</a>
+                <a href="javascript:void(0)" class="btn btn-continuar" onclick='continuarFisica();' style="margin-bottom: 5px;">Continuar</a>
+            </div>
+
+            <div id="mdlPessoaJuridica" class="reveal-modal contrate column large-6 open" data-reveal="" aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="width: 580px; opacity: 1; visibility: visible; top: 900px;">
+                <h3 class="pfisica-title">Olá </h3>
+                <p class="lead">Por favor, complete as informações para que possamos oferecer um excelente plano de saúde de acordo com o perfil da sua empresa.</p>
+                <input type="text" class="large-8" name="Empresa" id="dtNomeEmpresa" value="" placeholder="Nome da empresa">
+                <div class="funcionarios" style="overflow: hidden;">
+                    <div class="column large-6">
+                        Vidas entre 00 e 18 anos <input type="text" name="0_1" value="" placeholder=""><br>
+                        Vidas entre 18 e 23 anos <input type="text" name="0_2" value="" placeholder=""><br>
+                        Vidas entre 24 e 28 anos <input type="text" name="0_3" value="" placeholder=""><br>
+                        Vidas entre 29 e 33 anos <input type="text" name="0_4" value="" placeholder=""><br>
+                        Vidas entre 34 e 38 anos <input type="text" name="0_5" value="" placeholder=""><br>
+                    </div>
+                    <div class="column large-6">
+                        Vidas entre 39 e 43 anos <input type="text" name="0_6" value="" placeholder=""><br>
+                        Vidas entre 44 e 48 anos <input type="text" name="0_7" value="" placeholder=""><br>
+                        Vidas entre 49 e 53 anos <input type="text" name="0_8" value="" placeholder=""><br>
+                        Vidas entre 54 e 58 anos <input type="text" name="0_9" value="" placeholder=""><br>
+                        acima de 59 <input type="text" name="0_0" value="" placeholder="">
+                    </div>
+                </div>
+                <a class="close-reveal-modal closeCotacao" aria-label="Close">×</a>
+                <a href="javascript:void(0)" class="btn btn-continuar" onclick="$('#mdlPessoaJuridica').hide(); $('#mdlConcluido').foundation('reveal', 'open'); $('#mdlConcluido').fadeIn();">Continuar</a>
+            </div>
+
+            <div id="mdlConcluido" class="reveal-modal contrate column large-6 open" data-reveal="" aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="width:400px;opacity: 1; visibility: visible; position:fixed; top: 100px;">
+                <h3 class="pfisica-title">,</h3>
+                <p class="lead">Obrigado por realizar contato conosco, em breve um de nossos representantes  irá contatá-lo.</p>
+                <div class="text-center"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></div>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <div id="mdlEnviar" class="reveal-modal contrate column large-6 open" data-reveal="" aria-labelledby="modalTitle" aria-hidden="true" role="dialog" style="width:400px;opacity: 1; visibility: visible; position:fixed; top: 100px;">
+                <!-- <h3 class="pfisica-title">,</h3> -->
+                <p class="lead">Obrigado por entrar em contato. Em breve um de nossos representantes  irá contatá-lo.</p>
+                <div class="text-center"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></div>
+                <br>
+                <br>
+                <br>
+                <a class="close-reveal-modal closeCotacao" aria-label="Close">×</a>
+            </div>
+
+            <div class="reveal-modal-bg" onclick="$(body).css('overflow','auto'); $('.reveal-modal-bg').fadeOut(); $('.reveal-modal').fadeOut();" style="position:fixed;cursor:pointer"></div>
+
+            <!-- Triggers the modals -->
+            <!-- Reveal Modals begin -->
+
+
+
+
+            <div id="videoModal" class="reveal-modal large" data-reveal aria-labelledby="videoModalTitle" aria-hidden="true" role="dialog">
+                <h2 id="videoModalTitle">This modal has video</h2>
+                <div class="flex-video widescreen vimeo">
+                    <iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/wnXCopXXblE?rel=0" frameborder="0"></iframe>
+                </div>
+
+                <a class="close-reveal-modal closeCotacao" aria-label="Close">&#215;</a>
+            </div>
+            <!-- Reveal Modals end -->
+
+            <div class="voltar text-center">
+                <a href="#slider">
+                    <div><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+
+                    <!-- <div>
+                        <span>@*voltar*@</span>
+                    </div> -->
+                </a>
+            </div>
+
+
+            <style>
+                #contrate .tabs ul li a {
+                    /*padding: 13px 40px;*/
+                    padding: 13px 60px;
+                }
+
+                .lista-comun {
+                    font-size: 13px;
+                }
+
+                #contrate label {
+                    line-height: 1;
+                }
+
+                #contrate input {
+                    /*border: 0px solid white;
+                                border-bottom: 1px solid #aaa;
+                                box-shadow: 0 0 0;
+                                font-size: 13px;
+                                background-color: white;*/
+                    /*background-image: url('/src/Content/img/input-bg.jpg');*/
+                    /*background-repeat: no-repeat;*/
+                    /*background-position-y: 27px;*/
+                    padding-left: 15px;
+                    margin-bottom: 11px;
+                }
+            </style>
+
+
+
+            <script>
+
+
+
+                var slider_playing = true;
+
+                $(document).ready(function () {
+
+                    $('body').on('click', '.close-reveal-modal', function () {
+                        $('.reveal-modal-bg').fadeOut(function () {
+                            $("input[type=text], textarea, email").val(" ");
+                            $("#txtEmail").val(" ");
+                            $("#lblError3").hide("fast");
+                            $(".formulario .column").css({ opacity: 1 }, "fast");
+                        });
+                    });
+
+                    setTimeout(function () {
+                        $('.dot').click(function () {
+                            var obj = $(this);
+                            var target = $('#' + obj.attr('action'));
+                            var targName = obj.attr('action').replace('hs', '');
+                            $('.dot,.home-slider').removeClass('active');
+                            obj.addClass('active');
+                            target.addClass('active');
+
+                            $('.slider').css('background-image', 'url("src/Content/images/slider-' + targName + '.jpg")');
+                        });
+                    });
+                    function carrossel() {
+                        if (slider_playing) {
+                            var active_dot = parseInt($(".dot.active").attr("action").replace("hs", ""));
+                            var next_dot = active_dot;
+                            if (active_dot != $(".dot").length) {
+                                next_dot++;
+                            } else {
+                                next_dot = 1;
+                            }
+                            var obj = $(".dot[action='hs" + next_dot + "']");
+                            var target = $('#' + obj.attr('action'));
+                            var targName = obj.attr('action').replace('hs', '');
+                            $('.dot,.home-slider').removeClass('active');
+                            obj.addClass('active');
+                            target.addClass('active');
+
+                            $('.slider').css('background-image', 'url("src/Content/images/slider-' + targName + '.jpg")');
+                        }
+                    }
+
+
+
+                    (function () {
+                        setInterval(carrossel, 18000);
+
+                        $("#slider").hover(
+                          function () {
+                              slider_playing = false;
+                          }, function () {
+                              slider_playing = true;
+                          }
+                        );
+                    })();
+                });
+            </script>
+            <script>
+                $(document).foundation();
+
+                $(document).ready(function () {
+                    $(window).unload(function () {
+                        $("#selectEstados option").remove();
+                        $('#selectEstados').trigger("chosen:updated");
+                    });
+                    $('body').find('input[id^="dtNascimento"]').inputmask("dd/mm/yyyy", { "placeholder": "", "clearIncomplete": true });
+
+                    $.ajax({
+                        url: '/Home/Profissoes',
+                        type: 'POST',
+                        success: function (data) {
+                            $('#dtProfissao').html('<option value="">Escolha sua Profissão</option>');
+                            $.each(data, function (index, item) {
+                                $('#dtProfissao').append(
+                                     $('<option></option>').val(item.ID_Profissao).html(item.Profissao)
+                                 );
+                            });
+                        }
+                    });
+                    function vazio(x) {
+                        if (x == null || x == "") {
+                            return true;
+                        }
+                        else {
+                            return false;
+                        }
+                    }
+                    $("#teste4").click(function () {
+                        var nome = $('#cntNome').val();
+                        var email = $('#cntEmail').val();
+                        var telefone = $('#cntFone').val();
+                        var endereco = $('#cntEndereco').val();
+                        var estado = $('#selectEstadosC').val();
+                        var cidade = $('#selectCidadeC').val();
+                        var assunto = $('#selectAssunto').val();
+                        var mensagem = $('#cntMensagem').val();
+
+                        if (vazio(nome) || vazio(email) ||
+                            vazio(telefone) ||
+                            vazio(estado) || vazio(cidade) || vazio(assunto) || vazio(mensagem)) {
+                            $('#contatoErro').fadeIn();
+                        }
+                        else {
+                            $('#contatoErro').fadeOut();
+                            enviarEmail(nome, email, telefone, endereco, estado, cidade, assunto, mensagem);
+                            $('#mdlEnviar').foundation('reveal', 'open');
+                            $('#mdlEnviar').fadeIn();
+
+                            $('#cntNome').val("");
+                            $('#cntEmail').val("");
+                            $('#cntFone').val("");
+                            $('#cntEndereco').val("");
+                            $('#cntMensagem').val("");
+
+                            $("#selectEstadosC").val(0);
+                            $('#selectEstadosC').trigger("chosen:updated");
+
+                            $("#selectCidadeC").val(0);
+                            $('#selectCidadeC').trigger("chosen:updated");
+
+                            $("#selectAssunto").val(0);
+                            $('#selectAssunto').trigger("chosen:updated");
+                        }
+                    });
+
+                    function enviarEmail(nome, email, telefone, endereco, estado, cidade, assunto, mensagem) {
+
+                        var cliente = { Nome: nome, Email: email, Telefone: telefone, Endereco: endereco, Uf: estado, Cidade: cidade, Departamento: assunto, Mensagem: mensagem };
+
+                        var request = $.ajax({
+                            type: "POST",
+                            dataType: "json",
+                            url: "http://sendemailgeia.azurewebsites.net/Email/EnviarEmailContato/",
+                            data: cliente
+                        });
+
+                    }
+
+                    /*$('[name="selEstados"]').change(function () {
+                        var uf = $(this).val();
+                        $('[name=txtCidade] option').text('Carregando...');
+                        $.ajax({
+                            url: '/Captacao/FiltraCidades?UF=' + uf,
+                            type: 'POST',
+                            success: function (data) {
+                                $('[name=txtCidade]').html(data);
+                                $('[name=txtCidade]').removeAttr('disabled');
+                            }
+                        });
+                    });*/
+
+                    /*$('[name="selEstadosC"]').change(function () {
+                        var uf = $(this).val();
+                        $('[name=txtCidadeC] option').text('Carregando...');
+                        $.ajax({
+                            url: '/Captacao/FiltraCidades?UF=' + uf,
+                            type: 'POST',
+                            success: function (data) {
+                                $('[name=txtCidadeC]').html(data);
+                                $('[name=txtCidadeC]').removeAttr('disabled');
+                            }
+                        });
+                    });*/
+                });
+
+                // $(document).click(function(){
+                //     if($("body").css("overflow") == "hidden"){
+                //         $("body").css("overflow", "auto");
+                //     }
+                // });
+
+                $('.close-reveal-modal').click(function () {
+                    $("input[type=text], textarea, email, select").val(" ");
+                    $("#txtEmail").val(" ");
+                    $("#txtEmail").val(" ");
+                    $("#lblError3").hide("fast");
+
+                    $('.reveal-modal-bg').fadeOut();
+                    $('.reveal-modal').fadeOut();
+                    $("body").css("overflow", "auto");
+                });
+                function trocaAba(obj, target, content, link) {
+                    $('.' + link).removeClass('active');
+                    $(obj).addClass('active');
+
+                    $('.' + content).removeClass('active');
+                    $('#' + target).addClass('active');
+
+                }
+
+                $('a[href*="#"]').click(function () {
+                    var obj = $(this);
+                    var aTag = $(obj.attr('href')).offset().top;
+                    var heightFix = -50;
+
+                    $('html,body').animate({ scrollTop: aTag - heightFix }, 'slow');
+
+
+                    return false;
+                });
+
+
+                function pessoa() {
+                    if ($('#txtTelefone').val() != '' && $('#txtNome').val() != '' && $('[name=txtEmail]').val() != '' && isEmail($('[type=email]').val()) && $('[name=selEstados]').val() != '' && $('[name=txtCidade]').val() != "0") {
+                        // $('#lblError3').fadeOut();
+                        // bg Modal
+                        $('.reveal-modal-bg').fadeIn();
+                        $('.pfisica-title').text('Olá ' + $('#txtNome').val());
+                        if ($('#ckbFisica').is(':checked')) {
+                            $('#mdlPessoaFisica').fadeIn();
+                            $('body').css("overflow", "hidden");
+                        } else {
+                            $('#mdlPessoaJuridica').fadeIn();
+
+                        }
+                        $('#lblError1').fadeOut();
+                    } else {
+
+                        if ($('#txtTelefone').val() == '' || $('#txtNome').val() == '' || $('[name=txtEmail]').val() == '' || $('[name=selEstados]').val() == '' || $('[name=txtCidade]').val() == "0") {
+                            $('#lblError1').fadeIn();
+                        } else {
+                            $('#lblError1').fadeOut();
+                        }
+
+                        // if (!isEmail($('[type=email]').val())) {
+                        //     $('#lblError1').fadeIn();
+                        // } else
+                        //     $('#lblError1').fadeOut();
+                    }
+                }
+
+                function teste() {
+                    $('.reveal-modal-bg').fadeIn();
+                    $('#mdlConcluido').fadeIn();
+                }
+
+                function isEmail(email) {
+                    var regex = /^([a-zA-Z0-9_.+-])+\@@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                    return regex.test(email);
+                }
+
+                var qtdDep = 0;
+                function addDependente() {
+                    $('.campos').append('<label for="">Data de Nascimento<span class="remover-data" title="Remover">x</span></label><input type="text" class="nDep dtNasc" name="Nascimento_' + qtdDep + '" id="dtNascimento' + qtdDep + '" value="" placeholder="" />');
+                    $('body').find('input[id^="dtNascimento"]').inputmask("dd/mm/yyyy", { "placeholder": "", "clearIncomplete": true });
+                    qtdDep++;
+
+                    $('#dtNascimento' + qtdDep).focus();
+
+                    $('#mdlPessoaFisica').animate({
+                        scrollTop: $('#mdlPessoaFisica')[0].scrollHeight
+                    }, 100);
+                }
+
+                //Escopo de cadastro de cliente potencial
+                var CadastraProspect = new Object();
+                CadastraProspect.getValueDependente = function () {
+                    $('#idadeDep').html($('#dtNascimento' + window.qtdDep).text());
+                    alert($('#idadeDep').text());
+                }
+                $('#txtNascimentoLead').mask("99/99/9999");
+                $('.span2').mask("99/99/9999");
+                $('#username').mask("99999999999");
+                $('.foneMask').mask("(99) 9999-9999?9");
+                $('.dateMask').mask("99/99/9999");
+                $('.foneMask').mask("(99) 9999-9999?9");
+                $(".foneMask").on("focusout", function (event) {
+                    // var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
+
+                    // if( last.length == 3 ) {
+                    //     var move = $(this).val().substr( $(this).val().indexOf("-") - 1, 1 );
+                    //     var lastfour = move + last;
+
+                    //     var first = $(this).val().substr( 0, 9 );
+
+                    //     $(this).val( first + '-' + lastfour );
+                    // }
+
+                    var target, phone, element;
+                    target = (event.currentTarget) ? event.currentTarget : event.srcElement;
+                    phone = target.value.replace(/\D/g, '');
+                    element = $(target);
+                    element.unmask();
+                    if (phone.length > 10) {
+                        element.mask("(99) 99999-999?9");
+                    } else {
+                        element.mask("(99) 9999-9999?9");
+                    }
+                });
+
+                function validarIdades() {
+                    var valido = true;
+                    var value = $("#dtNascimento").val();
+                    if (value != "") {
+                        value = value.split("/");
+                        if (value[0] != "0" && value[0] != "00" && value[1] != "0" && value[1] != "00" && value[2] != "0" && value[2] != "00") {
+                            var data_formatada = value[1] + "/" + value[0] + "/" + value[2];
+                            var hoje = new Date();
+                            var data_nascimento = new Date(data_formatada.replace(/(\d{2})-(\d{2})-(\d{4})/, "$2/$1/$3"));
+                            var idade = hoje.getFullYear() - data_nascimento.getFullYear(); //This is the update
+
+                            if ((idade <= 0) || (idade >= 100)) {
+                                valido = false;
+                            }
+                        } else {
+                            valido = false;
+                        }
+                    } else {
+                        valido = false;
+                        return valido;
+                    }
+                    // console.log("IDADE OBRIGATORIA = " + idade, "VALIDA = " + valido);
+
+                    $(".dtNasc").each(function () {
+                        var value = $(this).val();
+                        if (value != "") {
+                            value = value.split("/");
+                            if (value[0] != "0" && value[0] != "00" && value[1] != "0" && value[1] != "00" && value[2] != "0" && value[2] != "00") {
+                                var data_formatada = value[1] + "/" + value[0] + "/" + value[2];
+                                var hoje = new Date();
+                                var data_nascimento = new Date(data_formatada.replace(/(\d{2})-(\d{2})-(\d{4})/, "$2/$1/$3"));
+                                var idade = hoje.getFullYear() - data_nascimento.getFullYear(); //This is the update
+
+                                if ((idade < 0) || (idade >= 100) || hoje <= data_nascimento) {
+                                    valido = false;
+                                }
+                            } else {
+                                valido = false;
+                            }
+                        }
+                        // console.log("IDADE = " + idade, "VALIDO = " + valido);
+                    });
+                    return valido;
+                }
+
+                var profissao = "";
+                $('#dtProfissao').change(function () {
+                    alert($(this).val());
+                    profissao = $(this).val();
+                });
+
+                function continuarFisica() {
+                    if ($('#dtNascimento').val() != '' && $('#dtProfissao').val() != '' && isEmail($('[type=email]').val())) {
+                        $('#lblError3').fadeOut();
+
+                        var data_nascimento_valida = validarIdades();
+
+                        if (data_nascimento_valida == true) {
+                            $('#lblErrorDataNasc').fadeOut();
+                            $.ajax({
+                                url: '/Home/CadastraProspect',
+                                data: { "CLI_NOME": $('#txtNome').val(), "CLI_PESSOA": "Física", "CLI_EMAIL": $('[name=txtEmail]').val(), "CLI_CIDADE": $('[name=txtCidade]').val(), "CLI_DTNASC": $('#dtNascimento').val(), "CLI_UF": $('[name=selEstados]').val(), "PRF_ID": profissao, "CLI_FONE": $('#txtTelefone').val() },
+                                type: 'POST',
+                                success: function (data) {
+                                    $('.nDep').each(function () {
+                                        var dt = $(this).val();
+
+                                        if (dt != undefined) {
+                                            var data_p = dt;
+                                            data_p = data_p.split("/");
+                                            var data_final = data_p[1] + "/" + data_p[0] + "/" + data_p[2];
+                                            dt = data_final;
+                                            console.log(dt);
+
+                                            $.ajax({
+                                                url: '/Cliente/PD/' + data,
+                                                data: { "PD_DTNASC": dt },
+                                                type: 'POST'
+                                            });
+                                        }
+                                    });
+
+                                    setTimeout(function () {
+                                        window.location = "/ContrateResultado/Success/" + data + "?p=" + $('#dtProfissao').val();
+                                    }, 1000);
+                                }
+                            });
+                        } else {
+                            $('#lblErrorDataNasc').fadeIn();
+                        }
+                    } else {
+                        $('#lblError2').fadeIn();
+                        if (!isEmail($('[type=email]').val())) {
+                            $('#lblError3').fadeIn();
+                        }
+                    }
+                }
+
+                $(document).on("click", ".remover-data", function () {
+                    $(this).parent().next().remove();
+                    $(this).parent().remove();
+                });
+            </script>
+
+            <style>
+                .chosen-container-single .chosen-single {
+                    background: white !important;
+                    border-radius: 0px !important;
+                }
+
+                a.chosen-single {
+                    color: black !important;
+                }
+
+                .large-4 a.chosen-single {
+                    width: 72px !important;
+                }
+
+                li.active-result {
+                    font-size: 12px;
+                }
+
+                input[type="text"], input[type="email"], form label {
+                    background-position: -5px 27px !important;
+                }
+
+                .remover-data {
+                    margin-left: 15px;
+                    border: 1px solid red;
+                    border-radius: 50%;
+                    text-align: center;
+                    display: inline-block;
+                    padding: 0px 6px;
+                    font-size: 13px;
+                    color: red;
+                    cursor: pointer;
+                }
+            </style>
+            <script>
+                function initMap() {
+                    var myLatLng = { lat: -23.5474819, lng: -46.6762623 };
+
+                    var map = new google.maps.Map(document.getElementById('mapaLocalizacao'), {
+                        zoom: 14,
+                        center: myLatLng
+                    });
+
+                    var marker = new google.maps.Marker({
+                        position: myLatLng,
+                        map: map,
+                        title: 'Mapa'
+                    });
+                }
+                $(document).ready(function () {
+                    //initMap();
+                    $(".aba-grupo").click(function () {
+                        console.log('asasa');
+                        trocaAba($("#grupo-link"), 'grupo-geia', 'contrate-aba', 'contrate-link')
+                    })
+                });
+            </script>
+
+            <script>
+                $('#selectEstados').chosen({ no_results_text: ":(", search_contains: true });
+                $('#selectCidade').chosen({ no_results_text: ":(", search_contains: true, placeholder_text_single: "Selecione uma UF" });
+
+                $("#selectEstados").change(function () {
+                    $('[name=txtCidade] option').text('Carregando...');
+                    $.ajax({
+                        type: "POST",
+                        url: "/Home/CidadePorEstado",
+                        data: { cd_estado: this.value },
+                        success: function (data) {
+
+                            $('[name=txtCidade]').html("");
+                            $.each(data, function (index, item) {
+                                $('[name=txtCidade]').append(
+                                     $('<option></option>').val(item.ID_CAD_CIDADE).html(item.DS_CAD_CIDADE)
+                                 );
+                            });
+                            //$.each(data, function (index, item) {
+
+                            //    $('#selectCidade').append(
+                            //         $('<option></option>').val(item.ID_CAD_CIDADE).html(item.DS_CAD_CIDADE)
+                            //     );
+                            //});
+                            $('[name=txtCidade]').removeAttr('disabled');
+                            $('#selectCidade').trigger("chosen:updated");
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            console.log(textStatus);
+                        }
+                    })
+                });
+                //$('#selectEstados').change(function () {
+                //    var uf = $(this).val();
+                //    alert(uf);
+                //    $('[name=txtCidade] option').text('Carregando...');
+                //    $.ajax({
+                //        url: '/Home/CidadePorEstado?UF=25' ,
+                //        type: 'POST',
+                //        success: function (data) {
+                //            $('[name=txtCidade]').html(data);
+                //            $('[name=txtCidade]').removeAttr('disabled');
+                //            $('#selectCidade').trigger("chosen:updated");
+                //        }
+                //    });
+                //});
+
+                $('#selectEstadosC').chosen({ no_results_text: ":(", search_contains: true });
+                $('#selectCidadeC').chosen({ no_results_text: ":(", search_contains: true, placeholder_text_single: "Selecione uma UF" });
+
+                //$('#selectEstadosC').change(function () {
+                //    var uf = $(this).val();
+                //    $('[name=txtCidadeC] option').text('Carregando...');
+                //    $.ajax({
+                //        url: '/Home/CidadePorEstado?UF=25',
+                //        type: 'POST',
+                //        success: function (data) {
+                //            $('[name=txtCidadeC]').html(data);
+                //            $('[name=txtCidadeC]').removeAttr('disabled');
+                //            $('#selectCidadeC').trigger("chosen:updated");
+                //        }
+                //    });
+                //});
+
+                $("#selectEstadosC").change(function () {
+                    $('[name=txtCidadeC] option').text('Carregando...');
+                    $.ajax({
+                        type: "POST",
+                        url: "/Home/CidadePorEstado",
+                        data: { cd_estado: this.value },
+                        success: function (data) {
+
+                            $('[name=txtCidadeC]').html("");
+                            $.each(data, function (index, item) {
+
+                                $('#selectCidadeC').append(
+                                     $('<option></option>').val(item.ID_CAD_CIDADE).html(item.DS_CAD_CIDADE)
+                                 );
+                            });
+                            $('[name=txtCidadeC]').removeAttr('disabled');
+                            $('#selectCidadeC').trigger("chosen:updated");
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            console.log(textStatus);
+                        }
+                    })
+                });
+
+                $('[name=cntAssunto]').chosen({ no_results_text: ":(", search_contains: true, placeholder_text_single: "Selecione um departamento" });
+
+                /*
+                        $('#selectEstados').change(function(){
+                            $('#selectCidade').trigger("chosen:updated");
+                            $('#selectEstados').chosen({ no_results_text: ":(", search_contains: true });
+                            $('#selectCidade').chosen({ no_results_text: ":(", search_contains: true });
+                        });
+                        $('#selectCidade').change(function(){
+                            $('#selectCidade').trigger("chosen:updated");
+                        });*/
+            </script>
+            <script>
+                function CadastroPotencialLead() {
+                    $('#lblError3').fadeOut();
+                    $('#lblError1').fadeOut();
+
+                    var Nome = AvoidSQLInjection($('#txtNome').val());
+                    var Email = AvoidSQLInjection($('#txtEmail').val());
+                    var Telefone = $('#txtTelefone').val();//.replace('(', '').replace(')', '').replace('-', '').replace(' ', '').trim();
+                    var Estado = $('#Estado').val();
+                    var Municipio = $('#Municipio option:selected').text();
+                    var NascimentoLead = $('#txtNascimentoLead').val();
+                    var Profissao = $('#ddlProfissao option:selected').text();
+                    var qtdCampos = $('input[name*="dtNascDep[]"]').length;
+                    var ArrNew = [];
+
+                    for ($i = 0; $i < qtdCampos; $i++) {
+                        ArrNew.push($('#depId' + $i).val());
+                    }
+
+                    var NascDepend = ArrNew;
+
+                    //Validacoes
+                    // Mensagem de erro validação
+                    // if (!isLetterOnly(Nome.replaceAll(' ', ''))) {
+                    // $('#lblError3').text('Nome inválido. Inserir somente letras. ');
+                    // $('#lblError3').fadeIn();
+                    // return false;
+                    // }
+                    // END***Mensagem de erro validação
+                    //if (!isNumberOnly(Telefone)) {
+                    //    $('#lblError3').text('Telefone inválido. Inserir somente números.');
+                    //    $('#lblError3').fadeIn();
+                    //    return false;
+                    //}
+                    if (Nome === '' || Email === '' || Telefone === '' || Estado === '' || Municipio === '' || NascimentoLead === '' || Profissao === '') {
+                        $('#lblError1').fadeIn();
+                        return false;
+                    }
+                    if (!isEmail(Email)) {
+                        $('#lblError3').text('Email inválido.');
+                        $('#lblError3').fadeIn();
+                        return false;
+                    }
+
+
+                    // aqui
+                    $(".windows8").show("fast", function () {
+                        $.ajax({
+                            type: "POST",
+                            url: '/Home/CadastroPotencialLead',
+                            async: false,
+                            data: { Nome: Nome, Email: Email, Telefone: Telefone, Estado: Estado, Municipio: Municipio, NascimentoLead: NascimentoLead, Profissao: Profissao, NascDepend: NascDepend },
+                            success: function (data) {
+                                $('#mdlEnviar').foundation('reveal', 'open');
+                                $('#mdlEnviar').fadeIn();
+                                $('#lblError3').text('Solicitação enviada com sucesso! Entraremos em contato o mais breve possível.').hide("fast");
+                                $('#lblError3').fadeIn();
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                $('#lblError3').text('Solicitação não enviada. Por favor, tente de novo em alguns minutos.');
+                                $('#lblError3').fadeIn();
+                            }
+                        });
+                        $(".windows8").hide("fast");
+
+                    });
+
+                }
+
+                String.prototype.replaceAll = function (search, replacement) {
+                    var target = this;
+                    return target.replace(new RegExp(search, 'g'), replacement);
+                };
+
+                function isEmail(email) {
+                    var regex = /^([a-zA-Z0-9_.+-])+\@@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                    return regex.test(email);
+                }
+
+                function isLetterOnly(text) {
+                    var regex = /^([a-zA-Z])+$/;
+                    return regex.test(text);
+                }
+
+                function isNumberOnly(text) {
+                    var regex = /^([0-9])+$/;
+                    return regex.test(text);
+                }
+
+                $("#Estado").change(function () {
+                    $('[name=Municipio] option').text('Carregando...');
+                    $.ajax({
+                        type: "POST",
+                        url: "/Home/SubCategoriaPorCategoria",
+                        data: { Estado: this.value },
+                        success: function (data) {
+                            if (data == null) {
+                                $('[name=Municipio] option').text('');
+                            }
+
+                            $('[name=Municipio]').html("");
+                            $.each(data, function (index, item) {
+                                $('[name=Municipio]').append(
+                                        $('<option></option>').val(item.Cod_Municipio).html(item.Nome)
+                                );
+                            });
+
+                            $('[name=Municipio]').removeAttr('disabled');
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            console.log(textStatus);
+                        }
+                    })
+                });
+
+            </script>
+            <script>
+                jQuery("#txtTelefone")
+                .mask("(99) 9999-9999?9")
+                .focusout(function (event) {
+                    var target, phone, element;
+                    target = (event.currentTarget) ? event.currentTarget : event.srcElement;
+                    phone = target.value.replace(/\D/g, '');
+                    element = $(target);
+                    element.unmask();
+                    if (phone.length > 10) {
+                        element.mask("(99) 99999-999?9");
+                    } else {
+                        element.mask("(99) 9999-9999?9");
+                    }
+                });
+                //Script formulario
+
+                function AvoidSQLInjection(text) {
+                    var newText = text.replaceAll('/', '').replaceAll('-', '').replaceAll(';', '').replaceAll("'", '').trim();
+                    return newText;
+                }
+
+                function EnviarMenssagemPortal() {
+                    $('#contatoErro').text('');
+                    $('#contatoErro').fadeOut();
+
+                    var Nome = AvoidSQLInjection($('#cntNome').val());
+                    var Email = $('#cntEmail').val();
+                    var Telefone = $('#cntFone').val();
+                    //var Endereco = AvoidSQLInjection($('#cntEndereco').val());
+                    //var Estado = $('#Estado_Contato').val();
+                    //var Municipio = $('#Municipio_Contato option:selected').text();
+                    //var Assunto = $('#selectAssunto').val();
+                    var Mensagem = AvoidSQLInjection($('#cntMensagem').val());
+
+                    //Validacoes
+                    if (!isLetterOnly(Nome.replaceAll(' ', ''))) {
+                        $('#contatoErro').text('Nome inválido. Inserir somente letras.');
+                        $('#contatoErro').fadeIn();
+                        return false;
+                    }
+                    //if (!isNumberOnly(Telefone.replace('(', '').replace(')', '').replace('-', '').replace(' ', '').trim())) {
+                    //    $('#contatoErro').text('Telefone inválido. Inserir somente números.');
+                    //    $('#contatoErro').fadeIn();
+                    //    return false;
+                    //}
+                    if (!isEmail(Email)) {
+                        $('#contatoErro').text('Email inválido.');
+                        $('#contatoErro').fadeIn();
+                        return false;
+                    }
+                    //if (Nome === '' || Email === '' || Telefone === '' || Mensagem === '') {
+                    //    $('#contatoErro').text('Todos os campos devem ser preenchidos.');
+                    //    $('#contatoErro').fadeIn();
+                    //    return false;
+                    //}
+
+
+                    $(".sk-circle").show("fast", function () {
+
+                        $.ajax({
+                            type: "POST",
+                            url: '/Home/EnvioMensagemPortal',
+                            async: false,
+                            data: { Nome: Nome, Email: Email, Telefone: Telefone, Mensagem: Mensagem },
+                            success: function (data) {
+
+                                $('#mdlEnviar').foundation('reveal', 'open');
+                                $('#mdlEnviar').fadeIn();
+                                $('#contatoErro').text('Mensagem enviada com sucesso!');
+                                $('#contatoErro').fadeIn();
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                $('#contatoErro').text('Solicitação não enviada. Por favor, tente de novo em alguns minutos.');
+                                $('#contatoErro').fadeIn();
+                            }
+                        });
+                        $(".sk-circle").hide("fast");
+                        $("#EnviarMenssagemPortal").attr("disabled", false);
+                        $(".contato").css({ opacity: 1 }, "fast");
+
+                    });
+
+
+
+                }
+
+
+                $("#Estado_Contato").change(function () {
+                    $('[name=Municipio_Contato] option').text('Carregando...');
+                    $.ajax({
+                        type: "POST",
+                        url: "/Home/SubCategoriaPorCategoria",
+                        data: { Estado: this.value },
+                        success: function (data) {
+                            if (data == null) {
+                                $('[name=Municipio_Contato] option').text('');
+                            }
+
+                            $('[name=Municipio_Contato]').html("");
+                            $.each(data, function (index, item) {
+                                $('[name=Municipio_Contato]').append(
+                                        $('<option></option>').val(item.Cod_Municipio).html(item.Nome)
+                                );
+                            });
+
+                            $('[name=Municipio_Contato]').removeAttr('disabled');
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            console.log(textStatus);
+                        }
+                    })
+                });
+
+
+
+
+            </script>
+            <script>
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-22690280-1', 'auto');
+                ga('send', 'pageview');
+
+
+
+            </script>
+            <script type="text/javascript">
+
+                jQuery.support.cors = true;
+
+                jQuery(
+                    function ($) {
+                        $("#txtLDTEmis").mask("99/99/9999");
+                        $("#txtLDTNAS").mask("99/99/9999");
+                        $("#txtLDDTEmis").mask("99/99/9999");
+                        $("#txtLDDTNAS").mask("99/99/9999");
+                    }
+                    );
+                function writeCookie(name, value, days) {
+                    var date, expires;
+                    if (days) {
+                        date = new Date();
+                        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                        expires = "; expires=" + date.toGMTString();
+                    }
+                    else {
+                        expires = "";
+                    }
+                    document.cookie = name + "=" + value + expires + "; path=/";
+                }
+                function readCookie(name) {
+                    var i, c, ca, nameEQ = name + "=";
+                    ca = document.cookie.split(';');
+                    for (i = 0; i < ca.length; i++) {
+                        c = ca[i];
+                        while (c.charAt(0) == ' ') {
+                            c = c.substring(1, c.length);
+                        }
+                        if (c.indexOf(nameEQ) == 0) {
+                            return c.substring(nameEQ.length, c.length);
+                        }
+                    }
+                    return '';
+                }
+                function CallDataService() {
+                    var UserCPF = document.getElementById("txtCPF").value;
+                    var UserPass = document.getElementById("txtPass").value;
+                    var serviceURL = 'http://desenvolvimento.serveftp.com:6189/Form.svc/Login/' + UserCPF;
+                    var serviceVURL = 'http://desenvolvimento.serveftp.com:6189/Form.svc/Verifica/' + UserCPF;
+                    var retornoWS = [];
+                    var btn;
+                    if (!ValidarCPF(UserCPF)) {
+                        document.getElementById("counter").innerHTML = "CPF incorreto: " + UserCPF;
+                        return false;
+                    }
+                    // var claenfield = document.getElementById("txtCPF");
+                    // if (isNaN(claenfield)) claenfield = 0;
+                    //retirar .-
+                    exp = /\.|\-/g
+                    UserCPF = UserCPF.toString().replace(exp, "");
+                    /* alert(UserCPF); */
+                    jQuery.support.cors = true;
+
+                    $.ajax
+                     (
+                         {
+                             type: 'GET',
+                             url: serviceVURL,
+                             dataType: 'json',
+                             crossDomain: true,
+                             async: false,
+                             success: function (data) {
+                                 retornoWS = data.split('|');
+
+                             }
+                         }
+                       );
+                    if (retornoWS[0] == "CPF não cadastrado") {
+
+
+
+                        $.ajax
+                        (
+                            {
+                                type: 'GET',
+                                url: serviceURL,
+                                dataType: 'json',
+                                crossDomain: true,
+                                async: false,
+                                success: function (data) {
+                                    retornoWS = data.split('|');
+
+                                }
+                            }
+                          );
+                        if (retornoWS[0] != "CPF não cadastrado") {
+                            document.getElementById('txtLNome').value = retornoWS[0];
+                            document.getElementById("txtLCPF").value = retornoWS[1];
+                            document.getElementById("COD_FAM").value = retornoWS[2];
+                            document.getElementById("COD_FAM").value = retornoWS[3];
+
+                            for (var i = 3; retornoWS.length > i; i++) {
+                                btn = i - 2;
+                                document.getElementById("btnD" + btn + "").value = retornoWS[i];
+
+                            }
+                            while (btn <= 6) {
+
+                                $('#btnD' + btn + '').hide();
+                                document.getElementById("btnD" + btn + "").hidden;
+
+                                btn++;
+                            }
+                            openbox('Atualização de Cadastro', 1);
+                        }
+                        else {
+
+                            dominio();
+                            alert('CPF não cadastrado');
+                        }
+
+                    }
+                    else {
+                        dominio();
+
+                    }
+
+
+
+
+
+
+
+                }
+
+                function CallDataCEP() {
+                    jQuery.support.cors = true;
+
+                    var CEP = document.getElementById("txtLCEP").value;
+                    var serviceURL = 'http://desenvolvimento.serveftp.com:6189/Form.svc/CEP/' + CEP;
+                    var retornoWS = [];
+                    var data = [];
+                    $.ajax
+                    (
+                        {
+                            type: 'GET',
+                            url: serviceURL,
+                            dataType: 'json',
+                            crossDomain: true,
+                            async: false,
+                            success: function (data) {
+                                retornoWS = data.split('|');
+
+                            }
+
+                        }
+                      );
+                    if (retornoWS != "Endereço não encontrado") {
+                        document.getElementById("txtLLOG").value = retornoWS[0];
+                        document.getElementById("txtLBAIRRO").value = retornoWS[1];
+                        document.getElementById("txtLCID").value = retornoWS[2];
+                        document.getElementById("txtLUF").value = retornoWS[3];
+                    }
+
+
+                }
+
+                // Open the lightbox 2
+
+                function openbox2(formtitle, fadin) {
+                    var box = document.getElementById('box2');
+                    document.getElementById('shadowing2').style.display = 'block';
+
+                    var btitle = document.getElementById('boxtitle2');
+                    btitle.innerHTML = formtitle;
+
+                    if (fadin) {
+                        gradient("box2", 0);
+                        fadein("box2");
+                    }
+                    else {
+                        box.style.display = 'block';
+                    }
+                }
+                // Close the lightbox2
+
+                function closebox2() {
+                    document.getElementById('box2').style.display = 'none';
+                    document.getElementById('shadowing2').style.display = 'none';
+
+                    //limpar
+
+
+                    document.getElementById("txtLDNome").value = "";
+                    document.getElementById("txtLDCPF").value = "";
+                    document.getElementById("txtLDRG").value = "";
+                    document.getElementById("txtLDOrgExp").value = "";
+                    document.getElementById("txtLDNSUS").value = "";
+
+
+                    document.getElementById("txtLDNMAE").value = "";
+
+                    document.getElementById("txtLDDTEmis").value = "";
+                    document.getElementById("txtLDDTNAS").value = "";
+
+                }
+
+                function CallDependenteForm(name) {
+
+                    document.getElementById("txtLDNome").value = name.value;
+
+
+                    openbox2('Dependente', 1);
+                }
+
+                function InsertDataTitular() {
+                    var cod_fam = document.getElementById("COD_FAM").value;
+                    var tipo = 'E'
+                    var nome = document.getElementById("txtLNome").value;
+                    var cpf = document.getElementById("txtLCPF").value;
+                    var rg = document.getElementById("txtLRG").value;
+                    var org_exp = document.getElementById("txtLOrgExp").value;
+                    var nsus = document.getElementById("txtLNSUS").value;
+                    var sexo = 'NI'
+                    var tel = document.getElementById("txtLTel").value;
+                    var tipotel = document.getElementById("stTipoTel").value;
+                    var cel = document.getElementById("txtLCel").value;
+                    var email = document.getElementById("txtLMail").value;
+                    var cep = document.getElementById("txtLCEP").value;
+                    var logradouro = document.getElementById("txtLLOG").value;
+                    var num = document.getElementById("txtLNum").value;
+                    var bairro = document.getElementById("txtLBAIRRO").value;
+                    var complemento = document.getElementById("txtLCOMP").value;
+                    var cidade = document.getElementById("txtLCID").value;
+                    var uf = document.getElementById("txtLUF").value;
+                    var nmae = document.getElementById("txtLNMAE").value;
+                    var maenc = "C";
+                    var dataemiss = document.getElementById("txtLDTEmis").value.replace("/", "-");
+                    var datanasc = document.getElementById("txtLDTNAS").value.replace("/", "-");
+
+
+
+                    if (document.getElementById("ckbMaeNC").checked) {
+                        var maenc = "NC";
+                        nmae = "Null";
+                    }
+                    if (complemento == "") {
+                        complemento = "Null";
+                    }
+                    if (nsus == "") {
+                        nsus = "Null";
+                    }
+
+
+                    //{cod_fam},{tipo},{nome},{cpf},{rg},{org_exp},{nsus},{sexo},{tel},{tipotel},{cel},{email},{cep},{logradouro},{num},{bairro},
+                    //{complemento},{cidade},{uf},{nmae},{maenc},{dataemiss},{datanasc}"
+                    var serviceURL = 'http://desenvolvimento.serveftp.com:6189/Form.svc/InsertTitular/' + cod_fam + ',' + tipo + ',' + nome + ',' + cpf + ',' + rg + ',' + org_exp + ',' + nsus + ',' + sexo + ',' + tel + ',' + tipotel + ',' + cel + ',' + email + ',' + cep + ',' + logradouro + ',' + num + ',' + bairro + ',' + complemento + ',' + cidade + ',' + uf + ',' + nmae + ',' + maenc + ',' + dataemiss.replace("/", "-") + ',' + datanasc.replace("/", "-");
+                    var retornoWS;
+                    var btn = 1;
+                    var DepKey = "";
+
+                    if (document.getElementById("btnD1").value == "") {
+                        DepKey = "OK";
+                    }
+                    while (btn <= 6) {
+                        var valueBtn = document.getElementById("btnD" + btn + "").value;
+                        var valueCook = "";
+                        if (valueBtn != "") {
+                            valueCook = readCookie(valueBtn);
+                            if (valueCook == "OK") {
+                                if (DepKey == "OK" || DepKey == "") {
+                                    DepKey = "OK";
+                                }
+
+                            }
+                            else {
+                                DepKey = "NO";
+                            }
+
+                        }
+                        btn++;
+                    }
+
+                    jQuery.support.cors = true;
+
+
+
+
+                    if (nome != "") {
+                        if (cpf != "") {
+
+                            if (rg != "") {
+                                if (dataemiss != "") {
+                                    if (org_exp != "") {
+                                        if (datanasc != "") {
+                                            if (tel != "") {
+                                                if (cel != "") {
+                                                    if (email != "") {
+                                                        if (cep != "") {
+                                                            if (num != "") {
+                                                                if (uf != "") {
+                                                                    if (nmae != "" || maenc == "NC") {
+                                                                        if (DepKey == "OK") {
+                                                                            $.ajax
+                                                                                (
+                                                                                    {
+                                                                                        type: 'GET',
+                                                                                        url: serviceURL,
+                                                                                        dataType: 'json',
+                                                                                        crossDomain: true,
+                                                                                        async: false,
+                                                                                        success: function (data) {
+                                                                                            retornoWS = data;
+
+                                                                                        }
+                                                                                    }
+                                                                                  );
+                                                                            if (retornoWS == "OK") {
+
+                                                                                document.getElementById("COD_FAM").value = '';
+                                                                                document.getElementById("txtLCPF").value = '';
+                                                                                document.getElementById("txtLNome").value = '';
+
+                                                                                document.getElementById("txtLRG").value = '';
+                                                                                document.getElementById("txtLOrgExp").value = '';
+                                                                                document.getElementById("txtLDNSUS").value = '';
+
+                                                                                document.getElementById("txtLTel").value = '';
+                                                                                document.getElementById("stTipoTel").value = '';
+                                                                                document.getElementById("txtLCEP").value = '';
+                                                                                document.getElementById("txtLMail").value = '';
+                                                                                document.getElementById("txtLCEP").value = '';
+                                                                                document.getElementById("txtLLOG").value = '';
+                                                                                document.getElementById("txtLNum").value = '';
+                                                                                document.getElementById("txtLBAIRRO").value = '';
+                                                                                document.getElementById("txtLCOMP").value = '';
+                                                                                document.getElementById("txtLCID").value = '';
+                                                                                document.getElementById("txtLUF").value = '';
+                                                                                document.getElementById("txtLNMAE").value = '';
+
+                                                                                document.getElementById("txtLDTEmis").value = '';
+                                                                                document.getElementById("txtLDTNAS").value = '';
+                                                                                document.getElementsByName("txtCPF").value = '';
+
+                                                                                dominio();
+
+                                                                                alert('Dados Salvos com Sucesso');
+                                                                                closebox();
+
+
+                                                                            }
+
+                                                                        }
+                                                                        else {
+                                                                            alert('Atualize os Dados do(s) Dependente(s)');
+                                                                        }
+                                                                    }
+                                                                    else {
+                                                                        alert('Informe o Nome da sua Mãe');
+                                                                    }
+                                                                }
+                                                                else {
+                                                                    alert('Informe seu Estado');
+                                                                }
+                                                            }
+                                                            else {
+                                                                alert('Informe o Numero da Residencia');
+                                                            }
+                                                        }
+                                                        else {
+                                                            alert('Informe seu CEP');
+                                                        }
+                                                    }
+                                                    else {
+                                                        alert('Informe seu Email');
+                                                    }
+                                                }
+                                                else {
+                                                    alert('Informe seu Celular');
+                                                }
+                                            }
+                                            else {
+                                                alert('Informe seu Telefone');
+                                            }
+
+                                        }
+                                        else {
+                                            alert('Informe sua Data de Nascimento');
+                                        }
+                                    }
+                                    else {
+                                        alert('Informe orgão Expedidor do seu RG');
+                                    }
+                                }
+                                else {
+                                    alert('Informe a Data de Emissão do seu RG');
+                                }
+                            }
+                            else {
+                                alert('Informe seu RG');
+                            }
+                        }
+                        else {
+                            alert('Informe seu CPF');
+                        }
+                    }
+                    else {
+                        alert('Preencha seu Nome');
+                    }
+
+
+
+
+
+
+
+                }
+                function InsertDataDependente() {
+                    var cod_fam = document.getElementById("COD_FAM").value;
+                    var tipo = 'D'
+                    var nome = document.getElementById("txtLDNome").value;
+                    var cpf = document.getElementById("txtLDCPF").value;
+                    var rg = document.getElementById("txtLDRG").value;
+                    var org_exp = document.getElementById("txtLDOrgExp").value;
+                    var nsus = document.getElementById("txtLDNSUS").value;
+                    if (nsus == "") {
+                        nsus = "Null";
+                    }
+                    var sexo = 'NI'
+
+                    var nmae = document.getElementById("txtLDNMAE").value;
+                    var maenc = "C";
+                    var dataemiss = document.getElementById("txtLDDTEmis").value.replace("/", "-");
+                    var datanasc = document.getElementById("txtLDDTNAS").value.replace("/", "-");
+
+                    if (document.getElementById("ckbDMaeNC").checked) {
+                        var maenc = "NC";
+                        nmae = "Null";
+                    }
+
+
+
+                    if (nome != "") {
+                        if (cpf != "") {
+
+                            if (rg != "") {
+                                if (org_exp != "") {
+
+                                    if (nmae != "" || maenc == "NC") {
+                                        if (dataemiss != "") {
+                                            if (datanasc != "") {
+                                                // InsertDependente/{cod_fam},{tipo},{nome},{cpf},{rg},{org_exp},{nsus},{sexo},{nmae},{maenc},{dataemiss},{datanasc}
+                                                var serviceURL = 'http://desenvolvimento.serveftp.com:6189/Form.svc/InsertDependente/' + cod_fam + ',' + tipo + ',' + nome + ',' + cpf + ',' + rg + ',' + org_exp + ',' + nsus + ',' + sexo + ',' + nmae + ',' + maenc + ',' + dataemiss.replace("/", "-") + ',' + datanasc.replace("/", "-");
+                                                var retornoWS;
+                                                var btn;
+
+
+                                                jQuery.support.cors = true;
+
+
+
+                                                $.ajax
+                                                (
+                                                    {
+                                                        type: 'GET',
+                                                        url: serviceURL,
+                                                        dataType: 'json',
+                                                        crossDomain: true,
+                                                        async: false,
+                                                        success: function (data) {
+                                                            retornoWS = data;
+
+                                                        }
+                                                    }
+                                                  );
+                                                if (retornoWS == "OK") {
+                                                    alert('Dados Salvos com Sucesso');
+                                                    writeCookie(nome, "OK", 1);
+                                                    closebox2();
+                                                }
+                                            }
+                                            else {
+                                                alert('Informe a Data de Nascimento do Dependente');
+                                            }
+                                        }
+                                        else {
+                                            alert('Informe a Data de Emissão do RG');
+                                        }
+                                    }
+                                    else {
+                                        alert('Informe o Nome da Mãe do Dependente');
+                                    }
+                                }
+                                else {
+                                    alert('Informe o Orgão Expedidor do RG');
+                                }
+
+                            }
+                            else {
+                                alert('Preencha o RG do Dependente');
+                            }
+                        }
+                        else {
+                            alert('Preencha o CPF do Dependente');
+                        }
+                    }
+                    else {
+                        alert('Preencha o Nome do Dependente');
+                    }
+
+                }
+                function dominio() {
+
+                    document.validacao.txtPass.value = document.getElementById("txtCPF").value;
+                    validacao.submit();
+
+
+
+                }
+
+
+
+                function ckAlterar() {
+                    if (document.getElementById("ckbMaeNC").checked) {
+
+                        document.getElementById("txtLNMAE").disabled = true;
+                    }
+                    else {
+                        document.getElementById("txtLNMAE").disabled = false;
+                    }
+
+                    if (document.getElementById("ckbDMaeNC").checked) {
+
+                        document.getElementById("txtLDNMAE").disabled = true;
+                    }
+                    else {
+                        document.getElementById("txtLDNMAE").disabled = false;
+                    }
+
+                }
+
+                //remove ponto
+                ValidarCPF = function (strCPF) {
+                    exp = /\.|\-/g
+                    strCPF = strCPF.toString().replace(exp, "");
+                    var Soma;
+                    var Resto;
+                    Soma = 0;
+                    if (strCPF == "00000000000" || strCPF == "11111111111" || strCPF == "22222222222" || strCPF == "33333333333" || strCPF == "44444444444" || strCPF == "55555555555" || strCPF == "66666666666" || strCPF == "77777777777" || strCPF == "88888888888" || strCPF == "99999999999") return false;
+
+                    for (i = 1; i <= 9; i++) Soma = Soma + parseInt(strCPF.substring(i - 1, i)) * (11 - i);
+                    Resto = (Soma * 10) % 11;
+
+                    if ((Resto == 10) || (Resto == 11)) Resto = 0;
+                    if (Resto != parseInt(strCPF.substring(9, 10))) return false;
+
+                    Soma = 0;
+                    for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i - 1, i)) * (12 - i);
+                    Resto = (Soma * 10) % 11;
+
+                    if ((Resto == 10) || (Resto == 11)) Resto = 0;
+                    if (Resto != parseInt(strCPF.substring(10, 11))) return false;
+                    return true;
+                }
+
+            </script>
+
+            <script src="Scripts/lib/Foundation/vendor/jquery.js"></script>
+            <script src="Scripts/lib/Foundation/foundation.min.js"></script>
+            <script src="Scripts/lib/Foundation/Foundation/foundation_reveal.n.min.js"></script>
+            <script>
+                $(document).foundation();
+            </script>
+            <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                <div class="  arearestritatitulo">
+                    <h4 class="irCor">IR</h4>
+                    <p>Acesse para receber sua declaração de imposto de renda</p>
+                    <h4 class="reciboCor">Recibo</h4>
+                    <p>Consulte seu recibo de pagamento. </p>
+                    <h4 class="viaCor">2º Via do Cliente</h4>
+                    <p>Não atrase sua mensalidade.</p>
+                </div>
+
+                <div class="row"><a class="btn orangee impostorenda">SAIBA MAIS</a></div>
+                <div id="formespacocliente" class="small-12 large-12">
+                    <div class="small-12 large-12"><p class="le ad cpf">Informe o seu CPF</p></div>
+                    <div class="row">
+                        <form action="http://geia.facilinformatica.com.br/Administracao/Login.aspx" target="_blank" method="post" id="validacao" name="validacao" class="style_form" onsubmit="validaCampo()">
+
+                            <div class="small-12 large-12">
+
+                                <ul>
+                                    <li>
+                                        <input class="udername" name="userName" type="text" id="txtCPF" maxlength="15" required="required" onfocus="clearField(this);" placeholder="Apenas números" />
+                                        <input name="userPass" style="display:none" type="text" id="txtPass" />
+                                        <select name="cbRole" size="1" style="display:none" id="cbRole" onchange="cbTipoChange(this);">
+                                            <option selected="selected" value="20">Beneficiário</option>
+                                        </select>
+
+                                    </li>
+                                    <li>
+                                        <input type="button" value="Acessar" class="button tiny" name="btnOK" id="btnOK" onclick="CallDataService(); myFunction();" />
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="small-12 large-12 row"><p id="counter" class="lead cpf"></p></div>
+                </div>
+                <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+
+            </div>
+            <div class="reveal-modal-bg"></div>
+</body>
+
+</html>

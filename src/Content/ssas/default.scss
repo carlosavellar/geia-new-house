@@ -1,0 +1,1156 @@
+/*
+ * SASS Operators example
+   ESTE ARQUIVO SASS GERA O CSS NO PASTA: CONTENT/CSS/DEFAULT.MIN.CSS
+*/
+///*  CORES DE FUNDO /////]
+
+
+@mixin t { border: 1px solid red; }
+$bgCinzaMedio:             #656872;
+$bgCinzaEscurp:            #2e2e35;
+$bgVerdeAgua:              #5ba8a4;
+$bgVerdeaguaClaro:         #0DB292;
+$bgBegeContent:            #edece8;
+$bgBegeEscuro:             #dddddd; // Home
+$bgBegeMedio:              #D8D8D6; // Quadro: Motivos para contratar Géia
+$bgZulButtons:             #337ab7;
+
+
+// COR DE LINHAS
+$colorLineCinza:           #878990;
+
+
+// IMAGENS DE FUNDO
+@mixin icoBg               { 
+                          background-position:  center center; 
+                          background-repeat: no-repeat; 
+                          padding: 10px; }
+
+
+//* BOTÕES E TITULOS
+$bntAzul:                  #008ae2; // Home
+
+//* FONTE COLOR
+$corText:                  #5d5d5d; 
+$corTextbege:              #edece8;
+$corBegeEscuro:            #E2E2E0;
+$corTextcinza:             #444444;
+$corTextbranco:            #ffffff;
+
+$corBoxAzul:               #2380CC;
+$corBoxOcean:              #21A8CC;
+$corBoxAzulverde:          #009FA3;
+$corBoxVerde:              #00AA75;
+
+//COR BOXES
+
+$transmYellow:             #CCBE79;
+$verificacaoBlue:          #4977AD;
+$statusRed:                #CC3333;
+
+
+
+// PO4RCENTAGENS
+
+$cemPorcento:             100%;
+
+
+@mixin corBoxAzul          {
+						/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2989d8+50,1e5799+50,2076bc+50,2076bc+100 */
+						background: #2989d8; /* Old browsers */
+						background: -moz-linear-gradient(-45deg,  #2989d8 50%, #1e5799 50%, #2076bc 50%, #2076bc 100%); /* FF3.6-15 */
+						background: -webkit-linear-gradient(-45deg,  #2989d8 50%,#1e5799 50%,#2076bc 50%,#2076bc 100%); /* Chrome10-25,Safari5.1-6 */
+						background: linear-gradient(135deg,  #2989d8 50%,#1e5799 50%,#2076bc 50%,#2076bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#2076bc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+@mixin corBoxOcean           {  
+							/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#21a8cc+48,21a8cc+48,21a8cc+49,1e9bbc+49,1e9bbc+49,21a8cc+49,1e9bbc+50 */
+						background: #21a8cc; /* Old browsers */
+						background: -moz-linear-gradient(-45deg,  #21a8cc 48%, #21a8cc 48%, #21a8cc 49%, #1e9bbc 49%, #1e9bbc 49%, #21a8cc 49%, #1e9bbc 50%); /* FF3.6-15 */
+						background: -webkit-linear-gradient(-45deg,  #21a8cc 48%,#21a8cc 48%,#21a8cc 49%,#1e9bbc 49%,#1e9bbc 49%,#21a8cc 49%,#1e9bbc 50%); /* Chrome10-25,Safari5.1-6 */
+						background: linear-gradient(135deg,  #21a8cc 48%,#21a8cc 48%,#21a8cc 49%,#1e9bbc 49%,#1e9bbc 49%,#21a8cc 49%,#1e9bbc 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21a8cc', endColorstr='#1e9bbc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+@mixin corBoxAzulverde {
+							/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#009fa3+49,009396+50,009396+51,009396+51,009396+61 */
+						background: #009fa3; /* Old browsers */
+						background: -moz-linear-gradient(-45deg,  #009fa3 49%, #009396 50%, #009396 51%, #009396 51%, #009396 61%); /* FF3.6-15 */
+						background: -webkit-linear-gradient(-45deg,  #009fa3 49%,#009396 50%,#009396 51%,#009396 51%,#009396 61%); /* Chrome10-25,Safari5.1-6 */
+						background: linear-gradient(135deg,  #009fa3 49%,#009396 50%,#009396 51%,#009396 51%,#009396 61%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009fa3', endColorstr='#009396',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin corBoxVerde {
+
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00aa75+49,00aa75+50,009d6c+51,009d6c+51,009d6c+52,009d6c+100 */
+					background: #00aa75; /* Old browsers */
+					background: -moz-linear-gradient(-45deg,  #00aa75 49%, #00aa75 50%, #009d6c 51%, #009d6c 51%, #009d6c 52%, #009d6c 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(-45deg,  #00aa75 49%,#00aa75 50%,#009d6c 51%,#009d6c 51%,#009d6c 52%,#009d6c 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(135deg,  #00aa75 49%,#00aa75 50%,#009d6c 51%,#009d6c 51%,#009d6c 52%,#009d6c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aa75', endColorstr='#009d6c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+@mixin degradeTop {  
+
+						/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#28b0b2+0,2899bd+50,2985ce+100 */
+background: #28b0b2; /* Old browsers */
+background: -moz-linear-gradient(left,  #28b0b2 0%, #2899bd 50%, #2985ce 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #28b0b2 0%,#2899bd 50%,#2985ce 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #28b0b2 0%,#2899bd 50%,#2985ce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b0b2', endColorstr='#2985ce',GradientType=1 ); /* IE6-9 */
+
+
+}
+$removePadding:            0;
+//* FONTE SIZE
+$sizeTextinput:            11px;
+$italic:                   italic;
+$footerTitleFontsize:      18px;  
+
+// * MEDIA QUERIES
+$widescreen:               1170;
+$width4colum1200px:        22%;
+$width4colum992px:         33%;
+$width4colum768px:         50%;
+
+// * Border Radius
+@mixin borderRadius        {
+                           -webkit-border-radius: 8px; 
+                           -moz-borderpx-radius: 8px; 
+                           border-radius: 8px; 
+                           }
+@mixin borderRadius2        {
+                           -webkit-border-radius: 6px; 
+                           -moz-borderpx-radius: 6px; 
+                           border-radius: 6px; 
+                           }
+@mixin borderRadiusTop     {
+                           -webkit-border-top-radius-: 6px !important; 
+                           -moz-border-top-radius: 6px !important; 
+                           border-top-radius: 6px !important; 
+                           }
+@mixin borderRadius4       {
+                           -webkit-border-radius: 4px; 
+                           -moz-borderpx-radius: 4px; 
+                           border-radius: 4px; 
+                           }
+
+//BORDA PONTILHADA
+@mixin pontGray            { border: 1px #5D5D5D dashed; }
+
+
+// FLOAT
+$floatLeft:                left;
+$floatRight:               right;
+// REMOVE LIST STYLE
+@mixin removListSlyle     { 
+	     list-style-type: none; 
+                          }                  
+//PADDING MENYU TOP
+$padding:                 10px;
+$padBox:                  25px; 
+// BORDERS
+$dashed:                  dashed;
+// WIDTH
+@mixin searchWidth       { width: 100; }
+
+//ESPAÇOS BETWEEN BOXES
+$spaceBetween:            20px;
+
+//SHADOWS
+@mixin textShadow         {
+							text-shadow: 1px 1px 1px rgba(102, 102, 102, 0.6);
+							-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+							filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#444444');
+	
+	
+}
+
+@mixin shaDown           {  -moz-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+							-webkit-box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.2);
+							box-shadow: 3px 3px 3px  rgba(102, 102, 102, 0.2);
+							-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+							filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color='#444444');
+						 }
+
+
+@mixin boxServicos {
+	                        @include borderRadius;
+	                        @include shaDown;
+	                        margin: 15px 15px;
+	                 
+	                 //     float: left;
+	                        padding: 0;
+	                        
+                         }
+// title
+@mixin titleH3           { font-weight: bold; color: #444444; padding-bottom: 30px; 
+	                       background: url(../img/portal/det_title.png) left 37px no-repeat;
+	                      
+                         }
+@mixin titleH3-geia      { font-weight: bold; color: #444444; padding-bottom: 30px; 
+	                       background: url(../img/portal/det_title.png) left 67px no-repeat;
+                         }
+
+
+@mixin tableHEading      {  background-color: #656872; color: #EDECE8; font-weight: normal; }
+@mixin radioStyle        {   background-color: #008AE2;   }
+
+$space:                  15;
+
+
+//TITLE
+h4.title, h1.title { color: $bntAzul; font-size: 23px; font-weight: 700 !important; }
+
+.animate-position { position: relative; top: -10px; }
+.page-funcionarios h4.title, .page-funcionarios h1.title { 
+	color: $bntAzul; 
+	font-size: 23px; font-weight: 700 !important; 
+	letter-spacing: -1px; clear: both !important; 
+}
+
+#razao { padding: 20px auto !important; }
+@avatar-border{
+	
+	       -webkit-border-top-radius-: 40px !important; 
+           -moz-border-top-radius: 6px !important; 
+           border-top-radius: 6px !important;
+	       font-weight: 100 !important;
+}
+
+@mixin borderInput  {  border: 1px solid #008AE2; background-color: $corTextbranco; width: 100%;   }
+
+
+// MENU
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////// END SASS ////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////// TOPO LOGIN //////////////////////////////////////////////////////////////////////////////////////////
+// ABA
+
+.col-sm-8 { height: 30px;  }
+.nav-tabs li { font-weight: 700 !important; }
+.crud-aba { 
+	background: $corTextbranco !important; @include borderRadius4;
+	padding: 40px !important; 
+}
+.crud-aba h4.title { margin-top: 20px !important; }
+.nav>li>a:focus, .nav>li>a:hover { background-color: $corTextbranco;  } 
+.buttom-del {   }
+#div_aba3 .voltar,
+#div_aba2 .voltar,
+#div_aba1 .voltar {  margin-top: 15px !important;  }
+.voltar {  float: left;  }
+h4.title, h1.title { float: left; }
+.page-funcionarios h4.title, .page-funcionarios h1.title { 
+	color: $bntAzul; 
+	font-size: 23px; font-weight: 700 !important; 
+	letter-spacing: -1px; clear: both !important; 
+}
+.pages .new {
+float: right !important;
+}
+label { color: $bgCinzaEscurp; }
+
+.h1, .h2, .h3, h1, h2, h3 {
+	
+	margin-top: 20px;
+    margin-bottom: 20px
+	
+}
+
+.space { height: $space+px; height: 15px; }
+.navbar-nav, .navbar-toggle { z-index: 1000;  }
+.navbar { border: 0px !important; }
+ul.toplogin li a { color:  #fff; }
+body {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+p { color: #444444; line-height: 180% !important; }
+ul li { margin: 5px auto; }
+* {
+  box-sizing: border-box;
+	font-family: "Open Sans";
+}
+#toplogin { z-index: 10000 !important; border: 20px solid red; }
+ul.topresponsive li,
+ul.topresponsive li a    {                 color: $bgCinzaMedio !important;   }
+.form-group:after
+ul.topresponsive:after {
+											
+	                                     visibility: hidden;
+											display: block;
+											font-size: 0;
+											content: " ";
+											clear: both;
+											height: 0;
+											}
+ul.topresponsive      {
+	                  margin-right: 15px;
+	                  margin-bottom: 36px;
+	                 
+					  li{
+								float: $floatRight;
+							   @include removListSlyle;
+							  border: 0 !important;
+							  padding: 0 !important;
+							  margin: 0 !important;
+							   color: $corTextbege;
+							 }
+							 a { color: $corTextbege;  
+						     border: 0 !important;
+							 }
+	                         //position: absolute; top: 80px; left: 45px; z-index: 10002;
+	                         font-size: 12px;
+} 
+
+#top {  
+         @include degradeTop; 
+         ul.toplogin li{
+                float: $floatRight;
+               @include removListSlyle;
+               padding: $padding + 10 $padding;
+               color: $corTextbege;
+         }
+         a.toplinks { color: $corTextbege; 
+         }
+}
+ul.toplogin {
+    
+               li:nth-child(1) span { background: url(../img/portal/ico-chat.png); @include icoBg;  
+                                     }
+               li:nth-child(2) span { background: url(../img/portal/ico-user.png); @include icoBg;  
+                                     }
+               li:nth-child(3) span { background: url(../img/portal/ico-sair.png); @include icoBg;  }
+               .search {   @include searchWidth;  
+                           background-color: $bgCinzaMedio; 
+                           color: $corTextbranco; 
+                       }
+}
+.breadcrumb { 
+
+}
+.form-group {  margin-bottom: 0 !important ;}
+.lg { 
+	margin-right: $spaceBetween; 
+	float: $floatLeft; 
+	margin-top: 16px !important; 
+}
+.pages .form-control {  width: 86% !important; height: 32px !important; }
+.wrap-search{                      
+	                               float: $floatRight; 
+								   width: 75% !important;                               
+								   .wrap-search .form-group{  
+                                      float: $floatRight; 
+                                   }
+	               
+	                                
+	                               .breadcrumb { float: $floatRight;  }
+                                   #searchLogin { 
+                                      // float: $floatLeft;
+                                    }
+	
+                                  .btn-default {       
+                                       background:$bntAzul url(../img/Portal/ico-search.png) no-repeat center center ; 
+                                       background-size: 60% !important; 
+                                       padding: 15px;  
+                                       float: $floatLeft;
+                                       
+                                    }
+                                   input.form-control {
+                                       background-color: $bgCinzaMedio;
+                                       float: $floatLeft;
+                                       color: $corTextbranco;
+                                       font-size: $sizeTextinput !important; 
+                                       font-style: $italic !important; 
+                                    }
+                                   input.btn-default[placeholder] {
+                                       color: $bgCinzaMedio;
+                                       font-size: $sizeTextinput !important; 
+                                       font-style: $italic !important; 
+                                    }                      
+            }
+
+
+
+.wrap-search2{                      
+	                               float: $floatLeft; 
+								   width: 93% !important;                               
+								   .wrap-search .form-group{  
+                                      float: $floatRight; 
+                                   }
+	               
+	                                
+	                               .breadcrumb { float: $floatRight;  }
+                                   #searchLogin { 
+                                      // float: $floatLeft;
+                                    }
+	
+                                  .btn-default {       
+                                       background:$bntAzul url(../img/Portal/ico-search.png) no-repeat center center ; 
+                                       background-size: 60% !important; 
+                                       padding: 15px !important;  
+                                   
+                                       
+                                    }
+                                   input.form-control {
+                                       background-color: $bgCinzaMedio;
+                                       float: $floatLeft;
+                                       color: $corTextbranco;
+                                       font-size: $sizeTextinput !important; 
+                                       font-style: $italic !important; 
+                                    }
+                                   input.btn-default[placeholder] {
+                                       color: $bgCinzaMedio;
+                                       font-size: $sizeTextinput !important; 
+                                       font-style: $italic !important; 
+                                    }                      
+            }
+
+
+.wrap-search:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+// .navbar
+.navbar-brand {
+                                   width: 200px;
+                                   background-image: url(../img/portal/geia-logo.png);
+                                   background-size: contain !important;
+}
+.navbar-nav                      { float: right;   }
+section#main  {                    
+	                               #top { background-color: $corTextbranco !important; }                               
+	                               background: #e5e5e3; 
+	                               padding-top: 20px !important;
+	                               padding-bottom: 20px !important; 
+	                               width: 100%; margin-top: 0 !important;  
+                                   #seach-nav { 
+									           //text-align: center; 
+									           align-content: center;
+									          // padding-left: 28px;
+	                                          } 
+              }
+
+.navbar       {  div.container-fluid {  vertical-align: middle; vertical-align: center; }
+	            
+}
+header        {  
+                z-index: 9999 !important;
+	            position: relative; 
+                .container { 
+                            position: relative; 
+                }
+                nav.navbar-default {  
+                            //position: absolute; top:34px; left:28px !important; 
+					        width: 100%;
+              
+					        @include shaDown;
+					        @include borderRadius;
+					        .navbar-collapse {
+								margin: 10px 0;
+							}
+					        .navbar-brand {  position: absolute; top: 17px; left: 40px; }
+                }
+                .nav {      z-index: 9999 !important; }
+	            .navbar {  margin: 25px auto 25px;}
+				ul li a {
+					
+					       transition-duration: 0.5s;
+	                       &:hover {
+							   //MENU HOVER
+					   
+					       ---background:url(../img/Portal/menuHover.gif) repeat-x center center; 
+					       }
+				} 
+}
+section #slider {  z-index: -1000 !important;   }
+
+
+
+// STYLE PARA TODAS AS CAIXAS
+figure  {  overflow: hidden !important; }
+.boxservicos    {  
+	               top: 0;
+	               transition:top 0.0.2s linear;
+                   &:hover { position: relative; top: -10px; }
+	               overflow: hidden;
+	               position: relative;
+	               background: #fff;
+	               @include boxServicos;
+	               @include shaDown;
+	               img {
+					   paddin: 25px auto;
+					   margin: auto;
+					   vertical-align: middle; 
+					   align-content: center; 
+					   text-align: center;
+	              }
+				  figure  { 
+					  overflow: hidden !important;
+					  align-content: center; 
+					  text-align: center; 
+					  width: 100%;
+					  padding: 60px auto !important;
+					  
+	              }
+              	  div { margin: 40px auto 40px 20px !important; }
+				  div.innerfigure {
+					   display: block;
+					   overflow: hidden !important;
+
+					}
+	              .lightonbox { 
+					  background-image: url(../img/portal/lightBox.png); 
+					  background-size: contain;
+					  position: absolute; 
+					  top: -80px; 
+					  left: -40px; 
+					  width: 500px; 
+					  height: 500px; z-index: -20px !important;
+	              }
+	              a{
+					  &:hover {
+						  text-decoration: none;
+					  }
+					   
+					}
+	              //transition: all 1s ease-in-out;
+ 	             // &:hover{   width: 110%; height: auto; position: relative; top: -10px; }
+}
+// .. ENDSTYLE PARA TODAS AS CAIXAS
+
+// .. MOVO BENEFICIARIO - ALTERAÇÃO DE PLANO - EXCLUSÃO DE BENEFICIÁRIO - FLUCO DE TRANSMISSÃO
+article.bservicos figure { 
+	                   //background: $corBoxAzul; 
+	                   @include corBoxAzul;
+	                   display: block;  
+	                   vertical-align: top;
+	                   padding-top: $padBox;
+	                   padding-bottom: $padBox;
+	                   overflow: hidden !important;
+}
+	                   
+article.bservicos h4 {  color: $corBoxAzul; }
+
+//CR - FUNCIONARIO
+article.crmfuncionario figure { 
+	                   @include corBoxAzulverde;
+	                   display: block;  
+	                   vertical-align: top;
+	                   padding-top: $padBox;
+	                   padding-bottom: $padBox;
+	                   overflow: hidden !important;
+}              
+article.crmfuncionario h4 {  color: $corBoxAzulverde; }
+//CONTRATOS NOTA FISCAL
+article.contratornotafiscal figure { 
+	                   @include corBoxOcean;
+	                   display: block;  
+	                   vertical-align: top;
+	                   padding-top: $padBox;
+	                   padding-bottom: $padBox;
+	                   overflow: hidden !important;
+}              
+article.contratornotafiscal h4 {  color: $corBoxOcean; }
+
+
+// RELATORIO DE ENVIO
+article.relatoriodeenvio figure { 
+	                  
+	                   @include corBoxVerde;
+	                   display: block;  
+	                   vertical-align: top;
+	                   padding-top: $padBox;
+	                   padding-bottom: $padBox;
+	                   overflow: hidden !important;
+}              
+article.relatoriodeenvio h4 {  color: $corBoxVerde; }
+section#main {  } 
+
+section#sobreaempresa  { 
+	                   width: 100%; background: $corTextbranco;
+	                   padding-top: 30px;
+					   article { float: left; }
+					   h3 { @include titleH3;   }
+	                   h3.h3geia {  @include titleH3-geia; }
+	   				   .grupo-geia { color: #008ae2; }
+	                   .bgbege { background: $bgBegeContent;    }
+	                   .operadoras ul li { list-style-type: none; list-style: none; }
+	                   .operadoras { margin-bot: 30px; }
+	                   .lisBeneficios li { 
+										   list-style-type: upper-alpha;
+										   list-style-image: url(../img/portal/arrowBeneficios.png);  
+	                    }
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+}
+footer {
+	 div#navrodape {
+		 padding: 10px;
+		 background-color: $bgVerdeAgua;  
+		 text-align: center; 
+		 font-size: $footerTitleFontsize;
+         color: $corTextbranco;
+
+	}
+	 div#bottom {  height: 100px; background-color: $bgCinzaEscurp;  }
+	 .container { width: 100% !important; }
+}
+
+
+.navbar-brand-mobile {   text-align: center !important;
+	                     margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px;
+		                 background-size: auto !important;
+	                     padding: 10px auto;
+					 }
+.overthetop .container { text-align: center; padding: 10px; }
+.pages-fluxo .fluxo-img { margin-bottom: 10px;  }
+.pages .col-sm-1, .pages  .col-sm-10, .pages  .col-sm-11, .pages  .col-sm-12, .pages  .col-sm-2, .pages  .col-sm-3, .pages  .col-sm-4, .pages  .col-sm-5, .pages  .col-sm-6, .pages  .col-sm-7, .pages  .col-sm-8, .pages  .col-sm-9,
+.pages .col-sm-1,.pages .col-sm-10, .pages .col-sm-11, .pages .col-sm-12, .pages .col-sm-2, .pages .col-sm-3, .pages .col-sm-4, .pages .col-sm-5, .pages .col-sm-6, .pages .col-sm-7, .pages .col-sm-8, .pages .col-sm-9 { 
+																			 clear-: both !important;
+	
+																	 }
+
+#seach-nav .pages {  padding-left: 29px !important;  }
+
+
+.input-group .form-control {
+    float: right !important;
+	height: 34px !important;
+
+}
+.pages textarea,
+.pages select  { border: 1px solid #008AE2; background-color: $corTextbranco;  }
+	
+.page-delete .btn-danger  {   padding: 6px 12px !important; font-size: 14px !important;  }
+.pages {
+	 .row {  margin-left: 0  !important; }
+	 .col-sm-10    {  width: auto !important;  }
+	 select  { background-color:$corTextbranco; border: 1px solid #008AE2;  }
+	//input,
+	.pages textarea,
+	.pages input,
+	.pages select  { background-color: $bgCinzaMedio; border: 1px solid #008AE2;  }
+	 b,
+	.panel-heading strong, 
+	.panel-heading, 
+	.panel-warning>.panel-heading,
+	.panel-info>.panel-heading,
+	.panel-danger>.panel-heading{ @include tableHEading; 
+                         -webkit-border-top-radius-: 6px !important; 
+                         -moz-border-top-radius: 6px !important; 
+                         border-top-radius: 6px !important;
+	                     font-weight: 100 !important;
+		 
+    }
+	.buscaempresa { background-color: none !important; font-weight: 700; color: $bgCinzaEscurp;  }
+	.panel-warning,
+	.panel-info,
+	.panel-danger {
+		   border: 1px solid #C9C9C9 !important;
+		
+	}
+	.new {  background:$bgZulButtons  url(../img/portal/ico-alteracao-new.png) 5px 4px no-repeat; background-size: 27%;
+		    padding-left: 32px; float: right;
+		&:hover {  background-color: #286090;  }
+	     }
+	.tipo-de-arquivo {      border: 1px solid $bntAzul;  @include borderRadius4; background: $corTextbranco; padding: 7px 10px; }
+
+}
+
+
+input#file-input, input.enviar { float: left; font-size: 12px; @include borderRadius2; padding: 7.5px; }
+
+input#file-input{  margin-right: 7.5px !important; background: $bgCinzaMedio; @include pontGray; @include borderRadius2;  }
+
+.panel-footer input {  background: $bgVerdeaguaClaro; color: $corTextbranco; @include borderRadius4; font-size: 12px !important;     padding: 7.5px; }
+input.enviar {   background: $bgVerdeaguaClaro; color: $corTextbranco;  }
+#frm:after {
+    clear: both;
+}
+#frm:before,
+#frm:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+#frm:after {
+    clear: both;
+}
+#frm {
+    zoom: 1; /* IE < 8 */
+}
+.clear { clear: both; }
+li.transmissao { background: url(../img/portal/ico-transmissao.svg) 4px 13px no-repeat !important; padding-left: 20px; font-size: 22px; letter-spacing: -1.5px;  }
+li.transmissao a { font-weight: 700;  }
+.abovemenu {
+	
+	background: $bgCinzaMedio; //border-bottom:px solid $corBegeEscuro;
+	
+	
+}
+.envolver-crm:after { 			
+	                                     visibility: hidden;
+											display: block;
+											font-size: 0;
+											content: " ";
+											clear: both;
+											height: 0;  }
+ .crm {   
+	 margin: 15px 0; border: 3px solid $bntAzul;
+	 transition-duration: 0.05s;
+	 &:hover {
+		 border: 3px solid $bntAzul;
+		 background-color: $bntAzul;
+		 color: $corTextbranco;
+	 }
+
+  
+}
+ .crm2 {   
+	 margin: 15px 0; border: 3px solid $bntAzul;
+	 transition-duration: 0.05s;
+	 &:hover {
+		 border: 3px solid $bntAzul;
+		 background-color: $bntAzul;
+		 color: $corTextbranco;
+	 }
+
+  
+}
+#searchLogin{ 
+             
+		   
+            }
+.conteudoform { margin-left: 0 !important; }
+.space { height: $spaceBetween;  }
+
+body > #top { @include shaDown;
+  }
+
+.panel-warning {  border: 1px solid #C9C9C9; }
+.panel-danger { border: 1px solid #C9C9C9;   } 
+
+.navbar-toggle { margin-left: 10px !important; }
+
+
+.crud { width: 100%; padding: 0 !important;  }
+.conteudoform { padding-left: 0 !important;  }
+
+
+.transmissao-heading {  background-color: $transmYellow; }
+.verificacao-heading {  background-color: $verificacaoBlue; }
+
+.status-heading { background-color: $statusRed ;  }
+
+#seach-nav { padding-left: 29px !important; }
+.voltar {  
+	float: right !important; 
+	color: $bgBegeContent !important;
+}
+.voltar span{  
+	float: left !important; 
+}
+
+.ico-voltar {  background: url(../img/portal/ico-voltar.png) no-repeat !important; height: auto !important; float: left !important;  margin-right: 7.5px;  }
+#list { @include borderRadius2; }
+.spaceverfuncionario { margin: 30px auto; }
+
+.avatar { background: #f1f1ef; padding-top: 15px !important;  padding-bottom: 15px !important; @include borderRadius; }
+
+.razaosocial { background: $bgBegeMedio;  }
+.page-empresa,
+.page-funcionarios {  font-weight: 900 !important; color: $bgCinzaMedio !important; }
+.page-empresa label,
+.page-funcionarios label { color: $bgZulButtons; font-weight: 400 !important;   }
+
+// ABAS
+#contato,
+#dadoscasatrais,
+#tabempresa,
+#dpessoais1,
+#tabempresam,
+#tab4,
+#dplano2,
+#dpessoais1 { padding-top: 30px;  background-color: $corTextbranco; border-left: 1px solid #e5e5e3; }
+#contato:after,
+#dadoscasatrais:after,
+#tabempresa:after,
+#dpessoais1:after,
+#tabempresam:after,
+#tab4:after,
+#dplano2:after,
+#dpessoais1:after {
+											
+	                                     visibility: hidden;
+											display: block;
+											font-size: 0;
+											content: " ";
+											clear: both;
+											height: 0;
+}
+.page-empresa .nav-tabs>li>a,
+.page-funcionarios .nav-tabs>li>a { background-color: #dededc;  }
+.page-empresa a,
+.page-funcionarios a { color:#7aa5c9;  }
+.page-empresa .nav-tabs>li.active>a, 
+.page-empresa .nav-tabs>li.active>a:focus, 
+.page-empresa .nav-tabs>li.active>a:hover
+.page-funcionarios .nav-tabs>li.active>a, 
+.page-funcionarios .nav-tabs>li.active>a:focus, 
+.page-funcionarios .nav-tabs>li.active>a:hover{
+	color: #337ab7 !important;
+}
+.beneficiario::first-letter {
+	text-transform: uppercase !important;
+}
+
+.form-date { font-weight: lighter; margin-left: 15px; font-style: italic;  }
+
+beneficiario {
+}
+.page-crm .formwidth {  width: 100% !important; } 
+.page-crm .avatar-border { width: 100% !important; }
+.page-crm .avatar-border {  }
+.page-crm .form-control {  margin: 5px auto; }
+.page-crm textarea {  width: $cemPorcento;  margin: 5px auto; border-radius: 4px; height: 120px;}
+.page-crm .inputwidth { @include borderInput; }
+#form-date {   border-botton: 1px solid blue; }
+.search,
+.beneficiario { @include borderInput; }
+
+// Formularuio
+
+
+
+/// END TOPO LOGIN
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////// MEDIA QUERIES ////////////////////////////////////////////////////////////////////////////////////////////
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+	 .crm {   
+	 float: $floatLeft;
+		 
+	}
+article.boxservicos:nth-child(1),
+article.boxservicos:nth-child(5),
+article.boxservicos:nth-child(9){ margin-left: 0 !important; padding-left: 0 !important; }
+article.boxservicos:nth-child(4),
+article.boxservicos:nth-child(8){ margin-right: 0 !important; padding-right: 0 !important; }
+
+	
+	.dropdown-menu > li > a:link { color: $bgCinzaMedio !important;  }
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+	
+	color: $bgCinzaEscurp !important;
+	
+}
+	.boxservicos {
+	width:  $width4colum1200px;
+	}
+
+	#searchLogin { 
+             width: 35%; 
+		.crm {   float: left; }
+            }
+    input.form-control {
+           // max-width: 90% !important;
+     }
+	#top {  
+         background: $bgCinzaMedio; 
+         ul.toplogin{
+               float: right !important; border: 1px solid red;
+         }
+    }
+
+    
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+	
+	
+article.boxservicos:nth-child(1),
+article.boxservicos:nth-child(5),
+article.boxservicos:nth-child(9){ margin-left: 0 !important; padding-left: 0 !important; }
+article.boxservicos:nth-child(4),
+article.boxservicos:nth-child(8){ margin-right: 0 !important; padding-right: 0 !important; }
+
+	.dropdown-menu > li > a:link { color: $bgCinzaMedio !important;  }
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+	
+	color: $bgCinzaEscurp !important;
+	
+}
+	.col-md-4 { width: 29% !important; }
+    #top .container { 
+             max-width: $widescreen;
+     }
+    header .container { 
+             max-width: $widescreen;
+     }
+     nav {  
+             width: 1100px;  
+     }
+
+    input.form-control {
+            max-width: 90% !important;
+     }
+
+	
+	
+	.boxservicos {
+	width:  $width4colum1200px;
+	}
+    #top {  
+         background: $bgVerdeaguaClaro; 
+         ul.toplogin{
+               float: right;
+         }
+    }	
+}
+@media (min-width: 992px){
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a, nav li.open a:link:first-child {}
+	nav li.open a:link { color: #777 !important; }
+	.col-md-4 {
+		width: 29% !important;
+	}
+	.abovemenu {
+	//padding: 75px 0; 
+    }
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:link { color: #777 !important;  }
+}
+@media (max-width: 992px){
+		.crm {
+		  margin: 5px 0 !important;
+		 }
+	.navbar { margin-bottom: 0 !important; }
+	.navbar-header,
+	#top .container {  background-color: #656872 !important; border: none !important;  }
+	//.navbar-default .navbar-nav > li.open a:link,
+//	.navbar-default .navbar-nav .open .dropdown-menu>li>a, nav li.open a:link{
+	//}
+	//.navbar-default .navbar-nav>li>a { color: #e7e7e7; }
+	//.navbar-default .navbar-nav .open .dropdown-menu>li>a,
+//	nav li.open a:link { color: #fff !important; }
+//	nav > ul > li > a:link { color: #fff !important; }
+	
+//	.navbar-default {
+  //  border-color: $bgCinzaMedio !important;
+		
+		
+//}
+	//.navbar-default,
+	//.navbar-header,
+	//.navbar { float: left !important;  }  
+	//.navbar-collapse { clear: both !important; float: left !important; }
+  //  #top, #top  .container,
+	//.navbar-default {  background-color: $bgCinzaMedio;  }
+	//section#main { padding-top: 0 !important; margin-top: 0 !important;   }
+     // .boxservicos,         
+	 // .col-md-4,
+    //  #todos-boxes-servicos .col-md-4{ 
+		                    // width: 28% !important;
+		                   
+	                         
+	.abovemenu {
+
+    padding: 0 0;
+  
+}
+	
+}
+@media (min-width: 1200px){
+	   .boxservicos,
+	   #todos-boxes-servicos .boxservicos	 {
+								             width: 23% !important;
+							                 }
+		#top {  
+				 @include degradeTop; 
+			     ul.toplogin{
+				            float: right;
+			                }
+             }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.crm {
+		  margin: 5px 0 !important; border: 1px solid red;
+		 } 
+	.form-group { float: right !important; }
+	
+	#todos-boxes-servicos .col-lg-3 {
+								     width: 28%;
+			
+	                                 }
+	#top { border: 10px solid red; }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	            #todos-boxes-servicos .col-md-4,
+				#todos-boxes-servicos .col-lg-3 {
+								     width: 22%;
+			
+	            }
+			
+		/* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#top {  
+		ul.toplogin {  clear: both !important; margin-left: 50%; margin-right: 50%; }
+        ul.toplogin li{   }
+		.nome-logo {  display: none; }
+         }
+	.navbar-brand{ border: 2px solid red;}
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.boxservicos { width:  $width4colum768px; }
+/* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	section#main { padding-top: 10px !important  }
+	.navbar { margin-bottom: 0 !important;  }
+	.navbar-toggle, .navbar-nav{
+	float: left !important;
+	}
+	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, row  { padding-right: 0 !important; padding-right: 0 !important; margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+	
+	section#sobreaempresa h3 { font-size: 18px;  }
+	section#sobreaempresa h3 {
+		background: url(../img/portal/det_title.png) left 28px no-repeat;
+	}
+	#top > ul.toplogin li { clear: both !important; padding: 1px 3px !important; }
+	#top > ul.toplogin { float: left; }
+	.breadcrumb { font-size: 10px; }
+	section#main #seach-nav { padding-left: 0 !important;  } 
+	.container {  margin: 0 auto; padding: 0 !important; }
+	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+		.container {  margin: 0 auto; padding: 0 !important; }
+	}
+	section#sobreaempresa { padding-top: 0; }
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover 
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover  {
+		background-color: transparent !important;
+		
+	}
+	.ouvidoria { position: absolute; top: 106px;  }
+	#top ul.toplogin {  }
+	#top ul.toplogin li { padding: 1px 3px !important   }
+	.navbar-default .navbar-toggle { margin-left: 15px;  }
+	.form-control { width: 79% !important; } 
+	.semborde { border: 1px solid #656872;   }
+	nav a {  color: #edece8 !important;   }
+	nav.navbar-default {  
+                            //position: absolute; top--:30px; left--:28px !important; width: 90%;
+              
+					        @include shaDown;
+	}
+	//ul.toplogin { position: absolute; top: 60px; }
+	.navbar-default .navbar-nav>li>a {
+    color: #edece8 !important;
+    }	
+	.form-control { width: 85% !important; clear: both !important;  
+		       
+	              }
+	.crm {   clear: both !important; margin: 5px 0; } 
+	.wrap-search2 input.form-control { clear: both !important;   }
+/* Styles */
+	.wrap-search2 .btn-default {background: #008ae2 url(../img/Portal/ico-search.png) no-repeat center center !important; background-size: 54% !important;  }
+	.envolver-crm {
+		clear: both;
+		text-align: center;
+		padding: auto !important;
+		margin: auto;
+		width: 50%; }
+	/* Styles */
+
+}
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width : 1000px) {
+	.navbar-collapse,
+	.navbar-nav {
+		float: right !important;
+	}
+	.semborde {  }
+	#top container {  position: absolute; top: 200px;  border: 10px solid green; }
+	.navbar { width: 92%; }
+	 nav.navbar-default {  
+                            //position: absolute; top:103px; left:28px !important; 
+		                    width: 100%;
+              
+					        @include shaDown;
+					        @include borderRadius;
+					        .navbar-collapse {
+								margin: 20px 0;
+							}
+					        .navbar-brand {  position: absolute; top: 17px; left: 40px; }
+                }
+
+	/* Styles */
+}
+
+@media only screen and (min-width : 321px) {
+	.navbar-toggle, .navbar-nav  { float: left !important; }
+	.semborde {  }
+	#top container {  position: absolute; top: 200px;  border: 10px solid green; }
+	.navbar { width: 100%; }
+	.envolver-crm {
+		clear: both;
+		text-align: center;
+		padding: auto !important;
+		margin: auto;
+		}
+	/* Styles */
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.semborde { border: 1px solid #656872;  }
+	#top .container { height: 30px; }
+    .navbar-default .navbar-nav>li>a {
+          color: #edece8 !important;
+    }
+/* Styles */
+	.envolver-crm {
+		clear: both;
+		text-align: center;
+		padding: auto !important;
+		margin: auto;
+		width: 50%;}
+	/* Styles */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

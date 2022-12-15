@@ -1,0 +1,40 @@
+.block {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+@media only screen and (min-width: 1824px), only screen and (min-device-width: 1824px) {
+  .block {
+    background: blue;
+  }
+}
+@media only screen and (max-width: 1824px), only screen and (max-device-width: 1824px) {
+  .block {
+    background: navy;
+  }
+}
+@media handheld, only screen and (max-width: 1024px) and (min-width: 768px) {
+  .block {
+    background: brown;
+  }
+}
+@media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 768px) and (orientation: portrait) {
+  .block {
+    background: black;
+  }
+}
+@media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 568px) and (orientation: landscape) {
+  .block {
+    background: green;
+  }
+}
+@media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 480px) and (min-width: 321px) {
+  .block {
+    background: yellow;
+  }
+}
+@media handheld, only screen and (min-device-pixel-ratio: 2), only screen and (max-width: 321px) and (orientation: portrait) {
+  .block {
+    background: pink;
+  }
+}

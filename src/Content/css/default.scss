@@ -1,0 +1,30 @@
+/*
+ * SASS Operators example
+ */
+$gender: boy;
+$myColor: if($gender=="boy", #00f, #f00);
+$basepadding:      10px;
+$basethickness:     4px;
+$line:             10px;
+$cordefundo:         red;
+
+#mypara {
+    color: $myColor + #63536c;
+    border: ($basethickness + 20)/2 solid $myColor;
+    padding: $basepadding $basepadding+1000;
+}
+.navbar,
+.navbar-brand {
+border: $line solid #00f;
+}
+.navbar
+.navbar-brand {
+    width: 200px;
+    background-image: url(../images/DFS.png);
+
+}
+.navbar-brand,
+.container-fluid {  background-color: $cordefundo !important;     }
+
+
+.col-sm-2 {  border: 20px solid #000; }

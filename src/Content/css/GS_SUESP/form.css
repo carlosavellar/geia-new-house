@@ -1,0 +1,137 @@
+﻿.perguntas {
+   font-size:16px;
+   font-family:'Arial Narrow', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   height:560px;
+}
+
+
+.topo {
+    margin-left:900px;
+}
+
+.bgr {
+    background-image: url('../img/Suesp/bg.png');
+    background-repeat:repeat-x;
+    float:left;
+}
+.bgr1 {
+    background-image: url('../img/Suesp/bg1.png');
+    background-repeat:repeat-x;
+    float:left;
+}
+
+.grupo {
+    text-align:left;
+    position: absolute;
+    width:700px;
+    height:600px;
+    margin-left: -350px; /* metade da largura */
+    margin-top: -150px; /* metade da altura */
+    left: 50%;
+    top:50%;
+}
+
+.grupo1 {
+    margin-left:40px;
+}
+
+.cabecalho {
+    height:auto;
+    width:auto;
+    font-size:18px;
+    text-align:left;
+    font-family:'Arial Narrow', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     /*top - left - down - right*/  
+}
+.cabecalho1 {
+    height:auto;
+    width:auto;
+    font-size:16px;
+    text-align:left;
+    font-family:'Arial Narrow', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     /*top - left - down - right*/  
+}
+.passo{
+    margin-top:-45px;
+    position: absolute;
+    z-index: 1000; /* Faz com que fique sobre todos os elementos da página */
+}
+
+.form-group {
+    display: inline-block;    
+    text-align:left;
+    width:700px;
+    height:140px;
+}
+
+.form-group1 {
+    display: inline-block;    
+    text-align:left;
+    width:700px;
+    height:140px;
+    margin-left:-120px;
+}
+
+.resposta {
+    width:700px;
+    margin-left:250px;
+
+}
+
+
+.botao{
+    margin-top:110px;
+    margin-left:70px;   
+}
+
+.botao1{
+    margin-top:241px;
+    margin-left:70px;   
+}
+
+.botao2{
+    margin-top:155px;
+    margin-left:70px;   
+}
+
+.botao3{
+    margin-top:17px;
+    margin-left:70px;   
+}
+
+.botao4{
+    margin-top:250px;
+    margin-left:70px;   
+}
+
+.agradecimento {
+   margin-top:150px;
+   margin-left:250px;
+   font-style: italic;
+   color:#666;
+
+}
+.titulo {
+    font-size:40px;
+}
+.texto {
+   margin-left:50px;
+   font-size:20px;
+}
+
+.rodape {
+    margin-top:85px;
+    text-align:center;
+}
+.perguntas {
+    background-image: url('../img/Suesp/CABECALHO.png');
+    margin-top:-2px;
+    margin-left:50px;
+    background-repeat: no-repeat;
+}
+.perguntas1 {
+    background-image: url('../img/Suesp/CABECALHO.png');
+    margin-top: -10px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+}
